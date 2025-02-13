@@ -3,7 +3,7 @@
 
 services:
   postgres:
-    container_name: allele_dinamic_postgres
+    container_name: classic_taxi_postgres
     image: postgres:16
     environment:
       POSTGRES_DB: ${DB_REMOTE_NAME}
@@ -16,7 +16,7 @@ services:
     restart: always  # Opcional: reinicia el contenedor si falla
 
   redis:
-    container_name: allele_dinamic_redis
+    container_name: classic_taxi_redis
     image: redis:latest
     restart: always
     ports:
