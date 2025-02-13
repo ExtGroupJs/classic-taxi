@@ -29,7 +29,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static_output/")
 
 # Initialise environment variables
 env = environ.Env()
-environ.Env.read_env()
+environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 
 
 # Quick-start development settings - unsuitable for production
@@ -220,7 +220,7 @@ REST_FRAMEWORK = {
     #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     # ],
     # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
-    "DEFAULT_PAGINATION_CLASS": "apps.common.mixins.pagination_mixin.StandardResultsSetPagination",
+    "DEFAULT_PAGINATION_CLASS": "apps.common.mixins.pagination_mixin.StandardResultsSetPaginationMixin",
     "PAGE_SIZE": 10,
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_AUTHENTICATION_CLASSES": [
