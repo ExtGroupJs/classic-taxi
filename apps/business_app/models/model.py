@@ -13,4 +13,4 @@ class Model(models.Model):
         verbose_name_plural = "Models"
 
     def __str__(self):
-        return f"{self.name} ({self.brand})"
+        return f"{self.brand} {self.name}"

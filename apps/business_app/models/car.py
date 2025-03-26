@@ -8,9 +8,7 @@ from apps.business_app.models.model import Model
 class Car(models.Model):
     name = models.CharField(verbose_name="Name", unique=True, max_length=25)
 
-    model = models.ForeignKey(
-        to=Model, verbose_name="Modelo", on_delete=models.CASCADE, null=True, blank=True
-    )
+    model = models.ForeignKey(to=Model, verbose_name="Modelo", on_delete=models.CASCADE)
     main_picture = models.ImageField(verbose_name=_("Main Picture"))
 
     year = models.PositiveSmallIntegerField(
@@ -39,4 +37,4 @@ class Car(models.Model):
         verbose_name_plural = _("Cars")
 
     def __str__(self):
-        return f"{self.name}"
+        return f"{self.name} - {self.model}"

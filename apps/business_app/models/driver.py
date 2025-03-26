@@ -29,4 +29,4 @@ class Driver(models.Model):
         verbose_name_plural = _("Drivers")
 
     def __str__(self):
-        return f"{self.name}"
+        return f"{self.name} ({self.car})"
