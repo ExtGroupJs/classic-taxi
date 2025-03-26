@@ -25,8 +25,8 @@ class Driver(models.Model):
     extra_info = models.TextField(verbose_name="Extra Info", null=True, blank=True)
 
     class Meta:
-        verbose_name = _("Country")
-        verbose_name_plural = _("Countries")
+        verbose_name = _("Driver")
+        verbose_name_plural = _("Drivers")
 
     def __str__(self):
         return f"{self.name}"

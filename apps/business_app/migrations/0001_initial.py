@@ -100,8 +100,8 @@ class Migration(migrations.Migration):
                 ),
             ],
             options={
-                "verbose_name": "Country",
-                "verbose_name_plural": "Countries",
+                "verbose_name": "Car",
+                "verbose_name_plural": "Cars",
             },
         ),
         migrations.CreateModel(
@@ -149,8 +149,8 @@ class Migration(migrations.Migration):
                 ),
             ],
             options={
-                "verbose_name": "Country",
-                "verbose_name_plural": "Countries",
+                "verbose_name": "Driver",
+                "verbose_name_plural": "Drivers",
             },
         ),
         migrations.CreateModel(

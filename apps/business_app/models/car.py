@@ -35,8 +35,8 @@ class Car(models.Model):
     extra_info = models.TextField(verbose_name="Extra Info", null=True, blank=True)
 
     class Meta:
-        verbose_name = _("Country")
-        verbose_name_plural = _("Countries")
+        verbose_name = _("Car")
+        verbose_name_plural = _("Cars")
 
     def __str__(self):
         return f"{self.name}"
