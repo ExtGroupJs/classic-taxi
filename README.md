@@ -2,7 +2,7 @@
 # STEPS FOR CLONING 
 ```
 cd existing_folder
-git remote add origin https://github.com/ExtGroupJs/supermario_shop.git
+git remote add origin https://github.com/ExtGroupJs/classic-taxi.git
 git branch -M main
 git push -uf origin main
 ```
