@@ -9,7 +9,6 @@ router = ExtendedSimpleRouter()
 # basename="allowed-extensions",
 # )
 urlpatterns = [
-   
     # path("markers/delete/<int:marker_id>/", delete_marker, name="delete_marker"),
 ]
 
