@@ -140,9 +140,6 @@ else:
         "PASSWORD": env("DB_REMOTE_PASSWORD"),
         "HOST": env("DB_REMOTE_HOST"),
         "PORT": env("DB_REMOTE_PORT", cast=int),
-        "OPTIONS": {
-            "sql_mode": "STRICT_TRANS_TABLES",
-        },
     }
 
 DATABASES = {
@@ -230,15 +227,6 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.IsAuthenticated",
     ],
 }
-
-
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = env("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
-DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL")
-EMAIL_PORT = env("EMAIL_PORT", cast=int, default=587)
-EMAIL_USE_TLS = True
 
 
 LOGGING = {
