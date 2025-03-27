@@ -13,7 +13,7 @@ from apps.common.mixins.common_view_mixin import CommonOrderingFilter
 
 
 class CarViewSet(mixins.ListModelMixin, GenericViewSet):
-    queryset = Car.objects.all()
+    queryset = Car.objects.select_related("model")
     serializer_class = CarSerializer
     permission_classes = [AllowAny]
     filter_backends = [
