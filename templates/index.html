@@ -53,7 +53,7 @@
 	  </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap ftco-degree-bg" style="background-image: url('{% static 'assets/classic/images/c3.png' %}');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap ftco-degree-bg" id="headdiv" style="background-image: url('{% static 'assets/classic/images/c3.png' %}');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
@@ -82,8 +82,8 @@
     				<div class="row no-gutters">
 	  					<div class="col-md-4 d-flex align-items-center">
 	  						<div class="services-wrap rounded-right w-100 ftco-animate bg-primary">
-	  							<h3 class="heading-section mb-4" style="color: #01d28e;">1957 Ford 300 Custom</h3>
-	  							<p style="color: white;">The 1957 Ford 300 Custom is a classic American car known for its sleek design and powerful performance. With its distinctive chrome accents and spacious interior, it offers a nostalgic driving experience reminiscent of the golden age of automobiles. Perfect for cruising through the scenic routes of Cayo Coco and Cayo Guillermo.</p>
+	  							<h3 class="heading-section mb-4" style="color: #01d28e;" id="headname">1957 Ford 300 Custom</h3>
+	  							<p style="color: white;" id="headdescription">The 1957 Ford 300 Custom is a classic American car known for its sleek design and powerful performance. With its distinctive chrome accents and spacious interior, it offers a nostalgic driving experience reminiscent of the golden age of automobiles. Perfect for cruising through the scenic routes of Cayo Coco and Cayo Guillermo.</p>
 	  						</div>
 	  					</div>
 	  					<div class="col-md-8 d-flex align-items-center">
@@ -590,8 +590,10 @@
   <script src="{% static 'assets/classic/js/scrollax.min.js' %}"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="{% static 'assets/classic/js/google-map.js' %}"></script>
+  <script src="{% static 'assets/classic/js/axios/axios.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/car-selection.js' %}"></script>
   <script src="{% static 'assets/classic/js/main.js' %}"></script>
-    
+
   {% block script %}
   {% endblock %}
   </body>
