@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       
       // Obtener datos del botón usando dataset
-      const phoneNumber = whatsappButton.dataset.phone || '1234567890';
+      const phoneNumber = '1234567890';
       const carModelName = whatsappButton.dataset.carName || '';
+      console.log('%c⧭', 'color: #0088cc', carModelName);
       let message=""
-      if(carModelName){ message = `¡Hola! Me gustaría obtener más información sobre el ${carModelName}.`;}
+      if(carModelName || carModelName!=''){ message = `¡Hola! Me gustaría obtener más información sobre el ${carModelName}.`;}
       else{ message = `¡Hola! Me gustaría obtener más información sobre el Alquiler de los coches.`;}
       // Crear mensaje personalizado con los datos del carro
      
