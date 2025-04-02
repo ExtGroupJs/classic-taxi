@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const randomCar = cars[Math.floor(Math.random() * cars.length)];
       // Actualizar el contenido de la página
       headDiv.style.backgroundImage = `url('${randomCar.main_picture}')`;
-      headName.textContent = `${randomCar.year} ${randomCar.model}`;
+      headName.textContent = `${randomCar.model_name} ${randomCar.year}`;
       headDescription.textContent = randomCar.extra_info;
     })
     .catch(error => {
