@@ -6,13 +6,13 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 from rest_framework.permissions import AllowAny
 
-from rest_framework import mixins
+from rest_framework import mixins, viewsets
 from rest_framework.viewsets import GenericViewSet
 
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
 
 
-class CarViewSet(mixins.ListModelMixin, GenericViewSet):
+class CarViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Car.objects.select_related("model")
     serializer_class = CarSerializer
     permission_classes = [AllowAny]
