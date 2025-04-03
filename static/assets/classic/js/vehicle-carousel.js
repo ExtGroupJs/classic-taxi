@@ -1,3 +1,4 @@
+window.carData = window.carData || {};
 document.addEventListener("DOMContentLoaded", function () {
   const initVehicleCarousel = () => {
     const carouselContainer = document.querySelector(".carousel-car");
@@ -12,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar y renderizar los vehículos
     const loadVehicles = async () => {
       try {
-        const response = await axios.get("/business-gestion/cars/");
-        const cars = response.data.results;
-
+         const response = await axios.get("/business-gestion/cars/");
+         const cars = response.data.results;
+         mybanner(cars);
         if (cars.length === 0) {
           carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
           return;
@@ -35,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
                   <p class="price ml-auto">${car.seats} <span>/Seats</span></p>
                 </div>
                 <p class="d-flex mb-0 d-block">
-                  <a  class="whatsapp btn btn-primary py-2 mr-1"  data-phone="${car.phone_number}"
+                  <a  class="whatsapp btn btn-primary py-2 mr-1" "
                      data-car-name="${car.model_name}">Book now</a> 
-                  <a href="#" class="btn btn-secondary py-2 ml-1">Details</a>
+                  <a  class="btn btn-secondary py-2 ml-1" data-car-name="${car.id}" onclick='detalles(${car.id})'>Details</a>
                 </p>
               </div>
             </div>
@@ -99,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //     }
         //   }
         // });
-
+       
         // Reinicializar AOS para las animaciones
         if (typeof AOS !== "undefined") {
           AOS.refresh();
@@ -117,3 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Ejecutar la inicialización
   initVehicleCarousel();
 });
+function detalles(id) {
+  console.log('%c⧭', 'color: #731d1d', id);
+  
+}
