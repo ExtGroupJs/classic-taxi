@@ -1,6 +1,4 @@
-function mybanner(cars) {
- 
-  console.log("%c⧭", "color: #f200e2", cars);
+function mybanner(cars) { 
   const headDiv = document.getElementById("headdiv");
   const headName = document.getElementById("headname");
   const headDescription = document.getElementById("headdescription");

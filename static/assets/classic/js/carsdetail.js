@@ -1,5 +1,25 @@
-window.carData = window.carData || {};
+
 document.addEventListener("DOMContentLoaded", function () {
+  let carId=localStorage.getItem("carid")
+  detailCar(carId);
+  detailCarousel();
+});
+
+function detailCar(id) {
+  
+
+
+
+// var $brands = document.getElementById("selectbrands");
+  axios.get(`/business-gestion/cars/`+id+`/`).then(
+    function (response) {
+console.log('✌️response --->', response);
+    
+  });
+}
+
+function detailCarousel() {
+  
   const initVehicleCarousel = () => {
     const carouselContainer = document.querySelector(".carousel-car");
     // carouselContainer.empty();
@@ -13,9 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar y renderizar los vehículos
     const loadVehicles = async () => {
       try {
-         const response = await axios.get("/business-gestion/cars/");
+         const response = await axios.get(`/business-gestion/cars/`);
          const cars = response.data.results;
-         mybanner(cars);
+
+        
         if (cars.length === 0) {
           carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
           return;
@@ -79,27 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         });
 
-        // $('.carousel-car').owlCarousel({
-        //   center: true,
-        //   loop: true,
-        //   autoplay: true,
-        //   items:1,
-        //   margin: 30,
-        //   stagePadding: 0,
-        //   nav: false,
-        //   navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-        //   responsive:{
-        //     0:{
-        //       items: 1
-        //     },
-        //     600:{
-        //       items: 2
-        //     },
-        //     1000:{
-        //       items: 3
-        //     }
-        //   }
-        // });
        
         // Reinicializar AOS para las animaciones
         if (typeof AOS !== "undefined") {
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Ejecutar la inicialización
   initVehicleCarousel();
-});
+}
 
 function detalles(id) {  
   localStorage.setItem("carId",id);  
