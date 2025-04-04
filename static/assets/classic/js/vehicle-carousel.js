@@ -120,6 +120,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function detalles(id) {  
-  localStorage.setItem("carId",id);  
+  localStorage.setItem("carid",id);  
   window.location = "/carsdetail/";
 }

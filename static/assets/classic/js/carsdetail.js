@@ -1,6 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   let carId=localStorage.getItem("carid")
+console.log('✌️carId --->', carId);
   detailCar(carId);
   detailCarousel();
 });
@@ -22,6 +23,7 @@ const cardetail_modelo = document.getElementById('cardetail-modelo');
 const cardetail_Mileage = document.getElementById('cardetail-Mileage');
 const cardetail_Seats = document.getElementById('cardetail-Seats');
 const cardetail_Luggage = document.getElementById('cardetail-Luggage');
+const cardetail_description  = document.getElementById('cardetail-Description');
 
 // Cambiar el fondo
 cardetailBg.style.backgroundImage = `url('${response.data.main_picture}')`;
@@ -30,6 +32,7 @@ cardetail_modelo.textContent=response.data.model_name;
 cardetail_Mileage.textContent=response.data.mileage;
 cardetail_Seats.textContent=response.data.seats+` Adults`;
 cardetail_Luggage.textContent=response.data.luggage+` Bags`;
+cardetail_description.textContent=response.data.extra_info;
     
   });
 }
@@ -136,6 +139,10 @@ function detailCarousel() {
 }
 
 function detalles(id) {  
-  localStorage.setItem("carId",id);  
-  window.location = "/carsdetail/";
+console.log('✌️id --->', id);
+
+  localStorage.setItem("carid",id);  
+console.log('✌️localStorage --->', localStorage.getItem("carid"));
+
+window.location.reload(true);
 }
