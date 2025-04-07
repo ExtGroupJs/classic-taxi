@@ -1,592 +1,161 @@
 {% load static %}
 {% load i18n %}
 
-
-
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
+  <head>
+    <title>ClassiCoco</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="{% static 'assets/dist/img/AdminLTELogo.png' %}">
-  <title>MM Auto Part</title>
+    <link rel="stylesheet" href="{% static 'assets/classic/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'assets/classic/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/magnific-popup.css' %}">
 
-  <!-- Google Font: Source Sans Pro -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{% static 'assets/plugins/fontawesome-free/css/all.min.css' %}">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="{% static 'assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css' %}">
-  <link rel="stylesheet" href="{% static 'assets/plugins/toastr/toastr.min.css' %}">
-  <link rel="stylesheet" href="{% static 'assets/dist/css/adminlte.min.css' %}">
-  <link rel="stylesheet" href="{% static 'assets/plugins/chart.js/Chart.min.js' %}">
-  <link rel="stylesheet" href="{% static 'assets/dist/js/demo.js' %}">
-  <link rel="stylesheet" href="{% static 'assets/dist/js/adminlte.js' %}">
-  <link rel="stylesheet" href="{% static 'assets/dist/js/pages/dashboard3.js' %}">
-  <link rel="stylesheet" href="{% static 'assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/aos.css' %}">
 
+    <link rel="stylesheet" href="{% static 'assets/classic/css/ionicons.min.css' %}">
 
-  {% block head-extra %}
+    <link rel="stylesheet" href="{% static 'assets/classic/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/jquery.timepicker.css' %}">
+
+    
+    <link rel="stylesheet" href="{% static 'assets/classic/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/style.css' %}">
+    {% block head-extra %}
 
   {% endblock %}
+  
+  </head>
 
-</head>
 
-<body class="hold-transition sidebar-mini sidebar-collapse ">
-  <div class="wrapper">
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Classi<span>Coco</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-      <!-- Left navbar links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="" class="nav-link">{% blocktranslate %}Home{% endblocktranslate %}</a>
-        </li>
-        
-      </ul>
-      <!-- Right navbar links -->
-      <ul class="navbar-nav ml-auto">
-        <!-- Navbar Search 
-        <li class="nav-item">
-          <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-            <i class="fas fa-search"></i>
-          </a>
-          <div class="navbar-search-block">
-            <form class="form-inline">
-              <div class="input-group input-group-sm">
-                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                <div class="input-group-append">
-                  <button class="btn btn-navbar" type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                  <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div> -->
-        </li>
-
-        <!-- Messages Dropdown Menu -->
-
-        <!-- Notifications Dropdown Menu -->
-        {% comment %} <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="far fa-bell"></i>
-            <span class="badge badge-warning navbar-badge">0</span>
-          </a>
-          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <span class="dropdown-header">15 Notifications</span>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-envelope mr-2"></i> 4 new messages
-              <span class="float-right text-muted text-sm">3 mins</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-users mr-2"></i> 8 friend requests
-              <span class="float-right text-muted text-sm">12 hours</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-file mr-2"></i> 3 new reports
-              <span class="float-right text-muted text-sm">2 days</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-          </div>
-        </li> {% endcomment %}
-        <li class="nav-item">
-          <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-            <i class="fas fa-expand-arrows-alt"></i>
-          </a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-            <i class="fas fa-th-large"></i>
-          </a>
-        </li> -->
-       {% if user.is_authenticated %}
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'first_login' %}" role="button">
-              <i class="nav-icon fas fa-sign-out-alt"></i>
-            </a>
-          </li>
-        {% else %}
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'first_login' %}" role="button">
-              <i class="nav-icon fas fa-sign-in-alt"></i>
-            </a>
-          </li>
-        {% endif %}
-      </ul>
-    </nav>
-    <!-- /.navbar -->
-
-    <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
-      <!-- Brand Logo -->
-       <a href="" class="brand-link">
-        <img src="{% static 'assets/dist/img/AdminLTELogo.png' %}" alt="PGX Logo" class="brand-image  elevation-3"
-          style="opacity: .8">
-        <span class="brand-text font-weight-light">MM Auto Part</span>
-      </a>
-
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <!-- Sidebar user panel (optional) -->
-        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-          <div class="image">
-            <img  src="{% static 'assets/dist/img/user2-160x160.jpg' %}"
-              class="profile-user-img img-circle elevation-2" alt="User Image">
-          </div>
-          <div class="info">
-            <a href="#" class="d-block" id="username">{{ user.username }} </a>
-          </div>
-        </div>
-
-        <!-- SidebarSearch Form -->
-        <div class="form-inline">
-          <div class="input-group" data-widget="sidebar-search">
-            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-sidebar">
-                <i class="fas fa-search fa-fw"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sidebar Menu -->
-        <nav class="mt-2">
-          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-            <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-               {% if user.is_staff %}
-               <li class="nav-item ">
-              <a href="#" class="nav-link active">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
-                <p>
-                  {% blocktranslate %}Manage{% endblocktranslate %}
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview ">
-                <li class="nav-item">
-                  <a href="{% url 'usuarios' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Users{% endblocktranslate %}</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'brands' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Marcas{% endblocktranslate %}</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'models' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Modelos{% endblocktranslate %}</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'shops' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Tiendas{% endblocktranslate %}</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'products' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Producto{% endblocktranslate %}</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'shop_products' %}" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>{% blocktranslate %}Entrada{% endblocktranslate %}</p>
-                  </a>
-                </li>
-               
-
-              </ul>
-            </li>
-
-            {% endif %}
-        
-          </ul>
-            
-        </nav>
-       
-        <!-- /.sidebar-menu -->
-      </div>
-      <!-- /.sidebar -->
-    </aside>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+          {% block menu %}
+	          <li class="nav-item active"><a href="{% url 'landing' %}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            {% endblock %}
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+	 
     {% block content %}
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <div class="content-header">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <div class="col-sm-6">
-              <h1 class="m-0">Starter Page</h1>
-            </div><!-- /.col -->
-            <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Starter Page</li>
-              </ol>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-      </div>
-      <!-- /.content-header -->
-
-      <section class="content">
-        <div class="container-fluid">
-          <div class="row">
-
-          </div>
-          <!-- /.row (main row) -->
-        </div><!-- /.container-fluid -->
-      </section>
-
-      <!-- Main content -->
-
-
-
-      <div class="content">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header border-0">
-                  <div class="d-flex justify-content-between">
-                    <h3 class="card-title">Online Store Visitors</h3>
-                    <a href="javascript:void(0);">View Report</a>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div class="d-flex">
-                    <p class="d-flex flex-column">
-                      <span class="text-bold text-lg">820</span>
-                      <span>Visitors Over Time</span>
-                    </p>
-                    <p class="ml-auto d-flex flex-column text-right">
-                      <span class="text-success">
-                        <i class="fas fa-arrow-up"></i> 12.5%
-                      </span>
-                      <span class="text-muted">Since last week</span>
-                    </p>
-                  </div>
-                  <!-- /.d-flex -->
-
-                  <div class="position-relative mb-4">
-                    <canvas id="visitors-chart" height="200"></canvas>
-                  </div>
-
-                  <div class="d-flex flex-row justify-content-end">
-                    <span class="mr-2">
-                      <i class="fas fa-square text-primary"></i> This Week
-                    </span>
-
-                    <span>
-                      <i class="fas fa-square text-gray"></i> Last Week
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card -->
-
-              <div class="card">
-                <div class="card-header border-0">
-                  <h3 class="card-title">Products</h3>
-                  <div class="card-tools">
-                    <a href="#" class="btn btn-tool btn-sm">
-                      <i class="fas fa-download"></i>
-                    </a>
-                    <a href="#" class="btn btn-tool btn-sm">
-                      <i class="fas fa-bars"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="card-body table-responsive p-0">
-                  <table class="table table-striped table-valign-middle">
-                    <thead>
-                      <tr>
-                        <th>Product</th>
-                        <th>Price</th>
-                        <th>Sales</th>
-                        <th>More</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                          Some Product
-                        </td>
-                        <td>$13 USD</td>
-                        <td>
-                          <small class="text-success mr-1">
-                            <i class="fas fa-arrow-up"></i>
-                            12%
-                          </small>
-                          12,000 Sold
-                        </td>
-                        <td>
-                          <a href="#" class="text-muted">
-                            <i class="fas fa-search"></i>
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                          Another Product
-                        </td>
-                        <td>$29 USD</td>
-                        <td>
-                          <small class="text-warning mr-1">
-                            <i class="fas fa-arrow-down"></i>
-                            0.5%
-                          </small>
-                          123,234 Sold
-                        </td>
-                        <td>
-                          <a href="#" class="text-muted">
-                            <i class="fas fa-search"></i>
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                          Amazing Product
-                        </td>
-                        <td>$1,230 USD</td>
-                        <td>
-                          <small class="text-danger mr-1">
-                            <i class="fas fa-arrow-down"></i>
-                            3%
-                          </small>
-                          198 Sold
-                        </td>
-                        <td>
-                          <a href="#" class="text-muted">
-                            <i class="fas fa-search"></i>
-                          </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                          Perfect Item
-                          <span class="badge bg-danger">NEW</span>
-                        </td>
-                        <td>$199 USD</td>
-                        <td>
-                          <small class="text-success mr-1">
-                            <i class="fas fa-arrow-up"></i>
-                            63%
-                          </small>
-                          87 Sold
-                        </td>
-                        <td>
-                          <a href="#" class="text-muted">
-                            <i class="fas fa-search"></i>
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!-- /.card -->
+    
+   {% endblock %}
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><a href="#" class="logo">Car<span>book</span></a></h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
             </div>
-            <!-- /.col-md-6 -->
-            <div class="col-lg-6">
-              <div class="card">
-                <div class="card-header border-0">
-                  <div class="d-flex justify-content-between">
-                    <h3 class="card-title">Sales</h3>
-                    <a href="javascript:void(0);">View Report</a>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div class="d-flex">
-                    <p class="d-flex flex-column">
-                      <span class="text-bold text-lg">$18,230.00</span>
-                      <span>Sales Over Time</span>
-                    </p>
-                    <p class="ml-auto d-flex flex-column text-right">
-                      <span class="text-success">
-                        <i class="fas fa-arrow-up"></i> 33.1%
-                      </span>
-                      <span class="text-muted">Since last month</span>
-                    </p>
-                  </div>
-                  <!-- /.d-flex -->
-
-                  <div class="position-relative mb-4">
-                    <canvas id="sales-chart" height="200"></canvas>
-                  </div>
-
-                  <div class="d-flex flex-row justify-content-end">
-                    <span class="mr-2">
-                      <i class="fas fa-square text-primary"></i> This year
-                    </span>
-
-                    <span>
-                      <i class="fas fa-square text-gray"></i> Last year
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card -->
-
-              <div class="card">
-                <div class="card-header border-0">
-                  <h3 class="card-title">Online Store Overview</h3>
-                  <div class="card-tools">
-                    <a href="#" class="btn btn-sm btn-tool">
-                      <i class="fas fa-download"></i>
-                    </a>
-                    <a href="#" class="btn btn-sm btn-tool">
-                      <i class="fas fa-bars"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
-                    <p class="text-success text-xl">
-                      <i class="ion ion-ios-refresh-empty"></i>
-                    </p>
-                    <p class="d-flex flex-column text-right">
-                      <span class="font-weight-bold">
-                        <i class="ion ion-android-arrow-up text-success"></i> 12%
-                      </span>
-                      <span class="text-muted">CONVERSION RATE</span>
-                    </p>
-                  </div>
-                  <!-- /.d-flex -->
-                  <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
-                    <p class="text-warning text-xl">
-                      <i class="ion ion-ios-cart-outline"></i>
-                    </p>
-                    <p class="d-flex flex-column text-right">
-                      <span class="font-weight-bold">
-                        <i class="ion ion-android-arrow-up text-warning"></i> 0.8%
-                      </span>
-                      <span class="text-muted">SALES RATE</span>
-                    </p>
-                  </div>
-                  <!-- /.d-flex -->
-                  <div class="d-flex justify-content-between align-items-center mb-0">
-                    <p class="text-danger text-xl">
-                      <i class="ion ion-ios-people-outline"></i>
-                    </p>
-                    <p class="d-flex flex-column text-right">
-                      <span class="font-weight-bold">
-                        <i class="ion ion-android-arrow-down text-danger"></i> 1%
-                      </span>
-                      <span class="text-muted">REGISTRATION RATE</span>
-                    </p>
-                  </div>
-                  <!-- /.d-flex -->
-                </div>
-              </div>
-            </div>
-            <!-- /.col-md-6 -->
           </div>
-          <!-- /.row -->
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Services</a></li>
+                <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
+                <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
+                <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Customer Support</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Payment Option</a></li>
+                <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
+                <li><a href="#" class="py-2 d-block">How it works</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
         </div>
-        <!-- /.container-fluid -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
       </div>
-      <!-- /.content -->
-
-
-      <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
-    {% endblock %}
-    <!-- Control Sidebar -->
-    {% comment %} <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
-      <div class="p-3">
-        <h5>Title</h5>
-        <p>Sidebar content</p>
-      </div>
-    </aside> {% endcomment %}
-    <!-- /.control-sidebar -->
-
-    <!-- Main Footer -->
-    <footer class="main-footer">
-      <!-- To the right -->
-      <div class="float-right d-none d-sm-inline">
-
-      </div>
-      <!-- Default to the left -->
-      <strong> {% blocktranslate %}Designed by{% endblocktranslate %} 
-        <a href="">{% blocktranslate %}Extinction Group{% endblocktranslate %}</a>
-      </strong>
     </footer>
-  </div>
-  <!-- ./wrapper -->
+    
+  
 
-  <!-- REQUIRED SCRIPTS -->
-
-  <!-- jQuery -->
-  <script src="{% static 'assets/plugins/jquery/jquery.min.js' %}"></script>
-  <!-- Bootstrap 4 -->
-  <script src="{% static 'assets/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <!-- AdminLTE App -->
-  <script src="{% static 'assets/dist/js/adminlte.min.js' %}"></script>
-
-  <script src="{% static 'assets/plugins/toastr/toastr.min.js' %}"></script>
-  <script src="{% static 'assets/plugins/sweetalert2/sweetalert2.min.js' %}"></script>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-
-  <script>
-    var Toast = Swal.mixin({
-      toast: true,
-      position: 'top-end',
-      showConfirmButton: false,
-      timer: 3000
-    });
-
-    {% comment %} $(function () {
-      // esto es para mostrar el nombre del usuario logueado y el avatar 
-
-      var avatarurl = localStorage.getItem("avatar");
-      if (avatarurl != "null") {
-        var imagen = document.getElementById("avatar");
-        imagen.src = avatarurl;
-      }
-
-    }); {% endcomment %}
-
-
-  </script>
-
-
+  <script src="{% static 'assets/classic/js/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/popper.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/aos.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/bootstrap-datepicker.js' %}"></script>
+  <script src="{% static 'assets/classic/js/jquery.timepicker.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/scrollax.min.js' %}"></script>
+  {% comment %} <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{% static 'assets/classic/js/google-map.js' %}"></script> {% endcomment %}
+  <script src="{% static 'assets/classic/js/axios/axios.min.js' %}"></script>
+  <script src="{% static 'assets/classic/js/car-selection.js' %}"></script>
+   <script src="{% static 'assets/classic/js/main.js' %}"></script>
+    <script src="{% static 'assets/classic/js/vehicle-carousel.js' %}"></script>
+    <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script>
+    <script src="{% static 'assets/classic/js/whatsapp.js' %}"></script>
 
   {% block script %}
   {% endblock %}
-
-
-</body>
-
+  </body>
 </html>
