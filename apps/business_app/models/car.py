@@ -37,4 +37,4 @@ class Car(models.Model):
         verbose_name_plural = _("Cars")
 
     def __str__(self):
-        return f"{self.name} - {self.model}"
+        return f"{self.model} ({self.year})"

@@ -75,13 +75,15 @@ class DriverAdmin(admin.ModelAdmin):
         "name",
         "car",
         "licence_year",
+        "main_picture",
         "enabled",
         "extra_info",
     ]
     fields = [
         "name",
         "car",
-        "licence_year",
+        "licence_year",        
+        "main_picture",
         "enabled",
         "extra_info",
     ]
