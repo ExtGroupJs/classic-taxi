@@ -7,10 +7,8 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 from rest_framework.permissions import AllowAny
 
-from rest_framework import mixins, viewsets
-from rest_framework.viewsets import GenericViewSet
+from rest_framework import viewsets
 from django.db.models import F
-from django.db import models
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
 
 
@@ -50,6 +48,6 @@ class CarViewSet(viewsets.ReadOnlyModelViewSet):
     def get_queryset(self):
         return self.queryset.annotate(
             extra_info=F(
-                f"extra_info_es"
+                "extra_info_es"
             ),  # por defecto en español si no se especifica nada
         )

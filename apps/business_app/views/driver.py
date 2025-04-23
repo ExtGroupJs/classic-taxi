@@ -39,6 +39,6 @@ class DriverViewSet(mixins.ListModelMixin, GenericViewSet):
     def get_queryset(self):
         return self.queryset.annotate(
             extra_info=F(
-                f"extra_info_es"
+                "extra_info_es"
             ),  # por defecto en español si no se especifica nada
         )

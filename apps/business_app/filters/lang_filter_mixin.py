@@ -1,6 +1,5 @@
 import django_filters
 
-from apps.business_app.models.car import Car
 from django.db.models import F
 
 

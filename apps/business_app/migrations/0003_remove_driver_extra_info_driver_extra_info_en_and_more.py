@@ -4,29 +4,34 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('business_app', '0002_remove_car_extra_info_car_extra_info_en_and_more'),
+        ("business_app", "0002_remove_car_extra_info_car_extra_info_en_and_more"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='driver',
-            name='extra_info',
+            model_name="driver",
+            name="extra_info",
         ),
         migrations.AddField(
-            model_name='driver',
-            name='extra_info_en',
-            field=models.TextField(blank=True, null=True, verbose_name='Extra Info (English)'),
+            model_name="driver",
+            name="extra_info_en",
+            field=models.TextField(
+                blank=True, null=True, verbose_name="Extra Info (English)"
+            ),
         ),
         migrations.AddField(
-            model_name='driver',
-            name='extra_info_es',
-            field=models.TextField(blank=True, null=True, verbose_name='Extra Info (Español)'),
+            model_name="driver",
+            name="extra_info_es",
+            field=models.TextField(
+                blank=True, null=True, verbose_name="Extra Info (Español)"
+            ),
         ),
         migrations.AddField(
-            model_name='driver',
-            name='extra_info_fr',
-            field=models.TextField(blank=True, null=True, verbose_name='Extra Info (French)'),
+            model_name="driver",
+            name="extra_info_fr",
+            field=models.TextField(
+                blank=True, null=True, verbose_name="Extra Info (French)"
+            ),
         ),
     ]
