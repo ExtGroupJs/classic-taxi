@@ -1,5 +1,6 @@
 from rest_framework import filters
 
+from apps.business_app.filters.driver import DriverFilter
 from apps.business_app.models.driver import Driver
 from django_filters.rest_framework import DjangoFilterBackend
 
@@ -10,6 +11,7 @@ from rest_framework.viewsets import GenericViewSet
 
 from apps.business_app.serializers.driver import DriverSerializer
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
+from django.db.models import F
 
 
 class DriverViewSet(mixins.ListModelMixin, GenericViewSet):
@@ -21,13 +23,7 @@ class DriverViewSet(mixins.ListModelMixin, GenericViewSet):
         filters.SearchFilter,
         CommonOrderingFilter,
     ]
-    filterset_fields = [
-        "licence_year",
-        "enabled",
-        "car",
-        "car__model",
-        "car__model__brand",
-    ]
+    filterset_class = DriverFilter
     search_fields = [
         "name",
         "car__name",
@@ -39,3 +35,10 @@ class DriverViewSet(mixins.ListModelMixin, GenericViewSet):
     ordering_fields = [
         "name",
     ]
+
+    def get_queryset(self):
+        return self.queryset.annotate(
+            extra_info=F(
+                f"extra_info_es"
+            ),  # por defecto en español si no se especifica nada
+        )
