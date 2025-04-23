@@ -1,5 +1,6 @@
 from rest_framework import filters
 
+from apps.business_app.filters.car import CarFilter
 from apps.business_app.models.car import Car
 from apps.business_app.serializers.car import CarSerializer
 from django_filters.rest_framework import DjangoFilterBackend
@@ -8,7 +9,8 @@ from rest_framework.permissions import AllowAny
 
 from rest_framework import mixins, viewsets
 from rest_framework.viewsets import GenericViewSet
-
+from django.db.models import F
+from django.db import models
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
 
 
@@ -21,17 +23,17 @@ class CarViewSet(viewsets.ReadOnlyModelViewSet):
         filters.SearchFilter,
         CommonOrderingFilter,
     ]
-    filterset_fields = {
-        "model": ["exact"],
-        "model__brand": ["exact"],
-        "air_conditioner": ["exact"],
-        "enabled": ["exact"],
-        "year": ["gte", "lte", "exact"],
-        "mileage": ["gte", "lte", "exact"],
-        "seats": ["gte", "exact"],
-        "luggage": ["gte", "exact"],
-    }
-
+    # filterset_fields = {
+    #     "model": ["exact"],
+    #     "model__brand": ["exact"],
+    #     "air_conditioner": ["exact"],
+    #     "enabled": ["exact"],
+    #     "year": ["gte", "lte", "exact"],
+    #     "mileage": ["gte", "lte", "exact"],
+    #     "seats": ["gte", "exact"],
+    #     "luggage": ["gte", "exact"],
+    # }
+    filterset_class = CarFilter
     search_fields = [
         "name",
         "model__name",
@@ -44,3 +46,10 @@ class CarViewSet(viewsets.ReadOnlyModelViewSet):
         "model__name",
         "model__brand__name",
     ]
+
+    def get_queryset(self):
+        return self.queryset.annotate(
+            extra_info=F(
+                f"extra_info_es"
+            ),  # por defecto en español si no se especifica nada
+        )
