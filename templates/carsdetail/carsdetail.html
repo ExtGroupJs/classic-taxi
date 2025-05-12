@@ -12,6 +12,17 @@
 	        
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+			                  <!-- Selector de idiomas -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Idioma
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" data-lang="es">Español</a>
+                    <a class="dropdown-item" href="#" data-lang="en">English</a>
+                    <a class="dropdown-item" href="#" data-lang="fr">Français</a>
+                </div>
+            </li>
  {% endblock %}
 
 {% block content %} 
@@ -143,6 +154,7 @@
 
 {% block script %} 
 <script src="{% static 'assets/classic/js/carsdetail.js' %}"></script>
+       <script src="{% static 'assets/classic/js/lang.js' %}"></script>
 
 
 {% endblock %}

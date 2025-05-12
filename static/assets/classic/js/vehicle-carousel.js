@@ -1,33 +1,28 @@
 window.carData = window.carData || {};
-document.addEventListener("DOMContentLoaded", function () {
-  const initVehicleCarousel = () => {
-    const carouselContainer = document.querySelector(".carousel-car");
-    // carouselContainer.empty();
-    if (!carouselContainer) {
-      console.error(
-        "No se encontró el contenedor del carrusel (.carousel-car)"
-      );
-      return;
-    }
+const initVehicleCarousel = () => {
+  const carouselContainer = document.querySelector(".carousel-car");
+  // carouselContainer.empty();
+  if (!carouselContainer) {
+    console.error("No se encontró el contenedor del carrusel (.carousel-car)");
+    return;
+  }
 
-    // Función para cargar y renderizar los vehículos
-    const loadVehicles = async () => {
-      try {
-        lang = localStorage.getItem("userLanguage") || "es";
-        const response = await axios.get(
-          "/business-gestion/cars/?lang=" + lang
-        );
-        const cars = response.data.results;
-        mybanner(cars);
-        if (cars.length === 0) {
-          carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
-          return;
-        }
+  // Función para cargar y renderizar los vehículos
+  const loadVehicles = async () => {
+    try {
+      lang = localStorage.getItem("userLanguage") || "es";
+      const response = await axios.get("/business-gestion/cars/?lang=" + lang);
+      const cars = response.data.results;
+      mybanner(cars);
+      if (cars.length === 0) {
+        carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
+        return;
+      }
 
-        // Crear el HTML para todos los vehículos
-        const carsHTML = cars
-          .map(
-            (car) => `
+      // Crear el HTML para todos los vehículos
+      const carsHTML = cars
+        .map(
+          (car) => `
           <div class="item">
             <div class="car-wrap rounded ftco-animate">
               <div class="img rounded d-flex align-items-end" style="background-image: url('${car.main_picture}');">
@@ -47,78 +42,77 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
           </div>
         `
-          )
-          .join("");
+        )
+        .join("");
 
-        // Insertar el HTML en el contenedor
-        carouselContainer.innerHTML = carsHTML;
+      // Insertar el HTML en el contenedor
+      carouselContainer.innerHTML = carsHTML;
 
-        //Inicializar Owl Carousel
-        $(carouselContainer).owlCarousel({
-          center: true,
-          loop: true,
-          margin: 30,
-          autoplay: true,
-          autoplayHoverPause: true,
-          autoplayTimeout: 4000,
-          nav: true,
-          navText: [
-            '<span class="ion-ios-arrow-back"></span>',
-            '<span class="ion-ios-arrow-forward"></span>',
-          ],
-          responsive: {
-            0: {
-              items: 1,
-              nav: false,
-            },
-            600: {
-              items: 2,
-              nav: false,
-            },
-            1000: {
-              items: 3,
-              nav: true,
-            },
+      //Inicializar Owl Carousel
+      $(carouselContainer).owlCarousel({
+        center: true,
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplayTimeout: 4000,
+        nav: true,
+        navText: [
+          '<span class="ion-ios-arrow-back"></span>',
+          '<span class="ion-ios-arrow-forward"></span>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
           },
-        });
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: true,
+          },
+        },
+      });
 
-        // $('.carousel-car').owlCarousel({
-        //   center: true,
-        //   loop: true,
-        //   autoplay: true,
-        //   items:1,
-        //   margin: 30,
-        //   stagePadding: 0,
-        //   nav: false,
-        //   navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-        //   responsive:{
-        //     0:{
-        //       items: 1
-        //     },
-        //     600:{
-        //       items: 2
-        //     },
-        //     1000:{
-        //       items: 3
-        //     }
-        //   }
-        // });
+      // $('.carousel-car').owlCarousel({
+      //   center: true,
+      //   loop: true,
+      //   autoplay: true,
+      //   items:1,
+      //   margin: 30,
+      //   stagePadding: 0,
+      //   nav: false,
+      //   navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+      //   responsive:{
+      //     0:{
+      //       items: 1
+      //     },
+      //     600:{
+      //       items: 2
+      //     },
+      //     1000:{
+      //       items: 3
+      //     }
+      //   }
+      // });
 
-        // Reinicializar AOS para las animaciones
-        if (typeof AOS !== "undefined") {
-          AOS.refresh();
-        }
-      } catch (error) {
-        console.error("Error al cargar los vehículos:", error);
-        carouselContainer.innerHTML = "<p>Error al cargar los vehículos</p>";
+      // Reinicializar AOS para las animaciones
+      if (typeof AOS !== "undefined") {
+        AOS.refresh();
       }
-    };
-
-    // Iniciar la carga de vehículos
-    loadVehicles();
+    } catch (error) {
+      console.error("Error al cargar los vehículos:", error);
+      carouselContainer.innerHTML = "<p>Error al cargar los vehículos</p>";
+    }
   };
 
-  // Ejecutar la inicialización
+  // Iniciar la carga de vehículos
+  loadVehicles();
+};
+document.addEventListener("DOMContentLoaded", function () {
   initVehicleCarousel();
 });
 

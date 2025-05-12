@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{% static 'assets/classic/css/flaticon.css' %}">
     <link rel="stylesheet" href="{% static 'assets/classic/css/icomoon.css' %}">
     <link rel="stylesheet" href="{% static 'assets/classic/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/classic/css/lang.css' %}">
     {% block head-extra %}
 
   {% endblock %}
@@ -165,47 +166,12 @@
   <script src="{% static 'assets/classic/js/axios/axios.min.js' %}"></script>
   <script src="{% static 'assets/classic/js/car-selection.js' %}"></script>
    <script src="{% static 'assets/classic/js/main.js' %}"></script>
+   <script src="{% static 'assets/classic/js/lang.js' %}"></script>
+
     <script src="{% static 'assets/classic/js/vehicle-carousel.js' %}"></script>
     <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script>
     <script src="{% static 'assets/classic/js/whatsapp.js' %}"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const langLinks = document.querySelectorAll('.dropdown-item[data-lang]');
-    
-    // Función para establecer el idioma en localStorage y en las llamadas al backend
-    function setLanguage(lang) {
-        // Guardar en localStorage
-        localStorage.setItem('userLanguage', lang);
-        
-        // También puedes setearlo en las cabeceras de las llamadas AJAX (opcional)
-        // Esto es útil si usas Axios o Fetch API
-        if (window.axios) {
-            axios.defaults.headers.common['Accept-Language'] = lang;
-        }
-        
-        console.log('Idioma guardado:', lang);
-        
-        // Opcional: Recargar la página o hacer algo con el nuevo idioma
-        // window.location.reload();
-    }
-    
-    // Verificar si ya hay un idioma guardado al cargar la página
-    const savedLanguage = localStorage.getItem('userLanguage');
-    if (savedLanguage) {
-        console.log('Idioma recuperado de localStorage:', savedLanguage);
-        // Aquí podrías aplicar el idioma directamente si lo necesitas
-    }
-    
-    // Manejar clicks en los enlaces de idioma
-    langLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const lang = this.getAttribute('data-lang');
-            setLanguage(lang);
-            
-        });
-    });
-});
+    <script>
 </script>
   {% block script %}
   {% endblock %}
