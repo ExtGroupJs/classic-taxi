@@ -1,3 +1,4 @@
+from ast import arg
 from rest_framework import filters
 
 from apps.business_app.filters.car import CarFilter
@@ -46,8 +47,9 @@ class CarViewSet(viewsets.ReadOnlyModelViewSet):
     ]
 
     def get_queryset(self):
+        lang = self.request.query_params.get(
+            "lang", "es"
+        )  # por defecto en español si no se especifica nada
         return self.queryset.annotate(
-            extra_info=F(
-                "extra_info_es"
-            ),  # por defecto en español si no se especifica nada
+            extra_info=F(f"extra_info_{lang}"),
         )

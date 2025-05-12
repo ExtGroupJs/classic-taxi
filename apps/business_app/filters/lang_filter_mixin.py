@@ -10,6 +10,4 @@ class LangFilterMixin(django_filters.FilterSet):
     )
 
     def lang_filter(self, queryset, name, value):
-        return queryset.annotate(
-            extra_info=F(f"extra_info_{value}"),
-        )
+        return queryset

@@ -13,9 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar y renderizar los vehículos
     const loadVehicles = async () => {
       try {
-         const response = await axios.get("/business-gestion/cars/");
-         const cars = response.data.results;
-         mybanner(cars);
+        lang = localStorage.getItem("userLanguage") || "es";
+        const response = await axios.get(
+          "/business-gestion/cars/?lang=" + lang
+        );
+        const cars = response.data.results;
+        mybanner(cars);
         if (cars.length === 0) {
           carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
           return;
@@ -100,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //     }
         //   }
         // });
-       
+
         // Reinicializar AOS para las animaciones
         if (typeof AOS !== "undefined") {
           AOS.refresh();
@@ -119,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initVehicleCarousel();
 });
 
-function detalles(id) {  
-  localStorage.setItem("carid",id);  
+function detalles(id) {
+  localStorage.setItem("carid", id);
   window.location = "/carsdetail/";
 }

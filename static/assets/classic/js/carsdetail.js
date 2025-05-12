@@ -1,44 +1,41 @@
-
 document.addEventListener("DOMContentLoaded", function () {
-  let carId=localStorage.getItem("carid")
-console.log('✌️carId --->', carId);
+  let carId = localStorage.getItem("carid");
+  console.log("✌️carId --->", carId);
   detailCar(carId);
   detailCarousel();
 });
 
 function detailCar(id) {
-  
+  lang = localStorage.getItem("userLanguage") || "es";
 
+  // var $brands = document.getElementById("selectbrands");
+  axios
+    .get(`/business-gestion/cars/` + id + `/?lang=` + lang)
+    .then(function (response) {
+      console.log("✌️response --->", response);
+      // Acceder al elemento por su id
+      const cardetailBg = document.getElementById("cardetail-bgimgen");
+      const cardetail_marca = document.getElementById("cardetail-marca");
+      const cardetail_modelo = document.getElementById("cardetail-modelo");
+      const cardetail_Mileage = document.getElementById("cardetail-Mileage");
+      const cardetail_Seats = document.getElementById("cardetail-Seats");
+      const cardetail_Luggage = document.getElementById("cardetail-Luggage");
+      const cardetail_description = document.getElementById(
+        "cardetail-Description"
+      );
 
-
-// var $brands = document.getElementById("selectbrands");
-  axios.get(`/business-gestion/cars/`+id+`/`).then(
-    function (response) {
-
-console.log('✌️response --->', response);
-// Acceder al elemento por su id
-const cardetailBg = document.getElementById('cardetail-bgimgen');
-const cardetail_marca = document.getElementById('cardetail-marca');
-const cardetail_modelo = document.getElementById('cardetail-modelo');
-const cardetail_Mileage = document.getElementById('cardetail-Mileage');
-const cardetail_Seats = document.getElementById('cardetail-Seats');
-const cardetail_Luggage = document.getElementById('cardetail-Luggage');
-const cardetail_description  = document.getElementById('cardetail-Description');
-
-// Cambiar el fondo
-cardetailBg.style.backgroundImage = `url('${response.data.main_picture}')`;
-cardetail_marca.textContent=response.data.year;
-cardetail_modelo.textContent=response.data.model_name;
-cardetail_Mileage.textContent=response.data.mileage;
-cardetail_Seats.textContent=response.data.seats+` Adults`;
-cardetail_Luggage.textContent=response.data.luggage+` Bags`;
-cardetail_description.textContent=response.data.extra_info;
-    
-  });
+      // Cambiar el fondo
+      cardetailBg.style.backgroundImage = `url('${response.data.main_picture}')`;
+      cardetail_marca.textContent = response.data.year;
+      cardetail_modelo.textContent = response.data.model_name;
+      cardetail_Mileage.textContent = response.data.mileage;
+      cardetail_Seats.textContent = response.data.seats + ` Adults`;
+      cardetail_Luggage.textContent = response.data.luggage + ` Bags`;
+      cardetail_description.textContent = response.data.extra_info;
+    });
 }
 
 function detailCarousel() {
-  
   const initVehicleCarousel = () => {
     const carouselContainer = document.querySelector(".carousel-car");
     // carouselContainer.empty();
@@ -52,10 +49,9 @@ function detailCarousel() {
     // Función para cargar y renderizar los vehículos
     const loadVehicles = async () => {
       try {
-         const response = await axios.get(`/business-gestion/cars/`);
-         const cars = response.data.results;
+        const response = await axios.get(`/business-gestion/cars/`);
+        const cars = response.data.results;
 
-        
         if (cars.length === 0) {
           carouselContainer.innerHTML = "<p>No hay vehículos disponibles</p>";
           return;
@@ -119,7 +115,6 @@ function detailCarousel() {
           },
         });
 
-       
         // Reinicializar AOS para las animaciones
         if (typeof AOS !== "undefined") {
           AOS.refresh();
@@ -138,11 +133,11 @@ function detailCarousel() {
   initVehicleCarousel();
 }
 
-function detalles(id) {  
-console.log('✌️id --->', id);
+function detalles(id) {
+  console.log("✌️id --->", id);
 
-  localStorage.setItem("carid",id);  
-console.log('✌️localStorage --->', localStorage.getItem("carid"));
+  localStorage.setItem("carid", id);
+  console.log("✌️localStorage --->", localStorage.getItem("carid"));
 
-window.location.reload(true);
+  window.location.reload(true);
 }

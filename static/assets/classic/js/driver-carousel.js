@@ -12,7 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar y renderizar los vehículos
     const loadDriver = async () => {
       try {
-        const response = await axios.get("/business-gestion/drivers/");
+        lang = localStorage.getItem("userLanguage") || "es";
+
+        const response = await axios.get(
+          "/business-gestion/drivers?lang=" + lang
+        );
         const drivers = response.data.results;
 
         if (drivers.length === 0) {
@@ -66,41 +70,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
         //Inicializar Owl drivercarousel
         $(driverCrouselContainer).owlCarousel({
-            center: true,
-            loop: true,
-            margin: 30,
-            autoplay: true,
-            autoplayHoverPause: true,
-            autoplayTimeout: 4000,
-            nav: true,
-            navText: [
-              '<span class="ion-ios-arrow-back"></span>',
-              '<span class="ion-ios-arrow-forward"></span>',
-            ],
-            responsive: {
-              0: {
-                items: 1,
-                nav: false,
-              },
-              600: {
-                items: 2,
-                nav: false,
-              },
-              1000: {
-                items: 3,
-                nav: true,
-              },
+          center: true,
+          loop: true,
+          margin: 30,
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 4000,
+          nav: true,
+          navText: [
+            '<span class="ion-ios-arrow-back"></span>',
+            '<span class="ion-ios-arrow-forward"></span>',
+          ],
+          responsive: {
+            0: {
+              items: 1,
+              nav: false,
             },
-          });
-
-      
+            600: {
+              items: 2,
+              nav: false,
+            },
+            1000: {
+              items: 3,
+              nav: true,
+            },
+          },
+        });
 
         // Reinicializar AOS para las animaciones
         if (typeof AOS !== "undefined") {
           AOS.refresh();
         }
       } catch (error) {
-console.log('✌️error --->', error);
+        console.log("✌️error --->", error);
         console.error("Error al cargar los vehículos:", error);
         driverCrouselContainer.innerHTML =
           "<p>Error al cargar los vehículos</p>";
@@ -114,4 +116,3 @@ console.log('✌️error --->', error);
   // Ejecutar la inicialización
   initVehicledrivercarousel();
 });
-
