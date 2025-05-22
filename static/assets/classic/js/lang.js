@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   const defaultLanguage = "es"; // Idioma por defecto
-  let currentLanguage = localStorage.getItem("userLanguage") || defaultLanguage;
+  setLanguage(localStorage.getItem("userLanguage") || defaultLanguage);
 
   function highlightActiveLanguage(lang) {
     // Remover clase 'active' de todos los items
@@ -34,17 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function setLanguage(lang) {
-    currentLanguage = lang;
     localStorage.setItem("userLanguage", lang);
-    highlightActiveLanguage(lang);
-
     document.cookie = "django_language=" + lang;
     localStorage.setItem("django_language", lang);
-    location.reload();
+    highlightActiveLanguage(lang);
   }
-
-  // Inicializar mostrando el idioma actual
-  highlightActiveLanguage(currentLanguage);
 
   // Manejar clicks en los enlaces de idioma
   langLinks.forEach((link) => {

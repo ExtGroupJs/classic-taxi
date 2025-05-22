@@ -10,8 +10,8 @@ const initVehicleCarousel = () => {
   // Función para cargar y renderizar los vehículos
   const loadVehicles = async () => {
     try {
-      lang = localStorage.getItem("userLanguage") || "es";
-      const response = await axios.get("/business-gestion/cars/?lang=" + lang);
+      // lang = localStorage.getItem("userLanguage") || "es";
+      const response = await axios.get("/business-gestion/cars/");
       const cars = response.data.results;
       mybanner(cars);
       if (cars.length === 0) {

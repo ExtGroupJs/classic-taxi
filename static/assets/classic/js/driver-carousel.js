@@ -12,11 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar y renderizar los vehículos
     const loadDriver = async () => {
       try {
-        lang = localStorage.getItem("userLanguage") || "es";
+        // lang = localStorage.getItem("userLanguage") || "es";
 
-        const response = await axios.get(
-          "/business-gestion/drivers?lang=" + lang
-        );
+        const response = await axios.get("/business-gestion/drivers");
         const drivers = response.data.results;
 
         if (drivers.length === 0) {
