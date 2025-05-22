@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
     currentLanguage = lang;
     localStorage.setItem("userLanguage", lang);
     highlightActiveLanguage(lang);
+
+    document.cookie = "django_language=" + lang;
+    localStorage.setItem("django_language", lang);
+    location.reload();
   }
 
   // Inicializar mostrando el idioma actual

@@ -37,9 +37,7 @@ class DriverViewSet(mixins.ListModelMixin, GenericViewSet):
     ]
 
     def get_queryset(self):
-        lang = self.request.query_params.get(
-            "lang", "es"
-        )  # por defecto en español si no se especifica nada
+        # por defecto en español si no se especifica nada
         return self.queryset.annotate(
-            extra_info=F(f"extra_info_{lang}"),
+            extra_info=F(f"extra_info_{self.request.LANGUAGE_CODE}"),
         )

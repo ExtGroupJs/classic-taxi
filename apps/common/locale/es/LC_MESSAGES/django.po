@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-27 05:24+0000\n"
+"POT-Creation-Date: 2025-05-15 13:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,42 @@ msgstr ""
 msgid "Common App"
 msgstr "Aplicación Común"
 
-#: apps/common/models.py:8
+#: apps/common/models/base_model.py:7 apps/common/models/generic_log.py:22
 msgid "Created timestamp"
 msgstr "marca de tiempo creada"
 
-#: apps/common/models.py:9
+#: apps/common/models/base_model.py:10
 msgid "Updated timestamp"
 msgstr "Marca de tiempo actualizada"
+
+#: apps/common/models/generic_log.py:17
+msgid "creado"
+msgstr "creado"
+
+#: apps/common/models/generic_log.py:18
+msgid "modificado"
+msgstr "modificado"
+
+#: apps/common/models/generic_log.py:19
+msgid "borrado"
+msgstr "borrado"
+
+#: apps/common/models/generic_log.py:28
+msgid "Acción"
+msgstr "Acción"
+
+#: apps/common/models/generic_log.py:33
+msgid "Content Type"
+msgstr "Tipo de Contenido"
+
+#: apps/common/models/generic_log.py:35
+msgid "Object ID"
+msgstr "ID de Objeto"
+
+#: apps/common/models/generic_log.py:37
+msgid "Detalles"
+msgstr "Detalles"
+
+#: apps/common/models/generic_log.py:43
+msgid "Created By"
+msgstr "Creado Por"

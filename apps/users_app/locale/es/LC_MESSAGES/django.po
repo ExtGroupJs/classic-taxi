@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-15 13:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: apps/users_app/apps.py:8
+msgid "Users Application"
+msgstr ""
+
+#: apps/users_app/models/country.py:6
+msgid "Country name"
+msgstr "Nombre del país"
+
+#: apps/users_app/models/country.py:7
+msgid "Country code"
+msgstr "Código del país"
+
+#: apps/users_app/models/country.py:8
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: apps/users_app/models/country.py:11
+msgid "Country"
+msgstr "País"
+
+#: apps/users_app/models/country.py:12
+msgid "Countries"
+msgstr "Países"
+
+#: apps/users_app/models/groups.py:7
+msgid "Super Admin"
+msgstr "Super Administrador"
+
+#: apps/users_app/models/groups.py:8
+msgid "Editor"
+msgstr "Editor"
+
+#: apps/users_app/models/groups.py:9
+msgid "Lector"
+msgstr "Lector"
+
+#: apps/users_app/models/system_user.py:65
+msgid "System user"
+msgstr "Usuario del sistema"
+
+#: apps/users_app/models/system_user.py:66
+msgid "System users"
+msgstr "Usuarios del sistema"
+
+#: apps/users_app/views/users.py:64
+msgid "Creates an user"
+msgstr "Crea un usuario"
+
+#: apps/users_app/views/users.py:89
+msgid "Successfull registration on \"Allele Viewer\""
+msgstr ""
+
+#: apps/users_app/views/users.py:91
+#, python-brace-format
+msgid ""
+"You have successfully registered on our system. For confirmation, please "
+"enter the following code when requested: {confirmation_code}"
+msgstr ""
+"Se ha registrado exitosamente en nuestro sistema. Para confirmar, por favor "
+"ingrese el siguiente código cuando se le solicite: {confirmation_code}"
+
+#: apps/users_app/views/users.py:106
+msgid "Provides authentication using user and password combination"
+msgstr "Proporciona autenticación mediante combinación de usuario y contraseña"
+
+#: apps/users_app/views/users.py:123
+msgid "Logout user"
+msgstr "Cerrar sesión de usuario"
+
+#: apps/users_app/views/users.py:130
+msgid "Successfully logged out user"
+msgstr "Usuario desconectado exitosamente"

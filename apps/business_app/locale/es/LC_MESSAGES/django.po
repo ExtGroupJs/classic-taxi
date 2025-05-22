@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-15 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+#: apps/business_app/apps.py:8
+msgid "Business Specific Application"
+msgstr "Aplicación Específica de Negocios"
+
+#: apps/business_app/models/car.py:12 apps/business_app/models/driver.py:10
+#: apps/business_app/models/gallery_picture.py:14
+msgid "Main Picture"
+msgstr "Imagen Principal"
+
+#: apps/business_app/models/car.py:15
+msgid "Year"
+msgstr "Año"
+
+#: apps/business_app/models/car.py:19
+msgid "Seats"
+msgstr "Asientos"
+
+#: apps/business_app/models/car.py:23
+msgid "Mileage"
+msgstr "Kilometraje"
+
+#: apps/business_app/models/car.py:26
+msgid "Luggage"
+msgstr "Equipaje"
+
+#: apps/business_app/models/car.py:29
+msgid "Air conditioner"
+msgstr "Aire acondicionado"
+
+#: apps/business_app/models/car.py:31 apps/business_app/models/driver.py:23
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: apps/business_app/models/car.py:44
+msgid "Car"
+msgstr "Coche"
+
+#: apps/business_app/models/car.py:45
+msgid "Cars"
+msgstr "Coches"
+
+#: apps/business_app/models/driver.py:13
+msgid "Licence year"
+msgstr "Año de licencia"
+
+#: apps/business_app/models/driver.py:36
+msgid "Driver"
+msgstr "Conductor"
+
+#: apps/business_app/models/driver.py:37
+msgid "Drivers"
+msgstr "Conductores"
+
+#: apps/business_app/models/gallery_picture.py:19
+msgid "Gallery Picture"
+msgstr "Imagen de Galería"
+
+#: apps/business_app/models/gallery_picture.py:20
+msgid "Gallery Pictures"
+msgstr "Imágenes de Galería"
