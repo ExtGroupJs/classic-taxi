@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 13:51+0000\n"
+"POT-Creation-Date: 2025-05-22 21:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,26 @@ msgstr ""
 #: templates/index.html:66
 msgid "Home"
 msgstr "Inicio"
+
+#: templates/index.html:68
+msgid "About"
+msgstr "Sobre"
+
+#: templates/index.html:70
+msgid "Services"
+msgstr "Servicios"
+
+#: templates/index.html:72
+msgid "Pricing"
+msgstr "Precios"
+
+#: templates/index.html:74
+msgid "Cars"
+msgstr "Carros"
+
+#: templates/index.html:78
+msgid "Contact"
+msgstr "Contactos"
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
