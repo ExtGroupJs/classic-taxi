@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-22 21:42+0000\n"
+"POT-Creation-Date: 2025-05-23 13:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,9 +19,47 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
 
-#: templates/index.html:66
+#: templates/carsdetail/carsdetail.html:11
+#: templates/carsdetail/carsdetail.html:30 templates/index.html:66
 msgid "Home"
 msgstr "Inicio"
+
+#: templates/carsdetail/carsdetail.html:13 templates/index.html:72
+msgid "Pricing"
+msgstr "Precios"
+
+#: templates/carsdetail/carsdetail.html:16 templates/index.html:78
+msgid "Contact"
+msgstr "Contactos"
+
+#: templates/carsdetail/carsdetail.html:31
+#: templates/carsdetail/carsdetail.html:33
+msgid "Car Details"
+msgstr "Detalles"
+
+#: templates/carsdetail/carsdetail.html:62
+msgid "Mileage"
+msgstr "Kilometraje"
+
+#: templates/carsdetail/carsdetail.html:79
+msgid "Seats"
+msgstr "Asientos"
+
+#: templates/carsdetail/carsdetail.html:95
+msgid "Luggage"
+msgstr "Equipaje"
+
+#: templates/carsdetail/carsdetail.html:113
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/carsdetail/carsdetail.html:137
+msgid "Choose Car"
+msgstr "Elegir auto"
+
+#: templates/carsdetail/carsdetail.html:138
+msgid "Related Cars"
+msgstr "Autos relacionados"
 
 #: templates/index.html:68
 msgid "About"
@@ -31,17 +69,9 @@ msgstr "Sobre"
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/index.html:72
-msgid "Pricing"
-msgstr "Precios"
-
 #: templates/index.html:74
 msgid "Cars"
 msgstr "Carros"
-
-#: templates/index.html:78
-msgid "Contact"
-msgstr "Contactos"
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -1502,3 +1532,8 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/oauth2_provider/templates/oauth2_provider/authorized-tokens.html:19
 msgid "There are no authorized tokens yet."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Car Details"
+#~ msgid "Car details"
+#~ msgstr "Detalles"

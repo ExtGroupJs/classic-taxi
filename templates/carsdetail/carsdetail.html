@@ -8,12 +8,12 @@
 {% endblock %}
 {% block menu %}
 <li class="nav-item active"><a href="{% url 'landing' %}"
-		class="nav-link">Home</a></li>
+		class="nav-link">{% trans "Home" %}</a></li>
 
-<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+<li class="nav-item"><a href="pricing.html" class="nav-link">{% trans "Pricing" %}</a></li>
 
 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+<li class="nav-item"><a href="#contact" class="nav-link">{% trans "Contact" %}</a></li>
 <!-- Selector de idiomas -->
 
 {% endblock %}
@@ -27,10 +27,10 @@
 		<div
 			class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
 			<div class="col-md-9 ftco-animate pb-5">
-				<p class="breadcrumbs"><span class="mr-2"><a href="{% url 'landing' %}">Home
-							<i class="ion-ios-arrow-forward"></i></a></span> <span>Car details <i
+				<p class="breadcrumbs"><span class="mr-2"><a href="{% url 'landing' %}">{% trans "Home" %}
+							<i class="ion-ios-arrow-forward"></i></a></span> <span>{% trans "Car Details" %} <i
 							class="ion-ios-arrow-forward"></i></span></p>
-				<h1 class="mb-3 bread">Car Details</h1>
+				<h1 class="mb-3 bread">{% trans "Car Details" %}</h1>
 			</div>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 									class="flaticon-dashboard"></span></div>
 							<div class="text">
 								<h3 class="heading mb-0 pl-3">
-									Mileage
+									{% trans "Mileage" %}
 									<span id="cardetail-Mileage">40,000</span>
 								</h3>
 							</div>
@@ -76,7 +76,7 @@
 									class="flaticon-car-seat"></span></div>
 							<div class="text">
 								<h3 class="heading mb-0 pl-3">
-									Seats
+									{% trans "Seats" %}
 									<span id="cardetail-Seats">5 Adults</span>
 								</h3>
 							</div>
@@ -92,7 +92,7 @@
 									class="flaticon-backpack"></span></div>
 							<div class="text">
 								<h3 class="heading mb-0 pl-3">
-									Luggage
+									{% trans "Luggage" %}
 									<span id="cardetail-Luggage">4 Bags</span>
 								</h3>
 							</div>
@@ -110,7 +110,7 @@
 							<li class="nav-item">
 								<a class="nav-link" id="pills-manufacturer-tab" data-toggle="pill"
 									href="#pills-manufacturer" role="tab"
-									aria-controls="pills-manufacturer" aria-expanded="true">Description</a>
+									aria-controls="pills-manufacturer" aria-expanded="true">{% trans "Description" %}</a>
 							</li>
 
 						</ul>
@@ -134,8 +134,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-				<span class="subheading">Choose Car</span>
-				<h2 class="mb-2">Related Cars</h2>
+				<span class="subheading">{% trans "Choose Car" %}</span>
+				<h2 class="mb-2">{% trans "Related Cars" %}</h2>
 			</div>
 		</div>
 		<div class="row">
