@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 13:02+0000\n"
+"POT-Creation-Date: 2025-05-23 13:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,17 +61,263 @@ msgstr "Elegir auto"
 msgid "Related Cars"
 msgstr "Autos relacionados"
 
-#: templates/index.html:68
+#: templates/index.html:68 templates/index.html:133
 msgid "About"
 msgstr "Sobre"
 
-#: templates/index.html:70
+#: templates/index.html:70 templates/index.html:134
+#: templates/landingpage/landing.html:124
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/index.html:74
+#: templates/index.html:74 templates/index.html:115
 msgid "Cars"
-msgstr "Carros"
+msgstr "Autos"
+
+#: templates/index.html:115
+msgid "book"
+msgstr "reserva"
+
+#: templates/index.html:131
+msgid "Information"
+msgstr "Información"
+
+#: templates/index.html:135
+msgid "Terms and Conditions"
+msgstr "Condiciones y Términos"
+
+#: templates/index.html:136
+msgid "Best Prices Granted"
+msgstr "Mejores precios garantizados"
+
+#: templates/index.html:137
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: templates/index.html:137
+msgid "Cookies Policy"
+msgstr "Política de cookies"
+
+#: templates/index.html:143
+msgid "Customer Support"
+msgstr "Soporte al Cliente"
+
+#: templates/index.html:146
+msgid "Payment Options"
+msgstr "Opciones de pago"
+
+#: templates/index.html:147
+msgid "Booking Tips"
+msgstr "Tips para reservar"
+
+#: templates/index.html:148
+msgid "How it works"
+msgstr "Cómo funciona"
+
+#: templates/index.html:149
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: templates/index.html:155
+msgid "Have a Question?"
+msgstr "¿Tiene preguntas?"
+
+#: templates/index.html:174
+msgid "Copyright"
+msgstr "Derechos de autor"
+
+#: templates/index.html:176
+msgid "All rights reserved | This template is made with"
+msgstr "Todos los derechos reservados | Esta plantilla fue realizada con"
+
+#: templates/landingpage/landing.html:18
+msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
+msgstr "Renta de autos clásicos en Cayo Coco y Cayo Guillermo"
+
+#: templates/landingpage/landing.html:19
+msgid ""
+"Discover the beauty of Cayo Coco and Cayo Guillermo with our exclusive "
+"classic cars. Enjoy a unique experience exploring these tropical paradises."
+msgstr ""
+"Descubre la belleza de Cayo Coco y Cayo Guillermo con nuestros exclusivos "
+"autos clásicos. Disfruta una experiencia única explorando estos paraísos "
+"tropicales."
+
+#: templates/landingpage/landing.html:25
+msgid "Easy steps to rent a classic car"
+msgstr "Pasos sencillos para rentar un auto clásico"
+
+#: templates/landingpage/landing.html:47
+msgid "Better Way to Rent Your Perfect Cars"
+msgstr "La mejor forma de rentar tus autos perfectos"
+
+#: templates/landingpage/landing.html:53
+msgid "Choose Your Pickup Location"
+msgstr "Elige tu ubicación de recogida"
+
+#: templates/landingpage/landing.html:61
+msgid "Select the Best Deal"
+msgstr "Selecciona la mejor oferta"
+
+#: templates/landingpage/landing.html:69
+msgid "Reserve Your Rental Car"
+msgstr "Reserva tu auto de alquiler"
+
+#: templates/landingpage/landing.html:74
+msgid "Reserve Your Perfect Car"
+msgstr "Reserva tu auto perfecto"
+
+#: templates/landingpage/landing.html:87
+msgid "What we offer"
+msgstr "Qué ofrecemos"
+
+#: templates/landingpage/landing.html:88
+msgid "Featured Vehicles"
+msgstr "Vehículos destacados"
+
+#: templates/landingpage/landing.html:108
+msgid "About us"
+msgstr "Sobre nosotros"
+
+#: templates/landingpage/landing.html:109
+msgid "Welcome to ClassiCoco"
+msgstr "Bienvenido a ClassiCoco"
+
+#: templates/landingpage/landing.html:111
+msgid ""
+"At ClassiCoco, we specialize in offering a unique and authentic experience "
+"through the rental of classic cars to explore the stunning destinations of "
+"Cayo Coco and Cayo Guillermo in Cuba. Our fleet of classic vehicles, "
+"meticulously restored, combines the nostalgic charm of the 50s and 60s with "
+"modern comfort and safety. Each car is a piece of history on wheels, "
+"designed to make your excursions through these paradisiacal islands "
+"unforgettable. Whether it's for a romantic ride, a family adventure, or a "
+"trip with friends, our classic cars will transport you to a golden era while "
+"you enjoy the crystal-clear waters and lush landscapes of the region."
+msgstr ""
+"En ClassiCoco, nos especializamos en ofrecer una experiencia única y "
+"auténtica a través del alquiler de autos clásicos para explorar los "
+"impresionantes destinos de Cayo Coco y Cayo Guillermo en Cuba. Nuestra flota "
+"de vehículos clásicos, meticulosamente restaurados, combina el encanto "
+"nostálgico de los años 50 y 60 con la comodidad y seguridad modernas. Cada "
+"auto es una pieza de historia sobre ruedas, diseñada para hacer tus "
+"excursiones por estas islas paradisíacas inolvidables. Ya sea para un paseo "
+"romántico, una aventura familiar o un viaje con amigos, nuestros autos "
+"clásicos te transportarán a una época dorada mientras disfrutas de las aguas "
+"cristalinas y los exuberantes paisajes de la región."
+
+#: templates/landingpage/landing.html:112
+msgid ""
+"At Classicoco, we don't just offer a means of transportation, but a cultural "
+"and tourist experience that connects our clients with the essence of Cuba. "
+"Our team is committed to providing personalized service, ensuring every "
+"detail of your trip is perfect. From recommended routes to assistance at all "
+"times, we are here to make your adventure in Cayo Coco and Cayo Guillermo as "
+"unique as the cars we drive. Discover Cuba in style and let yourself be "
+"carried away by the magic of our classics on wheels."
+msgstr ""
+"En Classicoco, no solo ofrecemos un medio de transporte, sino una "
+"experiencia cultural y turística que conecta a nuestros clientes con la "
+"esencia de Cuba. Nuestro equipo está comprometido con brindar un servicio "
+"personalizado, asegurando que cada detalle de tu viaje sea perfecto. Desde "
+"rutas recomendadas hasta asistencia en todo momento, estamos aquí para hacer "
+"que tu aventura en Cayo Coco y Cayo Guillermo sea tan única como los autos "
+"que conducimos. Descubre Cuba con estilo y déjate llevar por la magia de "
+"nuestros clásicos sobre ruedas."
+
+#: templates/landingpage/landing.html:113
+msgid "Search Vehicle"
+msgstr "Buscar vehículo"
+
+#: templates/landingpage/landing.html:125
+msgid "Our Exclusive Services"
+msgstr "Nuestros servicios exclusivos"
+
+#: templates/landingpage/landing.html:133
+msgid "Weddings & Events"
+msgstr "Bodas y eventos"
+
+#: templates/landingpage/landing.html:134
+msgid ""
+"Make your special day unforgettable with our elegant classic cars. The "
+"perfect combination of romance and vintage style for your ceremony."
+msgstr ""
+"Haz de tu día especial algo inolvidable con nuestros elegantes autos "
+"clásicos. La combinación perfecta de romance y estilo vintage para tu "
+"ceremonia."
+
+#: templates/landingpage/landing.html:142
+msgid "City Rides"
+msgstr "Paseos urbanos"
+
+#: templates/landingpage/landing.html:143
+msgid ""
+"Cruise through the streets in style in our restored classic cars. A unique "
+"experience that combines vintage charm with modern comfort."
+msgstr ""
+"Recorre las calles con estilo en nuestros autos clásicos restaurados. Una "
+"experiencia única que combina el encanto vintage con la comodidad moderna."
+
+#: templates/landingpage/landing.html:151
+msgid "Photo Sessions"
+msgstr "Sesiones fotográficas"
+
+#: templates/landingpage/landing.html:152
+msgid ""
+"Our classic cars are the perfect backdrop for your photos. Ideal for fashion "
+"shoots, advertising, or special moments you want to immortalize."
+msgstr ""
+"Nuestros autos clásicos son el escenario perfecto para tus fotos. Ideal para "
+"sesiones de moda, publicidad o momentos especiales que quieras inmortalizar."
+
+#: templates/landingpage/landing.html:160
+msgid "Sightseeing Tours"
+msgstr "Recorridos turísticos"
+
+#: templates/landingpage/landing.html:161
+msgid ""
+"Discover the city from a unique perspective aboard our classics. Customized "
+"tours that blend history, culture, and the charm of vintage cars."
+msgstr ""
+"Descubre la ciudad desde una perspectiva única a bordo de nuestros clásicos. "
+"Recorridos personalizados que mezclan historia, cultura y el encanto de los "
+"autos vintage."
+
+#: templates/landingpage/landing.html:174
+msgid "Reliable Drivers, Safe Journeys"
+msgstr "Conductores confiables, viajes seguros"
+
+#: templates/landingpage/landing.html:175
+msgid ""
+"Our drivers are trained professionals, ensuring your safety and comfort on "
+"every trip."
+msgstr ""
+"Nuestros conductores son profesionales capacitados, garantizando tu "
+"seguridad y comodidad en cada viaje."
+
+#: templates/landingpage/landing.html:176
+msgid "Meet Our Drivers"
+msgstr "Conoce a nuestros conductores"
+
+#: templates/landingpage/landing.html:188
+msgid "Drivers"
+msgstr "Conductores"
+
+#: templates/landingpage/landing.html:189
+msgid "Experienced drivers"
+msgstr "Conductores experimentados"
+
+#: templates/landingpage/landing.html:259
+msgid "Testimonial"
+msgstr "Testimonios"
+
+#: templates/landingpage/landing.html:260
+msgid "Happy Clients"
+msgstr "Clientes Satisfechos"
+
+#: templates/landingpage/landing.html:332
+msgid "Recent Blog"
+msgstr "Blogs recientes"
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -1532,6 +1778,11 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/oauth2_provider/templates/oauth2_provider/authorized-tokens.html:19
 msgid "There are no authorized tokens yet."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Cars"
+#~ msgid "Car"
+#~ msgstr "Carros"
 
 #, fuzzy
 #~| msgid "Car Details"
