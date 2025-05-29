@@ -55,7 +55,43 @@ function detailCarousel() {
           return;
         }
 
-        // Crear el HTML para todos los vehículos
+        // Crear el HTML para todos los vehículos (se omite la primera generación para evitar duplicidad)
+        // (La generación traducida se realiza más abajo)
+
+        //Inicializar Owl Carousel
+        // Obtener el idioma seleccionado
+        const lang = localStorage.getItem("userLanguage") || "es";
+
+        // Traducciones simples
+        const translations = {
+          es: {
+            bookNow: "Reservar ahora",
+            details: "Detalles",
+            seats: "/Asientos",
+            noCars: "No hay vehículos disponibles",
+            error: "Error al cargar los vehículos"
+          },
+          en: {
+            bookNow: "Book now",
+            details: "Details",
+            seats: "/Seats",
+            noCars: "No cars available",
+            error: "Error loading vehicles"
+          },
+          fr: {
+            bookNow: "Réserver",
+            details: "Détails",
+            seats: "/Sièges",
+            noCars: "Aucun véhicule disponible",
+            error: "Erreur lors du chargement des véhicules"
+          }
+          // Agrega más idiomas si es necesario
+        };
+
+        // Usar traducciones según el idioma
+        const t = translations[lang] || translations["es"];
+
+        // Volver a renderizar el HTML con traducciones
         const carsHTML = cars
           .map(
             (car) => `
@@ -64,16 +100,16 @@ function detailCarousel() {
               <div class="img rounded d-flex align-items-end" style="background-image: url('${car.main_picture}');">
               </div>
               <div class="text">
-                <h2 class="mb-0"><a href="#">${car.model_name}</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">${car.year}</span>
-                  <p class="price ml-auto">${car.seats} <span>/Seats</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block">
-                  <a  class="whatsapp btn btn-primary py-2 mr-1" "
-                     data-car-name="${car.model_name}">Book now</a> 
-                  <a  class="btn btn-secondary py-2 ml-1" data-car-name="${car.id}" onclick='detalles(${car.id})'>Details</a>
-                </p>
+          <h2 class="mb-0"><a href="#">${car.model_name}</a></h2>
+          <div class="d-flex mb-3">
+            <span class="cat">${car.year}</span>
+            <p class="price ml-auto">${car.seats} <span>${t.seats}</span></p>
+          </div>
+          <p class="d-flex mb-0 d-block">
+            <a  class="whatsapp btn btn-primary py-2 mr-1"
+               data-car-name="${car.model_name}">${t.bookNow}</a> 
+            <a  class="btn btn-secondary py-2 ml-1" data-car-name="${car.id}" onclick='detalles(${car.id})'>${t.details}</a>
+          </p>
               </div>
             </div>
           </div>
@@ -81,10 +117,9 @@ function detailCarousel() {
           )
           .join("");
 
-        // Insertar el HTML en el contenedor
         carouselContainer.innerHTML = carsHTML;
 
-        //Inicializar Owl Carousel
+        // Inicializar Owl Carousel
         $(carouselContainer).owlCarousel({
           center: true,
           loop: true,

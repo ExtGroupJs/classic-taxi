@@ -62,20 +62,19 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             {% block menu %}
-            <li class="nav-item active"><a href="{% url 'landing' %}"
-                class="nav-link">{% trans "Home" %}</a></li>
+            <li class="nav-item active"><a href="{% url 'landing' %}" class="nav-link">{% trans "Home" %}</a></li>
             <li class="nav-item"><a href="#about"
-                class="nav-link">{% trans "About" %}<</a></li>
+                class="nav-link">{% trans "About" %}</a></li>
             <li class="nav-item"><a href="#services"
-                class="nav-link">{% trans "Services" %}<</a></li>
-            <li class="nav-item"><a href="pricing.html"
-                class="nav-link">{% trans "Pricing" %}<</a></li>
-            <li class="nav-item"><a href="car.html"
-                class="nav-link">{% trans "Cars" %}<</a></li>
-            <li class="nav-item"><a href="blog.html"
-                class="nav-link">Blog</a></li>
+                class="nav-link">{% trans "Services" %}</a></li>
+            <li class="nav-item"><a href="#drivers"
+                class="nav-link">{% trans "Drivers" %}</a></li>
+            <li class="nav-item"><a href="#featured-vehicles"
+                class="nav-link">{% trans "Cars" %}</a></li>
+            <li class="nav-item"><a href="#testimonials"
+                class="nav-link">{% trans "Testimonials" %}</a></li>
             <li class="nav-item"><a href="#contact"
-                class="nav-link">{% trans "Contact" %}<</a></li>
+                class="nav-link">{% trans "Contact" %}</a></li>
             <!-- Selector de idiomas -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -112,9 +111,8 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><a href="#"
-                  class="logo">{% trans "Cars" %}<span>{% trans "book" %}</span></a></h2>
-              <p>Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.</p>
+                  class="logo">{% trans "Classi" %}<span>{% trans "Coco" %}</span></a></h2>
+              <p>Déjate llevar por la magia de estos íconos sobre ruedas y convierte tu viaje en un recuerdo eterno lleno de estilo.</p>
               <ul
                 class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span
@@ -126,7 +124,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          {% comment %} <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">{% trans "Information" %}</h2>
               <ul class="list-unstyled">
@@ -138,44 +136,45 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">{% trans "Customer Support" %}</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">FAQ</a></li>
-                <li><a href="#" class="py-2 d-block">{% trans "Payment Options" %}</a></li>
-                <li><a href="#" class="py-2 d-block">{% trans "Booking Tips" %}</a></li>
-                <li><a href="#" class="py-2 d-block">{% trans "How it works" %}</a></li>
-                <li><a href="#" class="py-2 d-block">{% trans "Contact us" %}</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">{% trans "Have a Question?" %}</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li><span class="icon icon-map-marker"></span><span
-                      class="text">203 Fake St. Mountain View, San Francisco,
-                      California, USA</span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span
-                        class="text">+2 392 3929 210</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span
-                        class="text">info@yourdomain.com</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+         {% endcomment %}
+ 
+<!-- Sección de opinión de cliente -->
+<div class="col-md">
+  <div class="ftco-footer-widget mb-4">
+    <h2 class="ftco-heading-2">{% trans "Tu opinión" %}</h2>
+    <form id="opinionForm" action="" method="post" class="opinion-form" onsubmit="return false;">
+      {% csrf_token %}
+      <div class="form-group">
+        <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+      </div>
+      <div class="form-group">
+        <input type="text" name="apellidos" class="form-control" placeholder="Apellidos" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+      </div>
+      <div class="form-group">
+        <textarea name="opinion" class="form-control" rows="3" placeholder="Escribe tu opinión aquí..." required></textarea>
+      </div>
+      <div class="form-group mb-0">
+        <button type="button" class="btn" style="background-color:#007bff; border-color:#007bff;" onclick="enviarOpinion()">Enviar</button>
+      </div>
+      <div id="opinionMsg" class="mt-2 text-success" style="display:none;">
+        {% trans "¡Mensaje enviado correctamente!" %}
+      </div>
+    </form>
+  </div>
+</div>
+
+
+        </div> 
         <div class="row">
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               {% trans "Copyright" %}
               &copy;<script>document.write(new Date().getFullYear());</script>
-              {% trans "All rights reserved | This template is made with" %} <i
-                class="icon-heart color-danger" aria-hidden="true"></i> by <a
-                href="https://colorlib.com" target="_blank">Colorlib</a>
+              {% trans "All rights reserved | ExtGroup" %} 
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
@@ -223,9 +222,10 @@
     <script src="{% static 'assets/classic/js/vehicle-carousel.js' %}"></script>
     <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script>
     <script src="{% static 'assets/classic/js/whatsapp.js' %}"></script>
-    <script>
-</script>
-    {% block script %}
+    <script src="{% static 'assets/classic/js/opinion.js' %}"></script>
+   
+
+{% block script %}
     {% endblock %}
   </body>
 </html>

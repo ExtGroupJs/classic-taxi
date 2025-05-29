@@ -9035,7 +9035,23 @@ h1, h2, h3, h4, h5,
       /* IE 9 */
       -webkit-transform: rotate(20deg);
       /* Safari 3-8 */
-      transform: rotate(20deg); } }
+      transform: rotate(20deg); } 
+     .ftco-intro .overlay2 {
+      position: absolute;
+      top: -120px;
+      left: -100px;
+      right: 0;
+      bottom: -120px;
+      width: 70%;
+      content: '';
+      opacity: 1;
+      background: #bcdeff;
+      -ms-transform: rotate(20deg);
+      /* IE 9 */
+      -webkit-transform: rotate(20deg);
+      /* Safari 3-8 */
+      transform: rotate(20deg); }
+    }
   .ftco-intro:after {
     position: absolute;
     top: 0;
