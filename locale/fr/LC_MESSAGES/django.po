@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 13:57+0000\n"
+"POT-Creation-Date: 2025-05-30 02:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: templates/carsdetail/carsdetail.html:11
-#: templates/carsdetail/carsdetail.html:30 templates/index.html:66
+#: templates/carsdetail/carsdetail.html:30 templates/index.html:65
 msgid "Home"
 msgstr "Accueil"
 
-#: templates/carsdetail/carsdetail.html:13 templates/index.html:72
+#: templates/carsdetail/carsdetail.html:13
 msgid "Pricing"
 msgstr "Tarifs"
 
-#: templates/carsdetail/carsdetail.html:16 templates/index.html:78
+#: templates/carsdetail/carsdetail.html:16 templates/index.html:77
 msgid "Contact"
 msgstr "Contact"
 
@@ -59,74 +60,50 @@ msgstr "Choisir une voiture"
 msgid "Related Cars"
 msgstr "Voitures similaires"
 
-#: templates/index.html:68 templates/index.html:133
+#: templates/index.html:67
 msgid "About"
 msgstr "À propos"
 
-#: templates/index.html:70 templates/index.html:134
-#: templates/landingpage/landing.html:124
+#: templates/index.html:69 templates/landingpage/landing.html:124
 msgid "Services"
 msgstr "Services"
 
-#: templates/index.html:74 templates/index.html:115
+#: templates/index.html:71 templates/landingpage/landing.html:188
+msgid "Drivers"
+msgstr "Chauffeurs"
+
+#: templates/index.html:73
 msgid "Cars"
 msgstr "Voitures"
 
-#: templates/index.html:115
-msgid "book"
-msgstr "réserver"
+#: templates/index.html:75
+msgid "Testimonials"
+msgstr "Témoignages"
 
-#: templates/index.html:131
-msgid "Information"
-msgstr "Informations"
+#: templates/index.html:114
+msgid "Classi"
+msgstr "Classi"
 
-#: templates/index.html:135
-msgid "Terms and Conditions"
-msgstr "Conditions générales"
+#: templates/index.html:114
+msgid "Coco"
+msgstr "Coco"
 
-#: templates/index.html:136
-msgid "Best Prices Granted"
-msgstr "Meilleurs prix garantis"
+#: templates/index.html:145
+msgid "Tu opinión"
+msgstr ""
 
-#: templates/index.html:137
-msgid "Privacy"
-msgstr "Confidentialité"
+#: templates/index.html:164
+msgid "¡Mensaje enviado correctamente!"
+msgstr "Message envoyé avec succès!"
 
-#: templates/index.html:137
-msgid "Cookies Policy"
-msgstr "Politique de cookies"
-
-#: templates/index.html:143
-msgid "Customer Support"
-msgstr "Service client"
-
-#: templates/index.html:146
-msgid "Payment Options"
-msgstr "Options de paiement"
-
-#: templates/index.html:147
-msgid "Booking Tips"
-msgstr "Conseils de réservation"
-
-#: templates/index.html:148
-msgid "How it works"
-msgstr "Comment ça marche"
-
-#: templates/index.html:149
-msgid "Contact us"
-msgstr "Contactez-nous"
-
-#: templates/index.html:155
-msgid "Have a Question?"
-msgstr "Une question ?"
-
-#: templates/index.html:174
+#: templates/index.html:176
 msgid "Copyright"
 msgstr "Droits d'auteur"
 
-#: templates/index.html:176
-msgid "All rights reserved | This template is made with"
-msgstr "Tous droits réservés | Ce modèle est fait avec"
+#: templates/index.html:178
+
+msgid "All rights reserved | ExtGroup"
+msgstr "Tous droits réservés | ExtGroup"
 
 #: templates/landingpage/landing.html:18
 msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
@@ -194,15 +171,16 @@ msgid ""
 "you enjoy the crystal-clear waters and lush landscapes of the region."
 msgstr ""
 "Chez ClassiCoco, nous nous spécialisons dans l'offre d'une expérience unique "
-"et authentique à travers la location de voitures classiques pour explorer les "
-"magnifiques destinations de Cayo Coco et Cayo Guillermo à Cuba. Notre flotte "
-"de véhicules classiques, méticuleusement restaurés, combine le charme "
+"et authentique à travers la location de voitures classiques pour explorer "
+"les magnifiques destinations de Cayo Coco et Cayo Guillermo à Cuba. Notre "
+"flotte de véhicules classiques, méticuleusement restaurés, combine le charme "
 "nostalgique des années 50 et 60 avec le confort et la sécurité modernes. "
 "Chaque voiture est un morceau d'histoire sur roues, conçu pour rendre vos "
 "excursions dans ces îles paradisiaques inoubliables. Que ce soit pour une "
 "balade romantique, une aventure en famille ou un voyage entre amis, nos "
-"voitures classiques vous transporteront dans une époque dorée tandis que vous "
-"profiterez des eaux cristallines et des paysages luxuriants de la région."
+"voitures classiques vous transporteront dans une époque dorée tandis que "
+"vous profiterez des eaux cristallines et des paysages luxuriants de la "
+"région."
 
 #: templates/landingpage/landing.html:112
 msgid ""
@@ -217,11 +195,11 @@ msgstr ""
 "Chez Classicoco, nous n'offrons pas seulement un moyen de transport, mais "
 "une expérience culturelle et touristique qui connecte nos clients avec "
 "l'essence de Cuba. Notre équipe s'engage à fournir un service personnalisé, "
-"en veillant à ce que chaque détail de votre voyage soit parfait. Des itinéraires "
-"recommandés à l'assistance à tout moment, nous sommes là pour faire de votre "
-"aventure à Cayo Coco et Cayo Guillermo une expérience aussi unique que les "
-"voitures que nous conduisons. Découvrez Cuba avec style et laissez-vous "
-"emporter par la magie de nos classiques sur roues."
+"en veillant à ce que chaque détail de votre voyage soit parfait. Des "
+"itinéraires recommandés à l'assistance à tout moment, nous sommes là pour "
+"faire de votre aventure à Cayo Coco et Cayo Guillermo une expérience aussi "
+"unique que les voitures que nous conduisons. Découvrez Cuba avec style et "
+"laissez-vous emporter par la magie de nos classiques sur roues."
 
 #: templates/landingpage/landing.html:113
 msgid "Search Vehicle"
@@ -240,8 +218,9 @@ msgid ""
 "Make your special day unforgettable with our elegant classic cars. The "
 "perfect combination of romance and vintage style for your ceremony."
 msgstr ""
-"Rendez votre jour spécial inoubliable avec nos élégantes voitures classiques. "
-"La combinaison parfaite de romance et de style vintage pour votre cérémonie."
+"Rendez votre jour spécial inoubliable avec nos élégantes voitures "
+"classiques. La combinaison parfaite de romance et de style vintage pour "
+"votre cérémonie."
 
 #: templates/landingpage/landing.html:142
 msgid "City Rides"
@@ -264,8 +243,8 @@ msgid ""
 "Our classic cars are the perfect backdrop for your photos. Ideal for fashion "
 "shoots, advertising, or special moments you want to immortalize."
 msgstr ""
-"Nos voitures classiques sont le décor parfait pour vos photos. Idéal pour les "
-"shoots mode, publicitaires ou les moments spéciaux que vous souhaitez "
+"Nos voitures classiques sont le décor parfait pour vos photos. Idéal pour "
+"les shoots mode, publicitaires ou les moments spéciaux que vous souhaitez "
 "immortaliser."
 
 #: templates/landingpage/landing.html:160
@@ -289,32 +268,45 @@ msgid ""
 "Our drivers are trained professionals, ensuring your safety and comfort on "
 "every trip."
 msgstr ""
-"Nos chauffeurs sont des professionnels formés, garantissant votre sécurité et "
-"votre confort à chaque voyage."
+"Nos chauffeurs sont des professionnels formés, garantissant votre sécurité "
+"et votre confort à chaque voyage."
 
 #: templates/landingpage/landing.html:176
 msgid "Meet Our Drivers"
 msgstr "Rencontrez nos chauffeurs"
 
-#: templates/landingpage/landing.html:188
-msgid "Drivers"
-msgstr "Chauffeurs"
-
 #: templates/landingpage/landing.html:189
 msgid "Experienced drivers"
 msgstr "Chauffeurs expérimentés"
 
-#: templates/landingpage/landing.html:259
+#: templates/landingpage/landing.html:337
 msgid "Testimonial"
 msgstr "Témoignages"
 
-#: templates/landingpage/landing.html:260
+#: templates/landingpage/landing.html:338
 msgid "Happy Clients"
 msgstr "Clients satisfaits"
 
-#: templates/landingpage/landing.html:332
-msgid "Recent Blog"
-msgstr "Blog récent"
+#: templates/landingpage/landing.html:409
+msgid "Where to visit"
+msgstr "Où visiter"
+
+#: templates/landingpage/landing.html:420
+#: templates/landingpage/landing.html:437
+#: templates/landingpage/landing.html:454
+#: templates/landingpage/landing.html:471
+#: templates/landingpage/landing.html:487
+#: templates/landingpage/landing.html:504
+#: templates/landingpage/landing.html:521
+#: templates/landingpage/landing.html:537
+#: templates/landingpage/landing.html:553
+#: templates/landingpage/landing.html:569
+#: templates/landingpage/landing.html:585
+#: templates/landingpage/landing.html:601
+#: templates/landingpage/landing.html:617
+#: templates/landingpage/landing.html:633
+msgid "Distance from Cayo Coco:"
+msgstr ""
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -1775,3 +1767,42 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/oauth2_provider/templates/oauth2_provider/authorized-tokens.html:19
 msgid "There are no authorized tokens yet."
 msgstr ""
+
+#~ msgid "book"
+#~ msgstr "réserver"
+
+#~ msgid "Information"
+#~ msgstr "Informations"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "Conditions générales"
+
+#~ msgid "Best Prices Granted"
+#~ msgstr "Meilleurs prix garantis"
+
+#~ msgid "Privacy"
+#~ msgstr "Confidentialité"
+
+#~ msgid "Cookies Policy"
+#~ msgstr "Politique de cookies"
+
+#~ msgid "Customer Support"
+#~ msgstr "Service client"
+
+#~ msgid "Payment Options"
+#~ msgstr "Options de paiement"
+
+#~ msgid "Booking Tips"
+#~ msgstr "Conseils de réservation"
+
+#~ msgid "How it works"
+#~ msgstr "Comment ça marche"
+
+#~ msgid "Contact us"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "Have a Question?"
+#~ msgstr "Une question ?"
+
+#~ msgid "Recent Blog"
+#~ msgstr "Blog récent"
