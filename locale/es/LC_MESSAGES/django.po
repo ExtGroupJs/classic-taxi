@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 13:35+0000\n"
+"POT-Creation-Date: 2025-05-30 02:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,15 +20,15 @@ msgstr ""
 "1 : 2;\n"
 
 #: templates/carsdetail/carsdetail.html:11
-#: templates/carsdetail/carsdetail.html:30 templates/index.html:66
+#: templates/carsdetail/carsdetail.html:30 templates/index.html:65
 msgid "Home"
 msgstr "Inicio"
 
-#: templates/carsdetail/carsdetail.html:13 templates/index.html:72
+#: templates/carsdetail/carsdetail.html:13
 msgid "Pricing"
 msgstr "Precios"
 
-#: templates/carsdetail/carsdetail.html:16 templates/index.html:78
+#: templates/carsdetail/carsdetail.html:16 templates/index.html:77
 msgid "Contact"
 msgstr "Contactos"
 
@@ -61,74 +61,51 @@ msgstr "Elegir auto"
 msgid "Related Cars"
 msgstr "Autos relacionados"
 
-#: templates/index.html:68 templates/index.html:133
+#: templates/index.html:67
 msgid "About"
 msgstr "Sobre"
 
-#: templates/index.html:70 templates/index.html:134
-#: templates/landingpage/landing.html:124
+#: templates/index.html:69 templates/landingpage/landing.html:124
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/index.html:74 templates/index.html:115
+#: templates/index.html:71 templates/landingpage/landing.html:188
+msgid "Drivers"
+msgstr "Conductores"
+
+#: templates/index.html:73
 msgid "Cars"
 msgstr "Autos"
 
-#: templates/index.html:115
-msgid "book"
-msgstr "reserva"
+#: templates/index.html:75
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonials"
+msgstr "Testimonios"
 
-#: templates/index.html:131
-msgid "Information"
-msgstr "Información"
+#: templates/index.html:114
+msgid "Classi"
+msgstr "Classi"
 
-#: templates/index.html:135
-msgid "Terms and Conditions"
-msgstr "Condiciones y Términos"
+#: templates/index.html:114
+msgid "Coco"
+msgstr "Coco"
 
-#: templates/index.html:136
-msgid "Best Prices Granted"
-msgstr "Mejores precios garantizados"
+#: templates/index.html:145
+msgid "Tu opinión"
+msgstr ""
 
-#: templates/index.html:137
-msgid "Privacy"
-msgstr "Privacidad"
+#: templates/index.html:164
+msgid "¡Mensaje enviado correctamente!"
+msgstr ""
 
-#: templates/index.html:137
-msgid "Cookies Policy"
-msgstr "Política de cookies"
-
-#: templates/index.html:143
-msgid "Customer Support"
-msgstr "Soporte al Cliente"
-
-#: templates/index.html:146
-msgid "Payment Options"
-msgstr "Opciones de pago"
-
-#: templates/index.html:147
-msgid "Booking Tips"
-msgstr "Tips para reservar"
-
-#: templates/index.html:148
-msgid "How it works"
-msgstr "Cómo funciona"
-
-#: templates/index.html:149
-msgid "Contact us"
-msgstr "Contáctenos"
-
-#: templates/index.html:155
-msgid "Have a Question?"
-msgstr "¿Tiene preguntas?"
-
-#: templates/index.html:174
+#: templates/index.html:176
 msgid "Copyright"
 msgstr "Derechos de autor"
 
-#: templates/index.html:176
-msgid "All rights reserved | This template is made with"
-msgstr "Todos los derechos reservados | Esta plantilla fue realizada con"
+#: templates/index.html:178
+msgid "All rights reserved | ExtGroup"
+msgstr "Todos los derechos reservados | ExtGroup"
 
 #: templates/landingpage/landing.html:18
 msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
@@ -299,25 +276,38 @@ msgstr ""
 msgid "Meet Our Drivers"
 msgstr "Conoce a nuestros conductores"
 
-#: templates/landingpage/landing.html:188
-msgid "Drivers"
-msgstr "Conductores"
-
 #: templates/landingpage/landing.html:189
 msgid "Experienced drivers"
 msgstr "Conductores experimentados"
 
-#: templates/landingpage/landing.html:259
+#: templates/landingpage/landing.html:337
 msgid "Testimonial"
 msgstr "Testimonios"
 
-#: templates/landingpage/landing.html:260
+#: templates/landingpage/landing.html:338
 msgid "Happy Clients"
 msgstr "Clientes Satisfechos"
 
-#: templates/landingpage/landing.html:332
-msgid "Recent Blog"
-msgstr "Blogs recientes"
+#: templates/landingpage/landing.html:409
+msgid "Where to visit"
+msgstr "Lugares a visitar"
+
+#: templates/landingpage/landing.html:420
+#: templates/landingpage/landing.html:437
+#: templates/landingpage/landing.html:454
+#: templates/landingpage/landing.html:471
+#: templates/landingpage/landing.html:487
+#: templates/landingpage/landing.html:504
+#: templates/landingpage/landing.html:521
+#: templates/landingpage/landing.html:537
+#: templates/landingpage/landing.html:553
+#: templates/landingpage/landing.html:569
+#: templates/landingpage/landing.html:585
+#: templates/landingpage/landing.html:601
+#: templates/landingpage/landing.html:617
+#: templates/landingpage/landing.html:633
+msgid "Distance from Cayo Coco:"
+msgstr "Distancia desde Cayo Coco"
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -1778,6 +1768,45 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/oauth2_provider/templates/oauth2_provider/authorized-tokens.html:19
 msgid "There are no authorized tokens yet."
 msgstr ""
+
+#~ msgid "book"
+#~ msgstr "reserva"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "Condiciones y Términos"
+
+#~ msgid "Best Prices Granted"
+#~ msgstr "Mejores precios garantizados"
+
+#~ msgid "Privacy"
+#~ msgstr "Privacidad"
+
+#~ msgid "Cookies Policy"
+#~ msgstr "Política de cookies"
+
+#~ msgid "Customer Support"
+#~ msgstr "Soporte al Cliente"
+
+#~ msgid "Payment Options"
+#~ msgstr "Opciones de pago"
+
+#~ msgid "Booking Tips"
+#~ msgstr "Tips para reservar"
+
+#~ msgid "How it works"
+#~ msgstr "Cómo funciona"
+
+#~ msgid "Contact us"
+#~ msgstr "Contáctenos"
+
+#~ msgid "Have a Question?"
+#~ msgstr "¿Tiene preguntas?"
+
+#~ msgid "Recent Blog"
+#~ msgstr "Blogs recientes"
 
 #, fuzzy
 #~| msgid "Cars"
