@@ -112,7 +112,7 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><a href="#"
                   class="logo">{% trans "Classi" %}<span>{% trans "Coco" %}</span></a></h2>
-              <p>Déjate llevar por la magia de estos íconos sobre ruedas y convierte tu viaje en un recuerdo eterno lleno de estilo.</p>
+              <p>{% trans "Let yourself be carried away by the magic of these icons on wheels and turn your trip into an everlasting memory full of style." %}</p>
               <ul
                 class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span
@@ -141,26 +141,26 @@
 <!-- Sección de opinión de cliente -->
 <div class="col-md">
   <div class="ftco-footer-widget mb-4">
-    <h2 class="ftco-heading-2">{% trans "Tu opinión" %}</h2>
+    <h2 class="ftco-heading-2">{% trans "Your oppinion" %}</h2>
     <form id="opinionForm" action="" method="post" class="opinion-form" onsubmit="return false;">
       {% csrf_token %}
       <div class="form-group">
-        <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+        <input type="text" name="nombre" class="form-control" placeholder={% trans "Nombre" %} required>
       </div>
       <div class="form-group">
-        <input type="text" name="apellidos" class="form-control" placeholder="Apellidos" required>
+        <input type="text" name="apellidos" class="form-control" placeholder={% trans "Last Name" %}  required>
       </div>
       <div class="form-group">
-        <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+        <input type="email" name="correo" class="form-control" placeholder={% trans "email" %}  required>
       </div>
       <div class="form-group">
-        <textarea name="opinion" class="form-control" rows="3" placeholder="Escribe tu opinión aquí..." required></textarea>
+        <textarea name="opinion" class="form-control" rows="3" placeholder={% trans "Put your oppinion here..." %} required></textarea>
       </div>
       <div class="form-group mb-0">
-        <button type="button" class="btn" style="background-color:#007bff; border-color:#007bff;" onclick="enviarOpinion()">Enviar</button>
+        <button type="button" class="btn" style="background-color:#007bff; border-color:#007bff;" onclick="enviarOpinion()">{% trans "Send" %}</button>
       </div>
       <div id="opinionMsg" class="mt-2 text-success" style="display:none;">
-        {% trans "¡Mensaje enviado correctamente!" %}
+        {% trans "Message sent successfully!" %}
       </div>
     </form>
   </div>

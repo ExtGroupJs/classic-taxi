@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 02:36+0000\n"
+"POT-Creation-Date: 2025-05-31 03:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr "Servicios"
 msgid "Drivers"
 msgstr "Conductores"
 
-#: templates/index.html:73
+#: templates/index.html:73 templates/landingpage/landing.html:647
 msgid "Cars"
 msgstr "Autos"
 
@@ -91,13 +91,41 @@ msgstr "Classi"
 msgid "Coco"
 msgstr "Coco"
 
+#: templates/index.html:115
+msgid ""
+"Let yourself be carried away by the magic of these icons on wheels and turn "
+"your trip into an everlasting memory full of style."
+msgstr ""
+"Déjate llevar por la magia de estos íconos sobre ruedas y convierte tu viaje "
+"en un recuerdo eterno lleno de estilo."
+
 #: templates/index.html:145
-msgid "Tu opinión"
+msgid "Your oppinion"
+msgstr "Tu opinión"
+
+#: templates/index.html:149
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/index.html:152
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: templates/index.html:155
+msgid "email"
 msgstr ""
 
+#: templates/index.html:158
+msgid "Put your oppinion here..."
+msgstr "Escribe tu opinión aquí..."
+
+#: templates/index.html:161
+msgid "Send"
+msgstr "Enviar"
+
 #: templates/index.html:164
-msgid "¡Mensaje enviado correctamente!"
-msgstr ""
+msgid "Message sent successfully!"
+msgstr "¡Mensaje enviado correctamente!"
 
 #: templates/index.html:176
 msgid "Copyright"
@@ -558,6 +586,31 @@ msgstr ""
 "Importante ciudad oriental con parques y arquitectura colonial, conocida por "
 "su gente amable y su vibrante cultura local."
 
+#: templates/landingpage/landing.html:639
+msgid "Years"
+msgstr "Años"
+
+#: templates/landingpage/landing.html:639
+msgid "Experienced"
+msgstr "de experiencia"
+
+#: templates/landingpage/landing.html:647
+#: templates/landingpage/landing.html:663
+msgid "Total"
+msgstr ""
+
+#: templates/landingpage/landing.html:655
+msgid "Happy"
+msgstr "Clientes"
+
+#: templates/landingpage/landing.html:655
+msgid "Customers"
+msgstr "Satisfechos"
+
+#: templates/landingpage/landing.html:663
+msgid "Branches"
+msgstr "Ramas"
+
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
 msgstr ""
@@ -592,9 +645,6 @@ msgstr ""
 
 #~ msgid "Cookies Policy"
 #~ msgstr "Política de cookies"
-
-#~ msgid "Customer Support"
-#~ msgstr "Soporte al Cliente"
 
 #~ msgid "Payment Options"
 #~ msgstr "Opciones de pago"

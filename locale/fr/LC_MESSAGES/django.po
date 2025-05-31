@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 02:36+0000\n"
+"POT-Creation-Date: 2025-05-31 03:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,7 +72,7 @@ msgstr "Services"
 msgid "Drivers"
 msgstr "Chauffeurs"
 
-#: templates/index.html:73
+#: templates/index.html:73 templates/landingpage/landing.html:647
 msgid "Cars"
 msgstr "Voitures"
 
@@ -88,12 +88,40 @@ msgstr "Classi"
 msgid "Coco"
 msgstr "Coco"
 
-#: templates/index.html:145
-msgid "Tu opinión"
+#: templates/index.html:115
+msgid ""
+"Let yourself be carried away by the magic of these icons on wheels and turn "
+"your trip into an everlasting memory full of style."
 msgstr ""
+"Laissez-vous emporter par la magie de ces icônes sur roues et transformez "
+"votre voyage en un souvenir éternel plein de style."
+
+#: templates/index.html:145
+msgid "Your oppinion"
+msgstr "Votre opinion"
+
+#: templates/index.html:149
+msgid "Nombre"
+msgstr "Nom"
+
+#: templates/index.html:152
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: templates/index.html:155
+msgid "email"
+msgstr "e-mail"
+
+#: templates/index.html:158
+msgid "Put your oppinion here..."
+msgstr "Écrivez votre opinion ici..."
+
+#: templates/index.html:161
+msgid "Send"
+msgstr "Envoyer"
 
 #: templates/index.html:164
-msgid "¡Mensaje enviado correctamente!"
+msgid "Message sent successfully!"
 msgstr "Message envoyé avec succès!"
 
 #: templates/index.html:176
@@ -570,6 +598,31 @@ msgstr ""
 "Une grande ville de l'est avec des parcs et une architecture coloniale, "
 "connue pour ses habitants sympathiques et sa culture locale dynamique."
 
+#: templates/landingpage/landing.html:639
+msgid "Years"
+msgstr "Années"
+
+#: templates/landingpage/landing.html:639
+msgid "Experienced"
+msgstr "de l'expérience"
+
+#: templates/landingpage/landing.html:647
+#: templates/landingpage/landing.html:663
+msgid "Total"
+msgstr "Totale"
+
+#: templates/landingpage/landing.html:655
+msgid "Happy"
+msgstr "Des clients"
+
+#: templates/landingpage/landing.html:655
+msgid "Customers"
+msgstr "satisfaits"
+
+#: templates/landingpage/landing.html:663
+msgid "Branches"
+msgstr ""
+
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
 msgstr ""
@@ -629,9 +682,6 @@ msgstr ""
 
 #~ msgid "Cookies Policy"
 #~ msgstr "Politique de cookies"
-
-#~ msgid "Customer Support"
-#~ msgstr "Service client"
 
 #~ msgid "Payment Options"
 #~ msgstr "Options de paiement"
