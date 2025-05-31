@@ -145,16 +145,16 @@
     <form id="opinionForm" action="" method="post" class="opinion-form" onsubmit="return false;">
       {% csrf_token %}
       <div class="form-group">
-        <input type="text" name="nombre" class="form-control" placeholder={% trans "Nombre" %} required>
+        <input type="text" name="nombre" class="form-control" placeholder={% trans "Name" %} required>
       </div>
       <div class="form-group">
-        <input type="text" name="apellidos" class="form-control" placeholder={% trans "Last Name" %}  required>
+        <input type="text" name="apellidos" class="form-control" placeholder={% trans "Last_Name" %}  required>
       </div>
       <div class="form-group">
         <input type="email" name="correo" class="form-control" placeholder={% trans "email" %}  required>
       </div>
       <div class="form-group">
-        <textarea name="opinion" class="form-control" rows="3" placeholder={% trans "Put your oppinion here..." %} required></textarea>
+        <textarea name="opinion" class="form-control" rows="3" placeholder={% trans "Put_your_oppinion_here..." %} required></textarea>
       </div>
       <div class="form-group mb-0">
         <button type="button" class="btn" style="background-color:#007bff; border-color:#007bff;" onclick="enviarOpinion()">{% trans "Send" %}</button>

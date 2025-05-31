@@ -108,7 +108,7 @@ msgid "Name"
 msgstr "Nombre"
 
 #: templates/index.html:152
-msgid "Last Name"
+msgid "Last_Name"
 msgstr "Apellidos"
 
 #: templates/index.html:155
@@ -116,8 +116,8 @@ msgid "email"
 msgstr ""
 
 #: templates/index.html:158
-msgid "Put your oppinion here..."
-msgstr "Escribe tu opinión aquí..."
+msgid "Put_your_oppinion_here..."
+msgstr "Escribe_tu_opinión_aquí..."
 
 #: templates/index.html:161
 msgid "Send"
@@ -153,8 +153,8 @@ msgid "Easy steps to rent a classic car"
 msgstr "Pasos sencillos para rentar un auto clásico"
 
 #: templates/landingpage/landing.html:47
-msgid "Better Way to Rent Your Perfect Cars"
-msgstr "La mejor forma de rentar tus autos perfectos"
+msgid "Better Way to Rent: Cars + Professional Drivers Guaranteed"
+msgstr "La mejor manera de rentar: coches + conductores profesionales garantizados"
 
 #: templates/landingpage/landing.html:53
 msgid "Choose Your Pickup Location"
@@ -165,8 +165,8 @@ msgid "Select the Best Deal"
 msgstr "Selecciona la mejor oferta"
 
 #: templates/landingpage/landing.html:69
-msgid "Reserve Your Rental Car"
-msgstr "Reserva tu auto de alquiler"
+msgid "Reserve Your Rental Car (with Professional driver)"
+msgstr "Reserva tu auto (con conductor Profesional)"
 
 #: templates/landingpage/landing.html:74
 msgid "Reserve Your Perfect Car"
