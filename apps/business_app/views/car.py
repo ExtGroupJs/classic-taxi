@@ -1,4 +1,3 @@
-from ast import arg
 from rest_framework import filters
 
 from apps.business_app.filters.car import CarFilter

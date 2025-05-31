@@ -1,6 +1,5 @@
 import django_filters
 
-from django.db.models import F
 
 
 class LangFilterMixin(django_filters.FilterSet):

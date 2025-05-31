@@ -10,7 +10,6 @@ from rest_framework.viewsets import GenericViewSet
 
 from apps.business_app.serializers.client import ClientSerializer
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
-from django.db.models import F
 
 
 class ClientViewSet(mixins.ListModelMixin, GenericViewSet):
