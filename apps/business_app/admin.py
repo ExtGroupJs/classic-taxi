@@ -4,8 +4,13 @@ from apps.business_app.models.brand import Brand
 from apps.business_app.models.car import Car
 from apps.business_app.models.driver import Driver
 from apps.business_app.models.gallery_picture import GalleryPicture
+from apps.business_app.models.global_site_data import GlobalSiteData
 from apps.business_app.models.model import Model
 from apps.business_app.models.client import Client
+from solo.admin import SingletonModelAdmin
+
+
+admin.site.register(GlobalSiteData, SingletonModelAdmin)
 
 
 @admin.register(Brand)

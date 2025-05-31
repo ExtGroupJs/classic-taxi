@@ -6,6 +6,7 @@ from apps.business_app.views.car import CarViewSet
 from apps.business_app.views.client import ClientViewSet
 from apps.business_app.views.driver import DriverViewSet
 from apps.business_app.views.gallery_picture import GalleryPictureViewSet
+from apps.business_app.views.global_site_data import GlobalSiteDataViewSet
 from apps.business_app.views.model import ModelViewSet
 
 
@@ -40,6 +41,11 @@ router.register(
     "cars",
     CarViewSet,
     basename="cars",
+)
+router.register(
+    "global-site-data",
+    GlobalSiteDataViewSet,
+    basename="global-site-data",
 )
 urlpatterns = [
     # path("markers/delete/<int:marker_id>/", delete_marker, name="delete_marker"),
