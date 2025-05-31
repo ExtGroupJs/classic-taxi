@@ -3,6 +3,7 @@ from rest_framework_extensions.routers import ExtendedSimpleRouter
 
 from apps.business_app.views.brand import BrandViewSet
 from apps.business_app.views.car import CarViewSet
+from apps.business_app.views.client import ClientViewSet
 from apps.business_app.views.driver import DriverViewSet
 from apps.business_app.views.gallery_picture import GalleryPictureViewSet
 from apps.business_app.views.model import ModelViewSet
@@ -29,6 +30,11 @@ router.register(
     "drivers",
     DriverViewSet,
     basename="drivers",
+)
+router.register(
+    "clients",
+    ClientViewSet,
+    basename="clients",
 )
 router.register(
     "cars",
