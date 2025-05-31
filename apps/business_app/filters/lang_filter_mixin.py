@@ -1,7 +1,6 @@
 import django_filters
 
 
-
 class LangFilterMixin(django_filters.FilterSet):
     lang = django_filters.ChoiceFilter(
         method="lang_filter",

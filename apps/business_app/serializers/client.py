@@ -4,7 +4,6 @@ from apps.business_app.models.client import Client
 
 
 class ClientSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Client
         fields = (
