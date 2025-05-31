@@ -30,7 +30,15 @@ class Car(models.Model):
     )
     enabled = models.BooleanField(verbose_name=_("Enabled"), default=True)
 
-    extra_info = models.TextField(verbose_name="Extra Info", null=True, blank=True)
+    extra_info_es = models.TextField(
+        verbose_name="Extra Info (Español)", null=True, blank=True
+    )
+    extra_info_en = models.TextField(
+        verbose_name="Extra Info (English)", null=True, blank=True
+    )
+    extra_info_fr = models.TextField(
+        verbose_name="Extra Info (French)", null=True, blank=True
+    )
 
     class Meta:
         verbose_name = _("Car")

@@ -50,7 +50,9 @@ class CarAdmin(admin.ModelAdmin):
         "mileage",
         "luggage",
         "air_conditioner",
-        "extra_info",
+        "extra_info_es",
+        "extra_info_en",
+        "extra_info_fr",
         "enabled",
     )
     fields = [
@@ -62,7 +64,9 @@ class CarAdmin(admin.ModelAdmin):
         "mileage",
         "luggage",
         "air_conditioner",
-        "extra_info",
+        "extra_info_es",
+        "extra_info_en",
+        "extra_info_fr",
         "enabled",
     ]
 
@@ -77,15 +81,19 @@ class DriverAdmin(admin.ModelAdmin):
         "licence_year",
         "main_picture",
         "enabled",
-        "extra_info",
+        "extra_info_es",
+        "extra_info_en",
+        "extra_info_fr",
     ]
     fields = [
         "name",
         "car",
-        "licence_year",        
+        "licence_year",
         "main_picture",
         "enabled",
-        "extra_info",
+        "extra_info_es",
+        "extra_info_en",
+        "extra_info_fr",
     ]
 
 

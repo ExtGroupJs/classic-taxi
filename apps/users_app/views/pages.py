@@ -6,10 +6,14 @@ from django.shortcuts import render
 def index(request):
     return render(request, "index.html")
 
+
 def landing(request):
     return render(request, "landingpage/landing.html")
+
+
 def landingabout(request):
     return render(request, "landingpage/landing.html/#about")
+
 
 def carsdetail(request):
     return render(request, "carsdetail/carsdetail.html")

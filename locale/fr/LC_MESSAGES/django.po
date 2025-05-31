@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-31 03:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: templates/carsdetail/carsdetail.html:11
+#: templates/carsdetail/carsdetail.html:30 templates/index.html:65
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/carsdetail/carsdetail.html:13
+msgid "Pricing"
+msgstr "Tarifs"
+
+#: templates/carsdetail/carsdetail.html:16 templates/index.html:77
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/carsdetail/carsdetail.html:31
+#: templates/carsdetail/carsdetail.html:33
+msgid "Car Details"
+msgstr "Détails de la voiture"
+
+#: templates/carsdetail/carsdetail.html:62
+msgid "Mileage"
+msgstr "Kilométrage"
+
+#: templates/carsdetail/carsdetail.html:79
+msgid "Seats"
+msgstr "Sièges"
+
+#: templates/carsdetail/carsdetail.html:95
+msgid "Luggage"
+msgstr "Bagages"
+
+#: templates/carsdetail/carsdetail.html:113
+msgid "Description"
+msgstr "Description"
+
+#: templates/carsdetail/carsdetail.html:137
+msgid "Choose Car"
+msgstr "Choisir une voiture"
+
+#: templates/carsdetail/carsdetail.html:138
+msgid "Related Cars"
+msgstr "Voitures similaires"
+
+#: templates/index.html:67
+msgid "About"
+msgstr "À propos"
+
+#: templates/index.html:69 templates/landingpage/landing.html:124
+msgid "Services"
+msgstr "Services"
+
+#: templates/index.html:71 templates/landingpage/landing.html:188
+msgid "Drivers"
+msgstr "Chauffeurs"
+
+#: templates/index.html:73 templates/landingpage/landing.html:647
+msgid "Cars"
+msgstr "Voitures"
+
+#: templates/index.html:75
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: templates/index.html:114
+msgid "Classi"
+msgstr "Classi"
+
+#: templates/index.html:114
+msgid "Coco"
+msgstr "Coco"
+
+#: templates/index.html:115
+msgid ""
+"Let yourself be carried away by the magic of these icons on wheels and turn "
+"your trip into an everlasting memory full of style."
+msgstr ""
+"Laissez-vous emporter par la magie de ces icônes sur roues et transformez "
+"votre voyage en un souvenir éternel plein de style."
+
+#: templates/index.html:145
+msgid "Your oppinion"
+msgstr "Votre opinion"
+
+#: templates/index.html:149
+msgid "Name"
+msgstr "Nom"
+
+#: templates/index.html:152
+msgid "Last_Name"
+msgstr "Nom_de_famille"
+
+#: templates/index.html:155
+msgid "email"
+msgstr "e-mail"
+
+#: templates/index.html:158
+msgid "Put_your_oppinion_here..."
+msgstr "Écrivez_votre_opinion_ici..."
+
+#: templates/index.html:161
+msgid "Send"
+msgstr "Envoyer"
+
+#: templates/index.html:164
+msgid "Message sent successfully!"
+msgstr "Message envoyé avec succès!"
+
+#: templates/index.html:176
+msgid "Copyright"
+msgstr "Droits d'auteur"
+
+#: templates/index.html:178
+msgid "All rights reserved | ExtGroup"
+msgstr "Tous droits réservés | ExtGroup"
+
+#: templates/landingpage/landing.html:18
+msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
+msgstr "Location de voitures classiques à Cayo Coco et Cayo Guillermo"
+
+#: templates/landingpage/landing.html:19
+msgid ""
+"Discover the beauty of Cayo Coco and Cayo Guillermo with our exclusive "
+"classic cars. Enjoy a unique experience exploring these tropical paradises."
+msgstr ""
+"Découvrez la beauté de Cayo Coco et Cayo Guillermo avec nos voitures "
+"classiques exclusives. Profitez d'une expérience unique en explorant ces "
+"paradis tropicaux."
+
+#: templates/landingpage/landing.html:25
+msgid "Easy steps to rent a classic car"
+msgstr "Étapes faciles pour louer une voiture classique"
+
+#: templates/landingpage/landing.html:47
+msgid "Better Way to Rent: Cars + Professional Drivers Guaranteed"
+msgstr "Meilleure façon de louer : voitures et chauffeurs professionnels garantis"
+
+#: templates/landingpage/landing.html:53
+msgid "Choose Your Pickup Location"
+msgstr "Choisissez votre lieu de prise en charge"
+
+#: templates/landingpage/landing.html:61
+msgid "Select the Best Deal"
+msgstr "Sélectionnez la meilleure offre"
+
+#: templates/landingpage/landing.html:69
+msgid "Reserve Your Rental Car (with Professional driver)"
+msgstr "Réservez votre voiture de location (avec chauffeur professionnel)"
+
+#: templates/landingpage/landing.html:74
+msgid "Reserve Your Perfect Car"
+msgstr "Réservez votre voiture parfaite"
+
+#: templates/landingpage/landing.html:87
+msgid "What we offer"
+msgstr "Ce que nous offrons"
+
+#: templates/landingpage/landing.html:88
+msgid "Featured Vehicles"
+msgstr "Véhicules en vedette"
+
+#: templates/landingpage/landing.html:108
+msgid "About us"
+msgstr "À propos de nous"
+
+#: templates/landingpage/landing.html:109
+msgid "Welcome to ClassiCoco"
+msgstr "Bienvenue à ClassiCoco"
+
+#: templates/landingpage/landing.html:111
+msgid ""
+"At ClassiCoco, we specialize in offering a unique and authentic experience "
+"through the rental of classic cars to explore the stunning destinations of "
+"Cayo Coco and Cayo Guillermo in Cuba. Our fleet of classic vehicles, "
+"meticulously restored, combines the nostalgic charm of the 50s and 60s with "
+"modern comfort and safety. Each car is a piece of history on wheels, "
+"designed to make your excursions through these paradisiacal islands "
+"unforgettable. Whether it's for a romantic ride, a family adventure, or a "
+"trip with friends, our classic cars will transport you to a golden era while "
+"you enjoy the crystal-clear waters and lush landscapes of the region."
+msgstr ""
+"Chez ClassiCoco, nous nous spécialisons dans l'offre d'une expérience unique "
+"et authentique à travers la location de voitures classiques pour explorer "
+"les magnifiques destinations de Cayo Coco et Cayo Guillermo à Cuba. Notre "
+"flotte de véhicules classiques, méticuleusement restaurés, combine le charme "
+"nostalgique des années 50 et 60 avec le confort et la sécurité modernes. "
+"Chaque voiture est un morceau d'histoire sur roues, conçu pour rendre vos "
+"excursions dans ces îles paradisiaques inoubliables. Que ce soit pour une "
+"balade romantique, une aventure en famille ou un voyage entre amis, nos "
+"voitures classiques vous transporteront dans une époque dorée tandis que "
+"vous profiterez des eaux cristallines et des paysages luxuriants de la "
+"région."
+
+#: templates/landingpage/landing.html:112
+msgid ""
+"At Classicoco, we don't just offer a means of transportation, but a cultural "
+"and tourist experience that connects our clients with the essence of Cuba. "
+"Our team is committed to providing personalized service, ensuring every "
+"detail of your trip is perfect. From recommended routes to assistance at all "
+"times, we are here to make your adventure in Cayo Coco and Cayo Guillermo as "
+"unique as the cars we drive. Discover Cuba in style and let yourself be "
+"carried away by the magic of our classics on wheels."
+msgstr ""
+"Chez Classicoco, nous n'offrons pas seulement un moyen de transport, mais "
+"une expérience culturelle et touristique qui connecte nos clients avec "
+"l'essence de Cuba. Notre équipe s'engage à fournir un service personnalisé, "
+"en veillant à ce que chaque détail de votre voyage soit parfait. Des "
+"itinéraires recommandés à l'assistance à tout moment, nous sommes là pour "
+"faire de votre aventure à Cayo Coco et Cayo Guillermo une expérience aussi "
+"unique que les voitures que nous conduisons. Découvrez Cuba avec style et "
+"laissez-vous emporter par la magie de nos classiques sur roues."
+
+#: templates/landingpage/landing.html:113
+msgid "Search Vehicle"
+msgstr "Rechercher un véhicule"
+
+#: templates/landingpage/landing.html:125
+msgid "Our Exclusive Services"
+msgstr "Nos services exclusifs"
+
+#: templates/landingpage/landing.html:133
+msgid "Weddings & Events"
+msgstr "Mariages & Événements"
+
+#: templates/landingpage/landing.html:134
+msgid ""
+"Make your special day unforgettable with our elegant classic cars. The "
+"perfect combination of romance and vintage style for your ceremony."
+msgstr ""
+"Rendez votre jour spécial inoubliable avec nos élégantes voitures "
+"classiques. La combinaison parfaite de romance et de style vintage pour "
+"votre cérémonie."
+
+#: templates/landingpage/landing.html:142
+msgid "City Rides"
+msgstr "Balades urbaines"
+
+#: templates/landingpage/landing.html:143
+msgid ""
+"Cruise through the streets in style in our restored classic cars. A unique "
+"experience that combines vintage charm with modern comfort."
+msgstr ""
+"Parcourez les rues avec style dans nos voitures classiques restaurées. Une "
+"expérience unique qui combine le charme vintage avec le confort moderne."
+
+#: templates/landingpage/landing.html:151
+msgid "Photo Sessions"
+msgstr "Séances photo"
+
+#: templates/landingpage/landing.html:152
+msgid ""
+"Our classic cars are the perfect backdrop for your photos. Ideal for fashion "
+"shoots, advertising, or special moments you want to immortalize."
+msgstr ""
+"Nos voitures classiques sont le décor parfait pour vos photos. Idéal pour "
+"les shoots mode, publicitaires ou les moments spéciaux que vous souhaitez "
+"immortaliser."
+
+#: templates/landingpage/landing.html:160
+msgid "Sightseeing Tours"
+msgstr "Visites touristiques"
+
+#: templates/landingpage/landing.html:161
+msgid ""
+"Discover the city from a unique perspective aboard our classics. Customized "
+"tours that blend history, culture, and the charm of vintage cars."
+msgstr ""
+"Découvrez la ville sous un angle unique à bord de nos classiques. Visites "
+"personnalisées qui mêlent histoire, culture et charme des voitures vintage."
+
+#: templates/landingpage/landing.html:174
+msgid "Reliable Drivers, Safe Journeys"
+msgstr "Chauffeurs fiables, voyages sûrs"
+
+#: templates/landingpage/landing.html:175
+msgid ""
+"Our drivers are trained professionals, ensuring your safety and comfort on "
+"every trip."
+msgstr ""
+"Nos chauffeurs sont des professionnels formés, garantissant votre sécurité "
+"et votre confort à chaque voyage."
+
+#: templates/landingpage/landing.html:176
+msgid "Meet Our Drivers"
+msgstr "Rencontrez nos chauffeurs"
+
+#: templates/landingpage/landing.html:189
+msgid "Experienced drivers"
+msgstr "Chauffeurs expérimentés"
+
+#: templates/landingpage/landing.html:265
+msgid "Excursiones principales"
+msgstr "Principales excursions"
+
+#: templates/landingpage/landing.html:266
+#, fuzzy
+#| msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
+msgid "What to do in Cayo Coco and Cayo Guillermo"
+msgstr "Location de voitures classiques à Cayo Coco et Cayo Guillermo"
+
+#: templates/landingpage/landing.html:267
+msgid ""
+"Cayo Coco and Cayo Guillermo are two Caribbean destinations in Cuba that "
+"offer a perfect combination of nature, adventure, and relaxation. Here are "
+"the most recommended excursions and places to enjoy your visit to the "
+"fullest:"
+msgstr ""
+"Cayo Coco et Cayo Guillermo sont deux destinations caribéennes à Cuba qui "
+"offrent une combinaison parfaite de nature, d'aventure et de détente. Voici "
+"les excursions et les lieux les plus recommandés pour profiter pleinement de "
+"votre séjour:"
+
+#: templates/landingpage/landing.html:274
+msgid "Bagá Natural Park (Cayo Coco)"
+msgstr "Parc Naturel de Bagá (Cayo Coco)"
+
+#: templates/landingpage/landing.html:275
+msgid ""
+"A must-see for nature lovers. With almost 13 hectares, you can observe "
+"flamingos, turtles, and other native species in their natural habitat. Ideal "
+"for ecotourism and wildlife photography."
+msgstr ""
+"Un incontournable pour les amoureux de la nature. Sur près de 13 hectares, "
+"vous pourrez observer flamants roses, tortues et autres espèces indigènes "
+"dans leur habitat naturel. Idéal pour l'écotourisme et la photographie "
+"animalière."
+
+#: templates/landingpage/landing.html:281
+msgid "Pilar Beach (Cayo Guillermo)"
+msgstr "Plage du Pilar (Cayo Guillermo)"
+
+#: templates/landingpage/landing.html:282
+msgid ""
+"Considered one of the most beautiful beaches in the world, it stands out for "
+"its white sand, dunes, and crystal-clear waters. Perfect for relaxing and "
+"enjoying the almost pristine natural surroundings."
+msgstr ""
+"Considérée comme l'une des plus belles plages du monde, elle se distingue "
+"par son sable blanc, ses dunes et ses eaux cristallines. Idéale pour se "
+"détendre et profiter d'un environnement naturel presque intact."
+
+#: templates/landingpage/landing.html:288
+msgid "Diving and Snorkeling on the Cayo Coco Reefs"
+msgstr "Plongée et snorkeling sur les récifs de Cayo Coco"
+
+#: templates/landingpage/landing.html:289
+msgid ""
+"Discover vibrant marine life in warm, shallow waters. Areas like La Jaula, "
+"Las Coloradas, and Casasa are ideal for diving and snorkeling."
+msgstr ""
+"Découvrez une vie marine riche en couleurs dans des eaux chaudes et peu "
+"profondes. Des zones comme La Jaula, Las Coloradas et Casasa sont idéales "
+"pour la plongée sous-marine et avec tuba."
+
+#: templates/landingpage/landing.html:295
+msgid "Boat Adventures and Catamaran Tours"
+msgstr "Aventure en bateau et excursions en catamaran"
+
+#: templates/landingpage/landing.html:296
+msgid ""
+"Cruise the canals south of Cayo Coco and near Cayo Guillermo. You can drive "
+"boats or enjoy catamaran rides, and snorkel in less crowded areas."
+msgstr ""
+"Naviguez sur les canaux au sud de Cayo Coco et près de Cayo Guillermo. Vous "
+"pourrez conduire des bateaux ou profiter d'une balade en catamaran, et faire "
+"de la plongée avec tuba dans des zones moins fréquentées."
+
+#: templates/landingpage/landing.html:302
+msgid "Cayo Coco Dolphinarium"
+msgstr "Delphinarium de Cayo Coco"
+
+#: templates/landingpage/landing.html:303
+msgid ""
+"Experience swimming and playing with dolphins. Ideal for families and those "
+"who want close contact with these marine mammals."
+msgstr ""
+"Nagez et jouez avec les dauphins. Idéal pour les familles et ceux qui "
+"souhaitent un contact étroit avec ces mammifères marins."
+
+#: templates/landingpage/landing.html:309
+msgid "Rocarena Climbing Center"
+msgstr "Centre d'escalade de Rocarena"
+
+#: templates/landingpage/landing.html:310
+msgid ""
+"A modern climbing wall in Cayo Coco with levels for everyone. Perfect for "
+"adding a touch of adrenaline and sport to your stay."
+msgstr ""
+"Un mur d'escalade moderne à Cayo Coco, avec des niveaux pour tous. Idéal "
+"pour ajouter une touche d'adrénaline et de sport à votre séjour."
+
+#: templates/landingpage/landing.html:316
+msgid "Laguna de Leche and El Guanaroca Natural Park"
+msgstr "Lagune de Leche et parc naturel El Guanaroca"
+
+#: templates/landingpage/landing.html:317
+msgid ""
+"Laguna de Leche, the largest lagoon in Cuba, and Guanaroca Park are ideal "
+"for birdwatching and exploring unique ecosystems."
+msgstr ""
+"La Laguna de Leche, la plus grande lagune de Cuba, et le parc Guanaroca sont "
+"idéaux pour observer les oiseaux et explorer des écosystèmes uniques."
+
+#: templates/landingpage/landing.html:323
+msgid "Less crowded beaches and complementary activities"
+msgstr "Des plages moins fréquentées et des activités complémentaires"
+
+#: templates/landingpage/landing.html:324
+msgid ""
+"Explore beaches like Las Coloradas, Playa Larga, Playa Flamencos, and El "
+"Paso. You can organize horseback riding tours, shark-watching excursions, "
+"and water sports like kayaking, windsurfing, and water skiing."
+msgstr ""
+"Explorez des plages comme Las Coloradas, Playa Larga, Playa Flamencos et El "
+"Paso. Vous pouvez organiser des balades à cheval, des excursions "
+"d'observation des requins et des sports nautiques comme le kayak, la planche "
+"à voile et le ski nautique."
+
+#: templates/landingpage/landing.html:337
+msgid "Testimonial"
+msgstr "Témoignages"
+
+#: templates/landingpage/landing.html:338
+msgid "Happy Clients"
+msgstr "Clients satisfaits"
+
+#: templates/landingpage/landing.html:408
+msgid "Destinations"
+msgstr "Destinations"
+
+#: templates/landingpage/landing.html:409
+msgid "Where to visit"
+msgstr "Où visiter"
+
+#: templates/landingpage/landing.html:420
+#: templates/landingpage/landing.html:437
+#: templates/landingpage/landing.html:453
+#: templates/landingpage/landing.html:469
+#: templates/landingpage/landing.html:484
+#: templates/landingpage/landing.html:500
+#: templates/landingpage/landing.html:516
+#: templates/landingpage/landing.html:531
+#: templates/landingpage/landing.html:546
+#: templates/landingpage/landing.html:561
+#: templates/landingpage/landing.html:576
+#: templates/landingpage/landing.html:591
+#: templates/landingpage/landing.html:606
+#: templates/landingpage/landing.html:621
+msgid "Distance from Cayo Coco:"
+msgstr "Distance de Cayo Coco:"
+
+#: templates/landingpage/landing.html:439
+msgid "Santa María Key"
+msgstr "Île de Santa María"
+
+#: templates/landingpage/landing.html:440
+msgid ""
+"This key offers pristine white-sand beaches and crystal-clear waters, "
+"connected by a causeway to the main island, ideal for relaxing and enjoying "
+"nature."
+msgstr ""
+"Cette clé offre des plages de sable blanc immaculées et des eaux "
+"cristallines, reliées par une chaussée à l'île principale, idéales pour se "
+"détendre et profiter de la nature."
+
+#: templates/landingpage/landing.html:455
+msgid "Cayo Coco and Cayo Guillermo"
+msgstr "Cayo Coco et Cayo Guillermo"
+
+#: templates/landingpage/landing.html:456
+msgid ""
+"Destinations with white sand beaches and crystal-clear waters, perfect for "
+"snorkeling, diving, and birdwatching in a protected natural environment."
+msgstr ""
+"Destinations avec plages de sable blanc et eaux cristallines, parfaites pour "
+"la plongée avec tuba, la plongée sous-marine et l'observation des oiseaux "
+"dans un environnement naturel protégé."
+
+#: templates/landingpage/landing.html:471
+msgid "Paradise Beach (Key Largo)"
+msgstr "Plage du Paradis (Cayo Largo)"
+
+#: templates/landingpage/landing.html:472
+msgid ""
+"Considered one of the most beautiful beaches in the world, it offers a "
+"tranquil setting with crystal-clear waters and fine sand, ideal for relaxing."
+msgstr ""
+"Considérée comme l'une des plus belles plages du monde, elle se distingue "
+"par son sable blanc, ses dunes et ses eaux cristallines. Idéale pour se "
+"détendre et profiter d'un environnement naturel presque intact."
+
+#: templates/landingpage/landing.html:486
+msgid "Ancón Beach"
+msgstr "Plage d'Ancón"
+
+#: templates/landingpage/landing.html:487
+msgid ""
+"Located near Trinidad, it combines beach and colonial culture, making it an "
+"excellent place for diving and exploring local history."
+msgstr ""
+"Situé près de Trinidad, il combine plage et culture coloniale, ce qui en "
+"fait un excellent endroit pour plonger et explorer l'histoire locale."
+
+#: templates/landingpage/landing.html:503
+msgid ""
+"A national park with unique karst formations, declared a World Heritage "
+"Site, ideal for hiking, climbing, and learning about tobacco culture."
+msgstr ""
+"Un parc national avec des formations karstiques uniques, déclaré site du "
+"patrimoine mondial, idéal pour la randonnée, l'escalade et l'apprentissage "
+"de la culture du tabac."
+
+#: templates/landingpage/landing.html:519
+msgid ""
+"The first ville founded in Cuba, surrounded by mountains and rivers, famous "
+"for its biodiversity and cocoa production, ideal for ecotourism."
+msgstr ""
+"La première ville fondée à Cuba, entourée de montagnes et de rivières, "
+"célèbre pour sa biodiversité et sa production de cacao, idéale pour "
+"l'écotourisme."
+
+#: templates/landingpage/landing.html:534
+msgid ""
+"The capital of Cuba, with a historic center declared a World Heritage Site, "
+"offers colonial architecture, emblematic squares, museums, and the Malecón."
+msgstr ""
+"La capitale de Cuba, avec un centre historique déclaré patrimoine mondial, "
+"offre une architecture coloniale, des places emblématiques, des musées et le "
+"Malecón."
+
+#: templates/landingpage/landing.html:549
+msgid ""
+"A colonial city with cobblestone streets and colorful houses, a World "
+"Heritage Site, with access to Ancón Beach and excellent for exploring "
+"history and culture."
+msgstr ""
+"Une ville coloniale avec des rues pavées et des maisons colorées, classée au "
+"patrimoine mondial, avec accès à la plage d'Ancón et excellente pour "
+"explorer l'histoire et la culture."
+
+#: templates/landingpage/landing.html:564
+msgid ""
+"Known as the 'Pearl of the South,' it stands out for its French "
+"architecture, its bay, and attractions such as José Martí Park and the "
+"Palacio de Valle."
+msgstr ""
+"Connue comme la « Perle du Sud », elle se distingue par son architecture "
+"française, sa baie et ses attractions telles que le parc José Martí et le "
+"Palacio de Valle."
+
+#: templates/landingpage/landing.html:579
+msgid ""
+"The cradle of the Revolution, with historic sites like Morro Castle and a "
+"vibrant cultural life that reflects Cuban identity."
+msgstr ""
+"Le berceau de la Révolution, avec des sites historiques comme le château de "
+"Morro et une vie culturelle dynamique qui reflète l'identité cubaine."
+
+#: templates/landingpage/landing.html:594
+msgid ""
+"Known for Che Guevara's mausoleum, it is a historic center that offers "
+"culture and revolutionary memory in a pleasant urban setting."
+msgstr ""
+"Connu pour le mausolée de Che Guevara, c'est un centre historique qui offre "
+"culture et mémoire révolutionnaire dans un cadre urbain agréable."
+
+#: templates/landingpage/landing.html:609
+msgid ""
+"A city with a labyrinth of streets and squares, rich in architectural and "
+"cultural heritage, ideal for discovering authentic Cuba."
+msgstr ""
+"Une ville avec un labyrinthe de rues et de places, riche en patrimoine "
+"architectural et culturel, idéale pour découvrir le Cuba authentique."
+
+#: templates/landingpage/landing.html:624
+msgid ""
+"A major eastern city with parks and colonial architecture, known for its "
+"friendly people and vibrant local culture."
+msgstr ""
+"Une grande ville de l'est avec des parcs et une architecture coloniale, "
+"connue pour ses habitants sympathiques et sa culture locale dynamique."
+
+#: templates/landingpage/landing.html:639
+msgid "Years"
+msgstr "Années"
+
+#: templates/landingpage/landing.html:639
+msgid "Experienced"
+msgstr "de l'expérience"
+
+#: templates/landingpage/landing.html:647
+#: templates/landingpage/landing.html:663
+msgid "Total"
+msgstr "Totale"
+
+#: templates/landingpage/landing.html:655
+msgid "Happy"
+msgstr "Des clients"
+
+#: templates/landingpage/landing.html:655
+msgid "Customers"
+msgstr "satisfaits"
+
+#: templates/landingpage/landing.html:663
+msgid "Branches"
+msgstr ""
+
+#: templates/login/login.html:49
+msgid "Sign in to start your session"
+msgstr ""
+
+#: templates/login/login.html:76
+msgid "Sign in"
+msgstr ""
+
+#~ msgid ""
+#~ "Cayo Coco y Cayo Guillermo son dos destinos caribeños en Cuba que ofrecen "
+#~ "una combinación perfecta de naturaleza, aventura y relajación. Aquí "
+#~ "tienes las excursiones y lugares más recomendados para disfrutar al "
+#~ "máximo tu visita:"
+#~ msgstr ""
+#~ "Cayo Coco et Cayo Guillermo sont deux destinations caribéennes à Cuba qui "
+#~ "offrent une combinaison parfaite de nature, d'aventure et de détente. "
+#~ "Voici les excursions et les lieux les plus recommandés pour profiter "
+#~ "pleinement de votre séjour:"
+
+#~ msgid ""
+#~ "Un imprescindible para los amantes de la naturaleza. Con casi 13 "
+#~ "hectáreas, podrás observar flamencos, tortugas y otras especies "
+#~ "autóctonas en su hábitat natural. Ideal para ecoturismo y fotografía de "
+#~ "fauna."
+#~ msgstr ""
+#~ "Un incontournable pour les amoureux de la nature. Sur près de 13 "
+#~ "hectares, vous pourrez observer des flamants roses, des tortues et "
+#~ "d'autres espèces indigènes dans leur habitat naturel. Idéal pour "
+#~ "l'écotourisme et la photographie animalière."
+
+#~ msgid ""
+#~ "Considerada una de las playas más hermosas del mundo, destaca por su "
+#~ "arena blanca, dunas y aguas cristalinas. Perfecta para relajarse y "
+#~ "disfrutar de un entorno natural casi virgen."
+#~ msgstr ""
+#~ "Considérée comme l'une des plus belles plages du monde, elle se distingue "
+#~ "par son sable blanc, ses dunes et ses eaux cristallines. Idéale pour se "
+#~ "détendre et profiter d'un environnement naturel quasiment préservé."
+
+#~ msgid "Buceo y Snorkel en los arrecifes de Cayo Coco"
+#~ msgstr "Plongée et snorkeling sur les récifs de Cayo Coco"
+
+#~ msgid "book"
+#~ msgstr "réserver"
+
+#~ msgid "Information"
+#~ msgstr "Informations"
+
+#~ msgid "Terms and Conditions"
+#~ msgstr "Conditions générales"
+
+#~ msgid "Best Prices Granted"
+#~ msgstr "Meilleurs prix garantis"
+
+#~ msgid "Privacy"
+#~ msgstr "Confidentialité"
+
+#~ msgid "Cookies Policy"
+#~ msgstr "Politique de cookies"
+
+#~ msgid "Payment Options"
+#~ msgstr "Options de paiement"
+
+#~ msgid "Booking Tips"
+#~ msgstr "Conseils de réservation"
+
+#~ msgid "How it works"
+#~ msgstr "Comment ça marche"
+
+#~ msgid "Contact us"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "Have a Question?"
+#~ msgstr "Une question ?"
+
+#~ msgid "Recent Blog"
+#~ msgstr "Blog récent"

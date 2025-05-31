@@ -80,8 +80,9 @@ SPECTACULAR_SETTINGS = {
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    "django_session_timeout.middleware.SessionTimeoutMiddleware",
     "django.middleware.locale.LocaleMiddleware",
+
+    "django_session_timeout.middleware.SessionTimeoutMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -183,12 +184,13 @@ if DEBUG:
 
 
 # LANGUAGE_CODE = "es-es"
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "es"
 
-# LANGUAGES = [
-#     ("es", "German"),
-#     ("en", "English"),
-# ]
+LANGUAGES = [
+    ("es", "Español"),
+    ("en", "English"),
+    ("fr", "French"),
+]
 
 TIME_ZONE = "UTC"
 
@@ -196,6 +198,8 @@ USE_I18N = True
 
 USE_TZ = True
 
+USE_L10N = True
+USE_L10N = True
 
 # when the static files are outside the application folder this code is put:
 # cuando los ficheros estáticos están fuera de la

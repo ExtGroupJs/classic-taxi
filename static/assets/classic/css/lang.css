@@ -1,0 +1,23 @@
+/* Resaltar idioma activo en el dropdown */
+.dropdown-item.active, 
+.dropdown-item:active {
+    background-color: #f8f9fa !important;
+    color: #495057 !important;
+}
+
+.dropdown-item.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+/* Opcional: banderitas junto a los idiomas */
+.dropdown-item[data-lang="es"]::before {
+    content: '🇪🇸 ';
+}
+
+.dropdown-item[data-lang="en"]::before {
+    content: '🇬🇧 ';
+}
+
+.dropdown-item[data-lang="fr"]::before {
+    content: '🇫🇷 ';
+}
