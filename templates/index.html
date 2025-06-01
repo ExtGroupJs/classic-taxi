@@ -116,12 +116,20 @@
               <ul
                 class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span
-                      class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span
                       class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span
                       class="icon-instagram"></span></a></li>
+               
+               
               </ul>
+              <ul
+                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+               
+                <li class="ftco-animate"><a><span
+                      class="icon-user"></span></a>  <div class="text text-border d-flex align-items-center" style="padding-left: 10px; margin-top: 15px;">
+                <strong class="number"  id="visitors-counter">0</strong><span style="padding-left: 5px;"> visitas</span>
+              </div></li> </ul>
+              
             </div>
           </div>
           {% comment %} <div class="col-md">
@@ -223,7 +231,61 @@
     <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script>
     <script src="{% static 'assets/classic/js/whatsapp.js' %}"></script>
     <script src="{% static 'assets/classic/js/opinion.js' %}"></script>
-   
+   <script>
+                  document.addEventListener("DOMContentLoaded", function() {
+                    let visitorsCounter = document.getElementById('visitors-counter');
+                    axios.get('/business-gestion/global-site-data/get-visitors-counter/')
+                      .then(function(response) {
+                        if (response.data && response.data.visitors_counter !== undefined) {
+                          visitorsCounter.textContent = response.data.visitors_counter;
+                        }
+                      })
+                      .catch(function(error) {
+                        // Opcional: manejar error
+                        console.error('Error obteniendo el contador de visitas:', error);
+                      });
+                  });
+
+                    function getCSRFToken() {
+                    let cookieValue = null;
+                    if (document.cookie && document.cookie !== '') {
+                      const cookies = document.cookie.split(';');
+                      for (let i = 0; i < cookies.length; i++) {
+                      const cookie = cookies[i].trim();
+                      if (cookie.substring(0, 10) === ('csrftoken=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(10));
+                        break;
+                      }
+                      }
+                    }
+                    return cookieValue;
+                    }
+
+                    function incrementarVisitaUnicaDiaria() {
+                    const hoy = new Date().toISOString().slice(0, 10);
+                    const key = 'visita_unica_' + hoy;
+                    if (!localStorage.getItem(key)) {
+                      axios.post(
+                      '/business-gestion/global-site-data/update-visitors-counter/',
+                      {},
+                      {
+                        headers: {
+                        'X-CSRFToken': getCSRFToken()
+                        }
+                      }
+                      )
+                      .then(function(response) {
+                        console.log('Resultado incremento visitas:', response.data);
+                        localStorage.setItem(key, '1');
+                      })
+                      .catch(function(error) {
+                        console.error('Error incrementando visitas:', error);
+                      });
+                    }
+                    }
+
+                    incrementarVisitaUnicaDiaria();
+                </script>
 
 {% block script %}
     {% endblock %}
