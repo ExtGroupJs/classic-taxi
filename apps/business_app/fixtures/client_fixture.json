@@ -1,0 +1,387 @@
+[
+  {
+    "model": "business_app.client",
+    "pk": 1,
+    "fields": {
+      "first_name": "Pedro",
+      "last_name": "Pérez",
+      "email": "pedro_perez@gmail.com",
+      "opinion": "Muy buen servicio, en tiempo y con calidad. Totalmente recomendado",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 2,
+    "fields": {
+      "first_name": "María",
+      "last_name": "González",
+      "email": "maria.gonzalez@hotmail.es",
+      "opinion": "Excelente atención al cliente y resultados profesionales. Muy satisfecha",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 3,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "john.smith@outlook.com",
+      "opinion": "Outstanding service, highly professional and efficient. Completely recommended",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 4,
+    "fields": {
+      "first_name": "Emma",
+      "last_name": "Wilson",
+      "email": "emma_wilson@yahoo.com",
+      "opinion": "Fantastic experience! Quick response times and top-notch quality",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 5,
+    "fields": {
+      "first_name": "Jean",
+      "last_name": "Dupont",
+      "email": "jean.dupont@laposte.net",
+      "opinion": "Service remarquable, précis et de haute qualité. Je recommande vivement",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 6,
+    "fields": {
+      "first_name": "Sophie",
+      "last_name": "Martin",
+      "email": "sophie_martin@orange.fr",
+      "opinion": "Un service excellent qui dépasse toutes mes attentes. Bravo!",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 7,
+    "fields": {
+      "first_name": "Carlos",
+      "last_name": "Rodríguez",
+      "email": "carlos.rodriguez@unam.mx",
+      "opinion": "Servicio impecable, con una atención personalizada y resultados sobresalientes",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 8,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "michael.johnson@gmail.com",
+      "opinion": "Incredible service! They went above and beyond my expectations",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 9,
+    "fields": {
+      "first_name": "Luisa",
+      "last_name": "Fernández",
+      "email": "luisa_fernandez@correo.com",
+      "opinion": "Un servicio extraordinario que definitivamente recomendaría a todos",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 10,
+    "fields": {
+      "first_name": "François",
+      "last_name": "Leclerc",
+      "email": "francois.leclerc@gmail.com",
+      "opinion": "Une qualité de service exceptionnelle. Je suis absolument ravi",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 11,
+    "fields": {
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "emily_brown@protonmail.com",
+      "opinion": "Professional, efficient, and truly exceptional customer service",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 12,
+    "fields": {
+      "first_name": "Diego",
+      "last_name": "Sánchez",
+      "email": "diego.sanchez@univ.edu.mx",
+      "opinion": "Servicio de primera, con una atención al detalle realmente impresionante",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 13,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Williams",
+      "email": "robert.williams@company.com",
+      "opinion": "Absolutely top-tier service. Couldn't be more satisfied with the results",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 14,
+    "fields": {
+      "first_name": "Isabelle",
+      "last_name": "Moreau",
+      "email": "isabelle_moreau@edu.fr",
+      "opinion": "Un partenaire de confiance avec un professionnalisme remarquable",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 15,
+    "fields": {
+      "first_name": "Ana",
+      "last_name": "Martínez",
+      "email": "ana.martinez@empresa.es",
+      "opinion": "Calidad, rapidez y eficiencia. No podría estar más satisfecha",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 16,
+    "fields": {
+      "first_name": "David",
+      "last_name": "Miller",
+      "email": "david_miller@startup.io",
+      "opinion": "Exceptional service that truly stands out in the market",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 17,
+    "fields": {
+      "first_name": "Lucía",
+      "last_name": "López",
+      "email": "lucia.lopez@consultora.com",
+      "opinion": "Un equipo profesional que supera todas las expectativas",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 18,
+    "fields": {
+      "first_name": "Thomas",
+      "last_name": "Petit",
+      "email": "thomas.petit@entreprise.fr",
+      "opinion": "Une collaboration exceptionnelle, avec des résultats vraiment impressionnants",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 19,
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Clark",
+      "email": "sarah_clark@research.edu",
+      "opinion": "Professionalism at its finest. Highly recommended service",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 20,
+    "fields": {
+      "first_name": "Javier",
+      "last_name": "Morales",
+      "email": "javier.morales@innovacion.cl",
+      "opinion": "Un servicio que marca la diferencia. Totalmente satisfecho",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 21,
+    "fields": {
+      "first_name": "Elena",
+      "last_name": "Ruiz",
+      "email": "elena.ruiz@consultoria.es",
+      "opinion": "Un servicio excepcional que ha superado completamente mis expectativas. La atención al detalle y la profesionalidad son realmente destacables en cada etapa del proceso.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 22,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Thompson",
+      "email": "michael.thompson@innovate.com",
+      "opinion": "Absolutely incredible experience from start to finish. The team demonstrated an unparalleled level of expertise and commitment that truly sets them apart from other service providers.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 23,
+    "fields": {
+      "first_name": "Claire",
+      "last_name": "Dubois",
+      "email": "claire.dubois@entreprise.fr",
+      "opinion": "Un partenaire exceptionnel qui combine professionnalisme, innovation et une qualité de service remarquable. Chaque interaction démontre leur engagement total envers l'excellence.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 24,
+    "fields": {
+      "first_name": "Carlos",
+      "last_name": "Mendoza",
+      "email": "carlos.mendoza@innovacion.mx",
+      "opinion": "Un servicio que redefine la excelencia profesional. La capacidad de entender y superar mis necesidades específicas ha sido verdaderamente impresionante y completamente satisfactoria.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 25,
+    "fields": {
+      "first_name": "Rachel",
+      "last_name": "Bennett",
+      "email": "rachel.bennett@techsolutions.io",
+      "opinion": "A transformative experience that goes beyond mere service delivery. Their attention to detail, proactive communication, and deep understanding of client needs are truly remarkable.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 26,
+    "fields": {
+      "first_name": "Guillaume",
+      "last_name": "Laurent",
+      "email": "guillaume.laurent@innovation.fr",
+      "opinion": "Une collaboration qui définit de nouveaux standards d'excellence. Leur approche intégrée, leur créativité et leur engagement professionnel sont absolument remarquables et inspirants.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 27,
+    "fields": {
+      "first_name": "Ana",
+      "last_name": "Castillo",
+      "email": "ana.castillo@desarrollo.cl",
+      "opinion": "Un equipo que no solo cumple expectativas, sino que las supera con creces. Su compromiso, profesionalismo y capacidad de resolución son verdaderamente excepcionales y inspiradores.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 28,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Anderson",
+      "email": "james.anderson@globaltech.com",
+      "opinion": "A benchmark of excellence in service delivery. Their innovative approach, technical expertise, and unwavering commitment to client satisfaction are truly extraordinary and commendable.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 29,
+    "fields": {
+      "first_name": "Sophie",
+      "last_name": "Mercier",
+      "email": "sophie.mercier@conseil.fr",
+      "opinion": "Un partenaire stratégique qui apporte une valeur ajoutée exceptionnelle. Leur capacité à comprendre les défis complexes et à fournir des solutions innovantes est vraiment remarquable.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 30,
+    "fields": {
+      "first_name": "Roberto",
+      "last_name": "Hernández",
+      "email": "roberto.hernandez@empresarial.mx",
+      "opinion": "Un servicio que redefinió completamente mis expectativas empresariales. La combinación de profesionalismo, innovación y compromiso es absolutamente destacable y transformadora.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 31,
+    "fields": {
+      "first_name": "Emily",
+      "last_name": "Parker",
+      "email": "emily.parker@research.edu",
+      "opinion": "An exceptional service that demonstrates true commitment to excellence. Their ability to navigate complex challenges with precision and creativity is truly remarkable and inspiring.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 32,
+    "fields": {
+      "first_name": "Martín",
+      "last_name": "Sosa",
+      "email": "martin.sosa@innovacion.ar",
+      "opinion": "Un equipo que comprende perfectamente la esencia de un servicio de calidad. Su dedicación, conocimiento técnico y enfoque personalizado son absolutamente excepcionales.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 33,
+    "fields": {
+      "first_name": "Alexandre",
+      "last_name": "Rousseau",
+      "email": "alexandre.rousseau@entreprise.ca",
+      "opinion": "Une approche véritablement révolutionnaire qui repousse les limites de l'excellence professionnelle. Leur capacité d'innovation et leur engagement sont absolument remarquables.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 34,
+    "fields": {
+      "first_name": "Laura",
+      "last_name": "Sullivan",
+      "email": "laura.sullivan@globalinnovation.io",
+      "opinion": "A service that truly redefines professional excellence. Their ability to understand complex needs and deliver precise, innovative solutions is nothing short of extraordinary.",
+      "enabled": true
+    }
+  },
+  {
+    "model": "business_app.client",
+    "pk": 35,
+    "fields": {
+      "first_name": "Diego",
+      "last_name": "Ramírez",
+      "email": "diego.ramirez@desarrollo.co",
+      "opinion": "Un servicio que va más allá de lo convencional. Su capacidad para entender necesidades específicas, ofrecer soluciones innovadoras y mantener un compromiso absoluto es realmente inspirador.",
+      "enabled": true
+    }
+  }
+]

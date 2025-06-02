@@ -4,13 +4,15 @@ from apps.business_app.models.driver import Driver
 
 
 class DriverSerializer(serializers.ModelSerializer):
+    extra_info = serializers.CharField(read_only=True)
+
     class Meta:
         model = Driver
         fields = (
             "id",
             "name",
             "car",
-            "licence_year",            
+            "licence_year",
             "main_picture",
             "enabled",
             "extra_info",
