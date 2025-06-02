@@ -1,4 +1,29 @@
 /* Resaltar idioma activo en el dropdown */
+
+/* Mostrar banderas de cada idioma con una imagen */
+.dropdown-item[data-lang]::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dropdown-item[data-lang="es"]::before {
+    background-image: url('/static_output/assets/classic/images/es.png');
+}
+
+.dropdown-item[data-lang="en"]::before {
+    background-image: url('/static_output/assets/classic/images/gb.png');
+}
+
+.dropdown-item[data-lang="fr"]::before {
+    background-image: url('/static_output/assets/classic/images/fr.png');
+}
 .dropdown-item.active, 
 .dropdown-item:active {
     background-color: #f8f9fa !important;
@@ -7,17 +32,4 @@
 
 .dropdown-item.font-weight-bold {
     font-weight: 600 !important;
-}
-
-/* Opcional: banderitas junto a los idiomas */
-.dropdown-item[data-lang="es"]::before {
-    content: '🇪🇸 ';
-}
-
-.dropdown-item[data-lang="en"]::before {
-    content: '🇬🇧 ';
-}
-
-.dropdown-item[data-lang="fr"]::before {
-    content: '🇫🇷 ';
 }
