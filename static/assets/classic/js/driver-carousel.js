@@ -24,19 +24,35 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Crear el HTML para todos los vehículos
+        // Obtener el idioma seleccionado
+        const lang = localStorage.getItem("userLanguage") || "es";
+
+        // Función para traducir los textos
+        const translate = (es, en, fr) => {
+          if (lang === "en") return en;
+          if (lang === "fr") return fr;
+          return es;
+        };
+
         const driversHTML = drivers
           .map(
             (driver) => `
           <div class="item">
-                <div class="testimony-wrap rounded text-center py-4 pb-5">
-                  <div class="user-img mb-2" style="background-image: url('${driver.main_picture}');">
-                  </div>
-                  <div class="text pt-4">
-                    <p class="mb-4">${driver.extra_info}</p>
-                     <p class="name">${driver.name}</p>
-                    <span class="position">Driving since ${driver.licence_year} </span>
-                  </div>
-                </div>
+          <div class="testimony-wrap rounded text-center py-4 pb-5">
+            <div class="user-img mb-2" style="background-image: url('${driver.main_picture}');">
+            </div>
+            <div class="text pt-4">
+              <p class="mb-4">${driver.extra_info && driver.extra_info[lang] ? driver.extra_info[lang] : driver.extra_info}</p>
+              <p class="name">${driver.name && driver.name[lang] ? driver.name[lang] : driver.name}</p>
+              <span class="position">
+                ${translate(
+            `Conduciendo desde ${driver.licence_year}`,
+            `Driving since ${driver.licence_year}`,
+            `Conduit depuis ${driver.licence_year}`
+                )}
+              </span>
+            </div>
+          </div>
               </div>
         `
           )
