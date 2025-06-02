@@ -78,8 +78,6 @@ msgid "Cars"
 msgstr "Autos"
 
 #: templates/index.html:75 templates/landingpage/landing.html:336
-#, fuzzy
-#| msgid "Testimonial"
 msgid "Testimonials"
 msgstr "Testimonios"
 
