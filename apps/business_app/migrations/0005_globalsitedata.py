@@ -4,20 +4,27 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('business_app', '0004_client'),
+        ("business_app", "0004_client"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='GlobalSiteData',
+            name="GlobalSiteData",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('visitors_counter', models.PositiveIntegerField(default=1)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("visitors_counter", models.PositiveIntegerField(default=1)),
             ],
             options={
-                'verbose_name': 'Global Site Data',
+                "verbose_name": "Global Site Data",
             },
         ),
     ]

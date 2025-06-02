@@ -5,14 +5,14 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 from rest_framework.permissions import AllowAny
 
-from rest_framework import mixins
-from rest_framework.viewsets import GenericViewSet
+from rest_framework.viewsets import GenericViewSet, ModelViewSet
+
 
 from apps.business_app.serializers.client import ClientSerializer
 from apps.common.mixins.common_view_mixin import CommonOrderingFilter
 
 
-class ClientViewSet(mixins.ListModelMixin, GenericViewSet):
+class ClientViewSet(ModelViewSet, GenericViewSet):
     queryset = Client.objects.all()
     serializer_class = ClientSerializer
     permission_classes = [AllowAny]
