@@ -1,15 +1,28 @@
 function enviarOpinion() {
   const opinionForm = document.getElementById('opinionForm');
   const opinionMsg = document.getElementById('opinionMsg');
-  fetch(opinionForm.action || window.location.href, {
-    method: 'POST',
-    body: new FormData(opinionForm),
+  const formData = new FormData(opinionForm);
+
+  const data = {
+    first_name: formData.get('first_name') || '',
+    last_name: formData.get('last_name') || '',
+    email: formData.get('email') || '',
+    opinion: formData.get('opinion') || '',
+    enabled: true
+  };
+
+  // Obtener el token CSRF del input oculto o meta tag
+  // const token = document.querySelector('input[name="csrfmiddlewaretoken"]')?.value ||
+  //               document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+  axios.post('/business-gestion/clients/', data, {
     headers: {
-      'X-Requested-With': 'XMLHttpRequest'
+      'X-Requested-With': 'XMLHttpRequest',
+      'X-CSRFToken': getCSRFToken()
     }
   })
   .then(response => {
-    if (response.ok) {
+    if (response.status === 201 || response.status === 200) {
       opinionMsg.style.display = 'block';
       opinionForm.reset();
     }
