@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:02+0000\n"
+"POT-Creation-Date: 2025-06-02 03:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,11 +73,11 @@ msgstr "Servicios"
 msgid "Drivers"
 msgstr "Conductores"
 
-#: templates/index.html:73 templates/landingpage/landing.html:647
+#: templates/index.html:73
 msgid "Cars"
 msgstr "Autos"
 
-#: templates/index.html:75
+#: templates/index.html:75 templates/landingpage/landing.html:336
 #, fuzzy
 #| msgid "Testimonial"
 msgid "Testimonials"
@@ -99,39 +99,43 @@ msgstr ""
 "Déjate llevar por la magia de estos íconos sobre ruedas y convierte tu viaje "
 "en un recuerdo eterno lleno de estilo."
 
-#: templates/index.html:145
+#: templates/index.html:130
+msgid "visits"
+msgstr "visitas"
+
+#: templates/index.html:153
 msgid "Your oppinion"
 msgstr "Tu opinión"
 
-#: templates/index.html:149
+#: templates/index.html:157
 msgid "Name"
 msgstr "Nombre"
 
-#: templates/index.html:152
+#: templates/index.html:160
 msgid "Last_Name"
 msgstr "Apellidos"
 
-#: templates/index.html:155
+#: templates/index.html:163
 msgid "email"
 msgstr ""
 
-#: templates/index.html:158
+#: templates/index.html:166
 msgid "Put_your_oppinion_here..."
 msgstr "Escribe_tu_opinión_aquí..."
 
-#: templates/index.html:161
+#: templates/index.html:169
 msgid "Send"
 msgstr "Enviar"
 
-#: templates/index.html:164
+#: templates/index.html:172
 msgid "Message sent successfully!"
 msgstr "¡Mensaje enviado correctamente!"
 
-#: templates/index.html:176
+#: templates/index.html:184
 msgid "Copyright"
 msgstr "Derechos de autor"
 
-#: templates/index.html:178
+#: templates/index.html:186
 msgid "All rights reserved | ExtGroup"
 msgstr "Todos los derechos reservados | ExtGroup"
 
@@ -154,7 +158,8 @@ msgstr "Pasos sencillos para rentar un auto clásico"
 
 #: templates/landingpage/landing.html:47
 msgid "Better Way to Rent: Cars + Professional Drivers Guaranteed"
-msgstr "La mejor manera de rentar: coches + conductores profesionales garantizados"
+msgstr ""
+"La mejor manera de rentar: coches + conductores profesionales garantizados"
 
 #: templates/landingpage/landing.html:53
 msgid "Choose Your Pickup Location"
@@ -432,54 +437,50 @@ msgstr ""
 "practicar deportes náuticos como kayak, windsurf o esquí acuático."
 
 #: templates/landingpage/landing.html:337
-msgid "Testimonial"
-msgstr "Testimonios"
+msgid "What Our Clients Say"
+msgstr "Qué dicen nuestros clientes"
 
-#: templates/landingpage/landing.html:338
-msgid "Happy Clients"
-msgstr "Clientes Satisfechos"
-
-#: templates/landingpage/landing.html:408
+#: templates/landingpage/landing.html:353
 msgid "Destinations"
 msgstr "Destinos"
 
-#: templates/landingpage/landing.html:409
+#: templates/landingpage/landing.html:354
 msgid "Where to visit"
 msgstr "Lugares a visitar"
 
-#: templates/landingpage/landing.html:420
-#: templates/landingpage/landing.html:437
-#: templates/landingpage/landing.html:453
-#: templates/landingpage/landing.html:469
-#: templates/landingpage/landing.html:484
-#: templates/landingpage/landing.html:500
-#: templates/landingpage/landing.html:516
-#: templates/landingpage/landing.html:531
-#: templates/landingpage/landing.html:546
-#: templates/landingpage/landing.html:561
-#: templates/landingpage/landing.html:576
-#: templates/landingpage/landing.html:591
-#: templates/landingpage/landing.html:606
-#: templates/landingpage/landing.html:621
+#: templates/landingpage/landing.html:365
+#: templates/landingpage/landing.html:382
+#: templates/landingpage/landing.html:398
+#: templates/landingpage/landing.html:414
+#: templates/landingpage/landing.html:429
+#: templates/landingpage/landing.html:445
+#: templates/landingpage/landing.html:461
+#: templates/landingpage/landing.html:476
+#: templates/landingpage/landing.html:491
+#: templates/landingpage/landing.html:506
+#: templates/landingpage/landing.html:521
+#: templates/landingpage/landing.html:536
+#: templates/landingpage/landing.html:551
+#: templates/landingpage/landing.html:566
 msgid "Distance from Cayo Coco:"
 msgstr "Distancia desde Cayo Coco"
 
-#: templates/landingpage/landing.html:439
+#: templates/landingpage/landing.html:384
 msgid "Santa María Key"
 msgstr "Cayo Santa María"
 
-#: templates/landingpage/landing.html:440
+#: templates/landingpage/landing.html:385
 msgid ""
 "This key offers pristine white-sand beaches and crystal-clear waters, "
 "connected by a causeway to the main island, ideal for relaxing and enjoying "
 "nature."
 msgstr ""
 
-#: templates/landingpage/landing.html:455
+#: templates/landingpage/landing.html:400
 msgid "Cayo Coco and Cayo Guillermo"
 msgstr "Cayo Coco y Cayo Guillermo"
 
-#: templates/landingpage/landing.html:456
+#: templates/landingpage/landing.html:401
 msgid ""
 "Destinations with white sand beaches and crystal-clear waters, perfect for "
 "snorkeling, diving, and birdwatching in a protected natural environment."
@@ -487,11 +488,11 @@ msgstr ""
 "Destinos con playas de arena blanca y aguas cristalinas, perfectos para "
 "snorkel, buceo y observación de aves en un entorno natural protegido."
 
-#: templates/landingpage/landing.html:471
+#: templates/landingpage/landing.html:416
 msgid "Paradise Beach (Key Largo)"
 msgstr "Playa Paraíso (Cayo Largo)"
 
-#: templates/landingpage/landing.html:472
+#: templates/landingpage/landing.html:417
 msgid ""
 "Considered one of the most beautiful beaches in the world, it offers a "
 "tranquil setting with crystal-clear waters and fine sand, ideal for relaxing."
@@ -499,11 +500,11 @@ msgstr ""
 "Considerada una de las playas más hermosas del mundo, ofrece un entorno "
 "tranquilo con aguas cristalinas y arena fina, ideal para desconectar."
 
-#: templates/landingpage/landing.html:486
+#: templates/landingpage/landing.html:431
 msgid "Ancón Beach"
 msgstr "Playa Ancón"
 
-#: templates/landingpage/landing.html:487
+#: templates/landingpage/landing.html:432
 msgid ""
 "Located near Trinidad, it combines beach and colonial culture, making it an "
 "excellent place for diving and exploring local history."
@@ -511,7 +512,7 @@ msgstr ""
 "Ubicada cerca de Trinidad, combina playa y cultura colonial, es un excelente "
 "lugar para bucear y disfrutar de la historia local."
 
-#: templates/landingpage/landing.html:503
+#: templates/landingpage/landing.html:448
 msgid ""
 "A national park with unique karst formations, declared a World Heritage "
 "Site, ideal for hiking, climbing, and learning about tobacco culture."
@@ -519,7 +520,7 @@ msgstr ""
 "Parque Nacional con formaciones kársticas únicas, declarado Patrimonio de la "
 "Humanidad, ideal para senderismo, escalada y conocer la cultura del tabaco."
 
-#: templates/landingpage/landing.html:519
+#: templates/landingpage/landing.html:464
 msgid ""
 "The first ville founded in Cuba, surrounded by mountains and rivers, famous "
 "for its biodiversity and cocoa production, ideal for ecotourism."
@@ -527,7 +528,7 @@ msgstr ""
 "Primera villa fundada en Cuba, rodeada de montañas y ríos, famosa por su "
 "biodiversidad y producción de cacao, ideal para ecoturismo."
 
-#: templates/landingpage/landing.html:534
+#: templates/landingpage/landing.html:479
 msgid ""
 "The capital of Cuba, with a historic center declared a World Heritage Site, "
 "offers colonial architecture, emblematic squares, museums, and the Malecón."
@@ -535,7 +536,7 @@ msgstr ""
 "Capital de Cuba con un casco histórico declarado Patrimonio de la Humanidad, "
 "ofrece arquitectura colonial, plazas emblemáticas, museos y el Malecón."
 
-#: templates/landingpage/landing.html:549
+#: templates/landingpage/landing.html:494
 msgid ""
 "A colonial city with cobblestone streets and colorful houses, a World "
 "Heritage Site, with access to Ancón Beach and excellent for exploring "
@@ -545,7 +546,7 @@ msgstr ""
 "Humanidad, con acceso a Playa Ancón y excelente para explorar historia y "
 "cultura."
 
-#: templates/landingpage/landing.html:564
+#: templates/landingpage/landing.html:509
 msgid ""
 "Known as the 'Pearl of the South,' it stands out for its French "
 "architecture, its bay, and attractions such as José Martí Park and the "
@@ -554,7 +555,7 @@ msgstr ""
 "Conocida como la 'Perla del Sur', destaca por su arquitectura francesa, su "
 "bahía y atractivos como el Parque José Martí y el Palacio de Valle."
 
-#: templates/landingpage/landing.html:579
+#: templates/landingpage/landing.html:524
 msgid ""
 "The cradle of the Revolution, with historic sites like Morro Castle and a "
 "vibrant cultural life that reflects Cuban identity."
@@ -562,7 +563,7 @@ msgstr ""
 "Cuna de la Revolución, con sitios históricos como el Castillo del Morro y "
 "una vibrante vida cultural que refleja la identidad cubana."
 
-#: templates/landingpage/landing.html:594
+#: templates/landingpage/landing.html:539
 msgid ""
 "Known for Che Guevara's mausoleum, it is a historic center that offers "
 "culture and revolutionary memory in a pleasant urban setting."
@@ -570,7 +571,7 @@ msgstr ""
 "Conocida por el mausoleo del Che Guevara, es un centro histórico que ofrece "
 "cultura y memoria revolucionaria en un entorno urbano agradable."
 
-#: templates/landingpage/landing.html:609
+#: templates/landingpage/landing.html:554
 msgid ""
 "A city with a labyrinth of streets and squares, rich in architectural and "
 "cultural heritage, ideal for discovering authentic Cuba."
@@ -578,38 +579,13 @@ msgstr ""
 "Ciudad con un laberinto de calles y plazas, rica en patrimonio "
 "arquitectónico y cultural, ideal para descubrir la Cuba auténtica."
 
-#: templates/landingpage/landing.html:624
+#: templates/landingpage/landing.html:569
 msgid ""
 "A major eastern city with parks and colonial architecture, known for its "
 "friendly people and vibrant local culture."
 msgstr ""
 "Importante ciudad oriental con parques y arquitectura colonial, conocida por "
 "su gente amable y su vibrante cultura local."
-
-#: templates/landingpage/landing.html:639
-msgid "Years"
-msgstr "Años"
-
-#: templates/landingpage/landing.html:639
-msgid "Experienced"
-msgstr "de experiencia"
-
-#: templates/landingpage/landing.html:647
-#: templates/landingpage/landing.html:663
-msgid "Total"
-msgstr ""
-
-#: templates/landingpage/landing.html:655
-msgid "Happy"
-msgstr "Clientes"
-
-#: templates/landingpage/landing.html:655
-msgid "Customers"
-msgstr "Satisfechos"
-
-#: templates/landingpage/landing.html:663
-msgid "Branches"
-msgstr "Ramas"
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -618,6 +594,27 @@ msgstr ""
 #: templates/login/login.html:76
 msgid "Sign in"
 msgstr ""
+
+#~ msgid "Testimonial"
+#~ msgstr "Testimonios"
+
+#~ msgid "Happy Clients"
+#~ msgstr "Clientes Satisfechos"
+
+#~ msgid "Years"
+#~ msgstr "Años"
+
+#~ msgid "Experienced"
+#~ msgstr "de experiencia"
+
+#~ msgid "Happy"
+#~ msgstr "Clientes"
+
+#~ msgid "Customers"
+#~ msgstr "Satisfechos"
+
+#~ msgid "Branches"
+#~ msgstr "Ramas"
 
 #~ msgid ""
 #~ "Este cayo ofrece playas vírgenes de arena blanca y aguas cristalinas, "

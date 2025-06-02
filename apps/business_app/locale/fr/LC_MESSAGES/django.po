@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 13:57+0000\n"
+"POT-Creation-Date: 2025-06-02 03:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: apps/business_app/apps.py:8
 msgid "Business Specific Application"
 msgstr ""
@@ -46,7 +47,8 @@ msgstr ""
 msgid "Air conditioner"
 msgstr ""
 
-#: apps/business_app/models/car.py:31 apps/business_app/models/driver.py:23
+#: apps/business_app/models/car.py:31 apps/business_app/models/client.py:11
+#: apps/business_app/models/driver.py:23
 msgid "Enabled"
 msgstr ""
 
@@ -56,6 +58,18 @@ msgstr ""
 
 #: apps/business_app/models/car.py:45
 msgid "Cars"
+msgstr ""
+
+#: apps/business_app/models/client.py:9
+msgid "Opinion"
+msgstr ""
+
+#: apps/business_app/models/client.py:14
+msgid "Client"
+msgstr ""
+
+#: apps/business_app/models/client.py:15
+msgid "Clients"
 msgstr ""
 
 #: apps/business_app/models/driver.py:13
@@ -76,4 +90,8 @@ msgstr ""
 
 #: apps/business_app/models/gallery_picture.py:20
 msgid "Gallery Pictures"
+msgstr ""
+
+#: apps/business_app/models/global_site_data.py:13
+msgid "Global Site Data"
 msgstr ""
