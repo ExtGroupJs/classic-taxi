@@ -44,7 +44,7 @@
 	  					</div>
 	  					<div class="col-md-8 d-flex align-items-center">
 	  						<div class="services-wrap rounded-right w-100">
-	  							<h3 class="heading-section mb-4">{% trans "Better Way to Rent: Cars + Professional Drivers Guaranteed" %}</h3>
+	  							<h3 class="heading-section mb-4">{% trans "Better Way to Rent: Car + Professional Driver Guaranteed" %}</h3>
 	  							<div class="row d-flex mb-4">
 					          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
 					            <div class="services w-100 text-center">
@@ -80,23 +80,104 @@
     </section>
 
 
-    <section id="featured-vehicles" class="ftco-section ftco-no-pt bg-light">
-    	<div class="container">
-    		<div class="row justify-content-center">
-          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">{% trans "What we offer" %}</span>
-            <h2 class="mb-2">{% trans "Featured Vehicles" %}</h2>
+    <section id="ford-300-custom-1955" class="ftco-section bg-gradient-light py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-10 text-center heading-section ftco-animate">
+            <span class="subheading text-primary" style="font-size:1.2rem; letter-spacing:1px;">{% trans "Featured Classic" %}</span>
+            <h2 class="mb-2" style="font-weight:700; font-size:2.5rem;">{% trans "Ford 300 Custom 1955" %}</h2>
           </div>
         </div>
-    		<div class="row">
-    			<div class="col-md-12">
-    				<div class="carousel-car owl-carousel">
-    				
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 mb-4 ftco-animate">
+            <div class="row g-2">
+              <div class="col-6">
+                <div class="img-hover-zoom rounded shadow-sm overflow-hidden">
+                  <img src="{% static 'assets/classic/images/ford_300_1955_1.jpeg' %}" alt="Ford 300 Custom 1955" class="img-fluid w-100">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="img-hover-zoom rounded shadow-sm overflow-hidden">
+                  <img src="{% static 'assets/classic/images/ford_300_1955_2.jpeg' %}" alt="Ford 300 Custom 1955" class="img-fluid w-100">
+                </div>
+              </div>
+              <div class="col-12 mt-2">
+                <div class="img-hover-zoom rounded shadow-sm overflow-hidden">
+                  <img src="{% static 'assets/classic/images/ford_300_1955_3.jpeg' %}" alt="Ford 300 Custom 1955 Interior" class="img-fluid w-100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4 ftco-animate">
+            <div class="bg-white p-4 rounded-4 shadow-lg border border-2" style="border-left:6px solid #01d28e;">
+              <h3 class="mb-3 text-primary" style="font-weight:600;">{% trans "Main Features" %}</h3>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:car" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Model:" %}</strong> Ford 300 Custom</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:calendar" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Year:" %}</strong> 1955</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:engine" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Engine:" %}</strong> V8, 3.9L</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:car-shift-pattern" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Transmission:" %}</strong> Manual</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:palette" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Color:" %}</strong> {% trans "Classic green" %}</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:seat-passenger" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Seats:" %}</strong> 5</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:air-conditioner" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Air Conditioning:" %}</strong> {% trans "Yes" %}</span>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="feature-box d-flex align-items-center gap-2 p-2 bg-light rounded-3 shadow-sm">
+                    <span class="iconify" data-icon="mdi:car-door" style="font-size:1.5rem; color:#01d28e;"></span>
+                    <span><strong>{% trans "Doors:" %}</strong> {% trans "4" %}</span>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <h4 class="mb-2 text-primary" style="font-weight:600;">{% trans "A Bit of History" %}</h4>
+              <p class="mb-2" style="font-size:1.05rem;">{% trans "The Ford 300 Custom 1955 is a true icon of the American automotive industry. Launched in the mid-1950s, it represented the elegance and innovation of its era, featuring a robust V8 engine and distinctive design. This model became popular for its reliability and comfort, and today, it is cherished by classic car enthusiasts for its timeless style and historical value. Riding in a Ford 300 Custom is like traveling back to the golden age of motoring." %}</p>
+              <p class="mb-0" style="font-size:1.05rem;">{% trans "Experience the elegance and nostalgia of the 1950s with our Ford 300 Custom 1955. Perfect for weddings, city tours, and special events, this meticulously restored classic offers comfort, style, and a unique journey through time." %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <style>
+    .img-hover-zoom img {
+      transition: transform .3s cubic-bezier(.4,0,.2,1);
+    }
+    .img-hover-zoom:hover img {
+      transform: scale(1.07);
+    }
+    </style>
 
     <section id="about" class="ftco-section ftco-about">
 			<div class="container">
@@ -173,20 +254,69 @@
       <div class="col-md-6 heading-section heading-section-white ftco-animate">
         <h2 class="mb-3">{% trans "Reliable Drivers, Safe Journeys" %}</h2>
         <p>{% trans "Our drivers are trained professionals, ensuring your safety and comfort on every trip." %}</p>
-        <a href="#" class="btn btn-primary btn-lg">{% trans "Meet Our Drivers" %}</a>
+        {% comment %} <a href="#" class="btn btn-primary btn-lg">{% trans "Meet Our Drivers" %}</a> {% endcomment %}
       </div>
     </div>
   </div>
 </section>
 
+<section id="main-driver" class="ftco-section bg-white py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-8 text-center heading-section ftco-animate">
+        <span class="subheading text-primary" style="font-size:1.2rem; letter-spacing:1px;">{% trans "Main Driver" %}</span>
+        <h2 class="mb-3" style="font-weight:700; font-size:2.5rem;">{% trans "Meet Our Principal Driver" %}</h2>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-4 text-center mb-4">
+        <div class="driver-photo position-relative d-inline-block">
+          <img src="{% static 'assets/classic/images/otra.jpeg' %}" alt="{% trans 'Principal Driver' %}" class="img-fluid rounded-circle shadow" style="width:360px; height:360px; object-fit:cover; border:6px solid #01d28e;">
+          <span class="badge badge-success position-absolute" style="bottom:10px; right:10px; background:#01d28e; color:white; font-size:1rem; padding:0.5em 1em;">{% trans "Verified" %}</span>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="bg-white p-4 rounded shadow-sm border" style="border-left:6px solid #01d28e;">
+          <h3 class="mb-1" style="font-weight:600; color:#01d28e;">Juan Carlos Pérez</h3>
+          <span class="position mb-3 d-block text-muted" style="font-size:1.1rem;">{% trans "Professional Driver & Guide" %}</span>
+          <div class="mb-3">
+            <span class="badge badge-pill badge-primary mr-2" style="background:#01d28e;">{% trans "20+ Years Experience" %}</span>
+            <span class="badge badge-pill badge-secondary">{% trans "Spanish & Basic English" %}</span>
+          </div>
+          <p class="mb-3" style="font-size:1.05rem;">{% trans "With over 20 years of experience driving classic cars in Cayo Coco and Cayo Guillermo, Juan Carlos is known for his professionalism, friendliness, and deep knowledge of the region. He speaks Spanish and basic English, ensuring a comfortable and safe journey for all guests." %}</p>
+          <div class="row mb-2">
+            <div class="col-6 mb-2">
+              <div class="d-flex align-items-center">
+                <span class="iconify mr-2" data-icon="mdi:account-tie" style="font-size:1.5rem; color:#01d28e;"></span>
+                <span><strong>{% trans "Specialty:" %}</strong> {% trans "Classic car tours" %}</span>
+              </div>
+            </div>
+            <div class="col-6 mb-2">
+              <div class="d-flex align-items-center">
+                <span class="iconify mr-2" data-icon="mdi:star" style="font-size:1.5rem; color:#01d28e;"></span>
+                <span><strong>{% trans "Rating:" %}</strong> 5.0</span>
+              </div>
+            </div>
+            <div class="col-12 mb-2">
+              <div class="d-flex align-items-center">
+                <span class="iconify mr-2" data-icon="mdi:email" style="font-size:1.5rem; color:#01d28e;"></span>
+                <span><strong>{% trans "Contact:" %}</strong> classicoco.driver@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <p class="mb-0 text-muted" style="font-style:italic;">{% trans "Juan Carlos is dedicated to making your trip memorable, sharing stories and tips to help you discover the best of Cuba in style." %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-    <section id="drivers" class="ftco-section driver-section bg-light">
+    {% comment %} <section id="drivers" class="ftco-section driver-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">{% trans "Drivers" %}</span>
-            <h2 class="mb-3">{% trans "Experienced drivers" %}</h2>
+          	<span class="subheading">{% trans "Driver" %}</span>
+            <h2 class="mb-3">{% trans "Experienced driver" %}</h2>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -251,12 +381,51 @@
           </div>
         </div>
       </div>
+    </section> {% endcomment %}
+
+
+    <section id="gallery" class="ftco-section bg-light py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div  iv class="col-md-8 text-center heading-section ftco-animate">
+            <span class="subheading text-primary" style="font-size:1.2rem; letter-spacing:1px;">{% trans "Gallery" %}</span>
+            <h2 class="mb-3" style="font-weight:700; font-size:2.5rem;">{% trans "Classic Cars Photo Gallery" %}</h2>
+            <p>{% trans "Explore our fleet of classic cars and memorable moments in Cayo Coco and Cayo Guillermo." %}</p>
+          </div>
+          <div class="album">
+  <div class="responsive-container-block bg">
+    <div class="responsive-container-block img-cont">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(1).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(2).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(3).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(13).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(15).jpeg' %}">
+    </div>
+    <div class="responsive-container-block img-cont">
+      <img class="img img-big" src="{% static 'assets/classic/images/galeria/img(17).jpeg' %}">
+      <img class="img img-big img-last" src="{% static 'assets/classic/images/galeria/img(32).jpeg' %}">
+      <img class="img img-big img-last" src="{% static 'assets/classic/images/galeria/img(43).jpeg' %}">
+    </div>
+    <div class="responsive-container-block img-cont">
+        <img class="img" src="{% static 'assets/classic/images/galeria/img(37).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(28).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(41).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(34).jpeg' %}">
+      <img class="img" src="{% static 'assets/classic/images/galeria/img(12).jpeg' %}">
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+
+
+
+
+
     </section>
-
-
-
-
-
+          
+    
 <section class="ftco-section ftco-intro" style="background-image: url('{% static 'assets/classic/images/intro.jpg' %}');">
   <div class="overlay2"></div>
   <div class="container">
@@ -346,7 +515,7 @@
     </div>
   </div>
 </section>
-<section class="ftco-section">
+<section class="ftco-section" id="destinations">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-md-7 heading-section text-center ftco-animate">

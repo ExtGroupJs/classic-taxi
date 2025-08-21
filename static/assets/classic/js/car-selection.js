@@ -1,4 +1,6 @@
-function mybanner(cars) { 
+async function mybanner() {
+  const response = await axios.get("/business-gestion/cars/");
+  const cars = response.data.results;
   const headDiv = document.getElementById("headdiv");
   const headName = document.getElementById("headname");
   const headDescription = document.getElementById("headdescription");

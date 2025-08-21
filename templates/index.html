@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="{% static 'assets/classic/css/icomoon.css' %}">
     <link rel="stylesheet" href="{% static 'assets/classic/css/style.css' %}">
     <link rel="stylesheet" href="{% static 'assets/classic/css/lang.css' %}">
+   
     {% block head-extra %}
 
     {% endblock %}
@@ -67,12 +68,16 @@
                 class="nav-link">{% trans "About" %}</a></li>
             <li class="nav-item"><a href="#services"
                 class="nav-link">{% trans "Services" %}</a></li>
-            <li class="nav-item"><a href="#drivers"
-                class="nav-link">{% trans "Drivers" %}</a></li>
-            <li class="nav-item"><a href="#featured-vehicles"
-                class="nav-link">{% trans "Cars" %}</a></li>
+            {% comment %} <li class="nav-item"><a href="#drivers"
+                class="nav-link">{% trans "Drivers" %}</a></li> {% endcomment %}
+            {% comment %} <li class="nav-item"><a href="#featured-vehicles"
+                class="nav-link">{% trans "Cars" %}</a></li> {% endcomment %}
+            <li class="nav-item"><a href="#gallery"
+                class="nav-link">{% trans "Gallery" %}</a></li>
             <li class="nav-item"><a href="#testimonials"
                 class="nav-link">{% trans "Testimonials" %}</a></li>
+            <li class="nav-item"><a href="#destinations"
+                class="nav-link">{% trans "Destinations" %}</a></li>
             <li class="nav-item"><a href="#contact"
                 class="nav-link">{% trans "Contact" %}</a></li>
             <!-- Selector de idiomas -->
@@ -227,11 +232,14 @@
     <script src="{% static 'assets/classic/js/main.js' %}"></script>
     <script src="{% static 'assets/classic/js/lang.js' %}"></script>
 
-    <script src="{% static 'assets/classic/js/vehicle-carousel.js' %}"></script>
-    <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script>
+     {% comment %} <script src="{% static 'assets/classic/js/vehicle-carousel.js' %}"></script> {% endcomment %}
+    {% comment %} <script src="{% static 'assets/classic/js/driver-carousel.js' %}"></script> {% endcomment %}
     <script src="{% static 'assets/classic/js/whatsapp.js' %}"></script>
     <script src="{% static 'assets/classic/js/opinion.js' %}"></script>
+     
+
    <script>
+                  mybanner();
                   document.addEventListener("DOMContentLoaded", function() {
                     let visitorsCounter = document.getElementById('visitors-counter');
                     axios.get('/business-gestion/global-site-data/get-visitors-counter/')
