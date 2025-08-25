@@ -16,50 +16,48 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
-
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: templates/carsdetail/carsdetail.html:11
 #: templates/carsdetail/carsdetail.html:26 templates/index.html:66
 msgid "Home"
-msgstr "Inicio"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:27
 #: templates/carsdetail/carsdetail.html:29
 msgid "Car Details"
-msgstr "Detalles"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:58
 msgid "Mileage"
-msgstr "Kilometraje"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:75
 msgid "Seats"
-msgstr "Asientos"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:91
 msgid "Luggage"
-msgstr "Equipaje"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:109
 msgid "Description"
-msgstr "Descripción"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:133
 msgid "Choose Car"
-msgstr "Elegir auto"
+msgstr ""
 
 #: templates/carsdetail/carsdetail.html:134
 msgid "Related Cars"
-msgstr "Autos relacionados"
+msgstr ""
 
 #: templates/index.html:68
 msgid "About"
-msgstr "Sobre"
+msgstr ""
 
 #: templates/index.html:70 templates/landingpage/landing.html:205
 msgid "Services"
-msgstr "Servicios"
+msgstr ""
 
 #: templates/index.html:78 templates/landingpage/landing.html:393
 msgid "Gallery"
@@ -67,47 +65,45 @@ msgstr ""
 
 #: templates/index.html:80 templates/landingpage/landing.html:507
 msgid "Testimonials"
-msgstr "Testimonios"
+msgstr ""
 
 #: templates/index.html:82 templates/landingpage/landing.html:524
 msgid "Destinations"
-msgstr "Destinos"
+msgstr ""
 
 #: templates/index.html:84
 msgid "Contact"
-msgstr "Contactos"
+msgstr ""
 
 #: templates/index.html:121
 msgid "Classi"
-msgstr "Classi"
+msgstr ""
 
 #: templates/index.html:121
 msgid "Coco"
-msgstr "Coco"
+msgstr ""
 
 #: templates/index.html:122
 msgid ""
 "Let yourself be carried away by the magic of these icons on wheels and turn "
 "your trip into an everlasting memory full of style."
 msgstr ""
-"Déjate llevar por la magia de estos íconos sobre ruedas y convierte tu viaje "
-"en un recuerdo eterno lleno de estilo."
 
 #: templates/index.html:137
 msgid "visits"
-msgstr "visitas"
+msgstr ""
 
 #: templates/index.html:160
 msgid "Your oppinion"
-msgstr "Tu opinión"
+msgstr ""
 
 #: templates/index.html:164
 msgid "Name"
-msgstr "Nombre"
+msgstr ""
 
 #: templates/index.html:167
 msgid "Last_Name"
-msgstr "Apellidos"
+msgstr ""
 
 #: templates/index.html:170
 msgid "email"
@@ -115,65 +111,61 @@ msgstr ""
 
 #: templates/index.html:173
 msgid "Put_your_oppinion_here..."
-msgstr "Escribe_tu_opinión_aquí..."
+msgstr ""
 
 #: templates/index.html:176
 msgid "Send"
-msgstr "Enviar"
+msgstr ""
 
 #: templates/index.html:179
 msgid "Message sent successfully!"
-msgstr "¡Mensaje enviado correctamente!"
+msgstr ""
 
 #: templates/index.html:191
 msgid "Copyright"
-msgstr "Derechos de autor"
+msgstr ""
 
 #: templates/index.html:193
 msgid "All rights reserved | ExtGroup"
-msgstr "Todos los derechos reservados | ExtGroup"
+msgstr ""
 
 #: templates/landingpage/landing.html:18
 msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
-msgstr "Renta de autos clásicos en Cayo Coco y Cayo Guillermo"
+msgstr ""
 
 #: templates/landingpage/landing.html:19
 msgid ""
 "Discover the beauty of Cayo Coco and Cayo Guillermo with our exclusive "
 "classic cars. Enjoy a unique experience exploring these tropical paradises."
 msgstr ""
-"Descubre la belleza de Cayo Coco y Cayo Guillermo con nuestros exclusivos "
-"autos clásicos. Disfruta una experiencia única explorando estos paraísos "
-"tropicales."
 
 #: templates/landingpage/landing.html:25
 msgid "Easy steps to rent a classic car"
-msgstr "Pasos sencillos para rentar un auto clásico"
+msgstr ""
 
 #: templates/landingpage/landing.html:47
 msgid "Better Way to Rent: Car + Professional Driver Guaranteed"
 msgstr ""
-"La mejor manera de rentar: coches + conductores profesionales garantizados"
 
 #: templates/landingpage/landing.html:53
 msgid "Choose Your Pickup Location"
-msgstr "Elige tu ubicación de recogida"
+msgstr ""
 
 #: templates/landingpage/landing.html:61
 msgid "Select the Best Deal"
-msgstr "Selecciona la mejor oferta"
+msgstr ""
 
 #: templates/landingpage/landing.html:69
 msgid "Reserve Your Rental Car (with Professional driver)"
-msgstr "Reserva tu auto (con conductor Profesional)"
+msgstr ""
 
 #: templates/landingpage/landing.html:74
 msgid "Reserve Your Perfect Car"
-msgstr "Reserva tu auto perfecto"
+msgstr ""
 
 #: templates/landingpage/landing.html:87
 msgid "Featured Classic"
-msgstr "Vehículos Clásicos destacados"
+msgstr ""
 
 #: templates/landingpage/landing.html:88
 msgid "Ford 300 Custom 1955"
@@ -181,23 +173,23 @@ msgstr ""
 
 #: templates/landingpage/landing.html:113
 msgid "Main Features"
-msgstr "Características principales"
+msgstr ""
 
 #: templates/landingpage/landing.html:118
 msgid "Model:"
-msgstr "Modelo:"
+msgstr ""
 
 #: templates/landingpage/landing.html:124
 msgid "Year:"
-msgstr "Años:"
+msgstr ""
 
 #: templates/landingpage/landing.html:130
 msgid "Engine:"
-msgstr "Motor:"
+msgstr ""
 
 #: templates/landingpage/landing.html:136
 msgid "Transmission:"
-msgstr "Transmisión:"
+msgstr ""
 
 #: templates/landingpage/landing.html:142
 msgid "Color:"
@@ -205,23 +197,23 @@ msgstr ""
 
 #: templates/landingpage/landing.html:142
 msgid "Classic green"
-msgstr "Verde clásico"
+msgstr ""
 
 #: templates/landingpage/landing.html:148
 msgid "Seats:"
-msgstr "Asientos:"
+msgstr ""
 
 #: templates/landingpage/landing.html:154
 msgid "Air Conditioning:"
-msgstr "Aire Acondicionado:"
+msgstr ""
 
 #: templates/landingpage/landing.html:154
 msgid "Yes"
-msgstr "Si"
+msgstr ""
 
 #: templates/landingpage/landing.html:160
 msgid "Doors:"
-msgstr "Puertas:"
+msgstr ""
 
 #: templates/landingpage/landing.html:160
 msgid "4"
@@ -229,7 +221,7 @@ msgstr ""
 
 #: templates/landingpage/landing.html:165
 msgid "A Bit of History"
-msgstr "Algo de historia"
+msgstr ""
 
 #: templates/landingpage/landing.html:166
 msgid ""
@@ -240,8 +232,6 @@ msgid ""
 "classic car enthusiasts for its timeless style and historical value. Riding "
 "in a Ford 300 Custom is like traveling back to the golden age of motoring."
 msgstr ""
-"El Ford 300 Custom 1955 es un verdadero ícono de la industria automotriz estadounidense. Lanzado a mediados de la década de 1950, representó la elegancia y la innovación de su época, con un robusto motor V8 y un diseño distintivo. Este modelo se popularizó por su confiabilidad y comodidad, y hoy en día es apreciado por los entusiastas de los autos clásicos por su estilo atemporal y valor histórico. Viajar en un Ford 300 Custom es como viajar a la época dorada del automovilismo."
-
 
 #: templates/landingpage/landing.html:167
 msgid ""
@@ -250,15 +240,14 @@ msgid ""
 "meticulously restored classic offers comfort, style, and a unique journey "
 "through time."
 msgstr ""
-"Experimente la elegancia y la nostalgia de los años 50 con nuestro Ford 300 Custom de 1955. Perfecto para bodas, recorridos por la ciudad y eventos especiales, este clásico meticulosamente restaurado ofrece comodidad, estilo y un viaje único a través del tiempo."
 
 #: templates/landingpage/landing.html:189
 msgid "About us"
-msgstr "Sobre nosotros"
+msgstr ""
 
 #: templates/landingpage/landing.html:190
 msgid "Welcome to ClassiCoco"
-msgstr "Bienvenido a ClassiCoco"
+msgstr ""
 
 #: templates/landingpage/landing.html:192
 msgid ""
@@ -272,16 +261,6 @@ msgid ""
 "trip with friends, our classic cars will transport you to a golden era while "
 "you enjoy the crystal-clear waters and lush landscapes of the region."
 msgstr ""
-"En ClassiCoco, nos especializamos en ofrecer una experiencia única y "
-"auténtica a través del alquiler de autos clásicos para explorar los "
-"impresionantes destinos de Cayo Coco y Cayo Guillermo en Cuba. Nuestra flota "
-"de vehículos clásicos, meticulosamente restaurados, combina el encanto "
-"nostálgico de los años 50 y 60 con la comodidad y seguridad modernas. Cada "
-"auto es una pieza de historia sobre ruedas, diseñada para hacer tus "
-"excursiones por estas islas paradisíacas inolvidables. Ya sea para un paseo "
-"romántico, una aventura familiar o un viaje con amigos, nuestros autos "
-"clásicos te transportarán a una época dorada mientras disfrutas de las aguas "
-"cristalinas y los exuberantes paisajes de la región."
 
 #: templates/landingpage/landing.html:193
 msgid ""
@@ -293,92 +272,72 @@ msgid ""
 "unique as the cars we drive. Discover Cuba in style and let yourself be "
 "carried away by the magic of our classics on wheels."
 msgstr ""
-"En Classicoco, no solo ofrecemos un medio de transporte, sino una "
-"experiencia cultural y turística que conecta a nuestros clientes con la "
-"esencia de Cuba. Nuestro equipo está comprometido con brindar un servicio "
-"personalizado, asegurando que cada detalle de tu viaje sea perfecto. Desde "
-"rutas recomendadas hasta asistencia en todo momento, estamos aquí para hacer "
-"que tu aventura en Cayo Coco y Cayo Guillermo sea tan única como los autos "
-"que conducimos. Descubre Cuba con estilo y déjate llevar por la magia de "
-"nuestros clásicos sobre ruedas."
 
 #: templates/landingpage/landing.html:194
 msgid "Search Vehicle"
-msgstr "Buscar vehículo"
+msgstr ""
 
 #: templates/landingpage/landing.html:206
 msgid "Our Exclusive Services"
-msgstr "Nuestros servicios exclusivos"
+msgstr ""
 
 #: templates/landingpage/landing.html:214
 msgid "Weddings & Events"
-msgstr "Bodas y eventos"
+msgstr ""
 
 #: templates/landingpage/landing.html:215
 msgid ""
 "Make your special day unforgettable with our elegant classic cars. The "
 "perfect combination of romance and vintage style for your ceremony."
 msgstr ""
-"Haz de tu día especial algo inolvidable con nuestros elegantes autos "
-"clásicos. La combinación perfecta de romance y estilo vintage para tu "
-"ceremonia."
 
 #: templates/landingpage/landing.html:223
 msgid "City Rides"
-msgstr "Paseos urbanos"
+msgstr ""
 
 #: templates/landingpage/landing.html:224
 msgid ""
 "Cruise through the streets in style in our restored classic cars. A unique "
 "experience that combines vintage charm with modern comfort."
 msgstr ""
-"Recorre las calles con estilo en nuestros autos clásicos restaurados. Una "
-"experiencia única que combina el encanto vintage con la comodidad moderna."
 
 #: templates/landingpage/landing.html:232
 msgid "Photo Sessions"
-msgstr "Sesiones fotográficas"
+msgstr ""
 
 #: templates/landingpage/landing.html:233
 msgid ""
 "Our classic cars are the perfect backdrop for your photos. Ideal for fashion "
 "shoots, advertising, or special moments you want to immortalize."
 msgstr ""
-"Nuestros autos clásicos son el escenario perfecto para tus fotos. Ideal para "
-"sesiones de moda, publicidad o momentos especiales que quieras inmortalizar."
 
 #: templates/landingpage/landing.html:241
 msgid "Sightseeing Tours"
-msgstr "Recorridos turísticos"
+msgstr ""
 
 #: templates/landingpage/landing.html:242
 msgid ""
 "Discover the city from a unique perspective aboard our classics. Customized "
 "tours that blend history, culture, and the charm of vintage cars."
 msgstr ""
-"Descubre la ciudad desde una perspectiva única a bordo de nuestros clásicos. "
-"Recorridos personalizados que mezclan historia, cultura y el encanto de los "
-"autos vintage."
 
 #: templates/landingpage/landing.html:255
 msgid "Reliable Drivers, Safe Journeys"
-msgstr "Conductores confiables, viajes seguros"
+msgstr ""
 
 #: templates/landingpage/landing.html:256
 msgid ""
 "Our drivers are trained professionals, ensuring your safety and comfort on "
 "every trip."
 msgstr ""
-"Nuestros conductores son profesionales capacitados, garantizando tu "
-"seguridad y comodidad en cada viaje."
 
 #: templates/landingpage/landing.html:268
 msgid "Main Driver"
-msgstr "Conductores Principales"
+msgstr ""
 
 #: templates/landingpage/landing.html:269
 msgid "Meet Our Principal Driver"
-msgstr "Conoce a nuestros conductores principales"
+msgstr ""
 
 #: templates/landingpage/landing.html:275
 msgid "Principal Driver"
@@ -386,19 +345,19 @@ msgstr ""
 
 #: templates/landingpage/landing.html:276
 msgid "Verified"
-msgstr "Verificado"
+msgstr ""
 
 #: templates/landingpage/landing.html:282
 msgid "Professional Driver & Guide"
-msgstr "Conductor profesional & Guía"
+msgstr ""
 
 #: templates/landingpage/landing.html:284
 msgid "20+ Years Experience"
-msgstr "20+ Años de experiencia"
+msgstr ""
 
 #: templates/landingpage/landing.html:285
 msgid "Spanish & Basic English"
-msgstr "Español & Inglés básico"
+msgstr ""
 
 #: templates/landingpage/landing.html:287
 msgid ""
@@ -407,41 +366,38 @@ msgid ""
 "deep knowledge of the region. He speaks Spanish and basic English, ensuring "
 "a comfortable and safe journey for all guests."
 msgstr ""
-"Con más de 20 años de experiencia conduciendo autos clásicos en Cayo Coco y Cayo Guillermo, Juan Carlos es reconocido por su profesionalismo, amabilidad y profundo conocimiento de la región. Habla español e inglés básico, lo que garantiza un viaje cómodo y seguro para todos los pasajeros."
 
 #: templates/landingpage/landing.html:292
 msgid "Specialty:"
-msgstr "Especialidad:"
+msgstr ""
 
 #: templates/landingpage/landing.html:292
 msgid "Classic car tours"
-msgstr "Recorridos en coches clásicos"
+msgstr ""
 
 #: templates/landingpage/landing.html:298
 msgid "Rating:"
-msgstr "Clasificación:"
+msgstr ""
 
 #: templates/landingpage/landing.html:304
 msgid "Contact:"
-msgstr "Contactos:"
+msgstr ""
 
 #: templates/landingpage/landing.html:308
 msgid ""
 "Juan Carlos is dedicated to making your trip memorable, sharing stories and "
 "tips to help you discover the best of Cuba in style."
 msgstr ""
-"Juan Carlos se dedica a hacer que tu viaje sea memorable, compartiendo historias y consejos para que descubras lo mejor de Cuba con estilo."
 
 #: templates/landingpage/landing.html:394
 msgid "Classic Cars Photo Gallery"
-msgstr "Galería de fotos de coches clásicos"
+msgstr ""
 
 #: templates/landingpage/landing.html:395
 msgid ""
 "Explore our fleet of classic cars and memorable moments in Cayo Coco and "
 "Cayo Guillermo."
 msgstr ""
-"Explora nuestra flota de autos clásicos y vive momentos memorables en Cayo Coco y Cayo Guillermo."
 
 #: templates/landingpage/landing.html:436
 msgid "Excursiones principales"
@@ -449,7 +405,7 @@ msgstr ""
 
 #: templates/landingpage/landing.html:437
 msgid "What to do in Cayo Coco and Cayo Guillermo"
-msgstr "Qué hacer en Cayo Coco y Cayo Guillermo"
+msgstr ""
 
 #: templates/landingpage/landing.html:438
 msgid ""
@@ -458,14 +414,10 @@ msgid ""
 "the most recommended excursions and places to enjoy your visit to the "
 "fullest:"
 msgstr ""
-"Cayo Coco y Cayo Guillermo son dos destinos caribeños en Cuba que ofrecen "
-"una combinación perfecta de naturaleza, aventura y relajación. Aquí tienes "
-"las excursiones y lugares más recomendados para disfrutar al máximo tu "
-"visita:"
 
 #: templates/landingpage/landing.html:445
 msgid "Bagá Natural Park (Cayo Coco)"
-msgstr "Parque Natural del Bagá (Cayo Coco)"
+msgstr ""
 
 #: templates/landingpage/landing.html:446
 msgid ""
@@ -473,13 +425,10 @@ msgid ""
 "flamingos, turtles, and other native species in their natural habitat. Ideal "
 "for ecotourism and wildlife photography."
 msgstr ""
-"Un imprescindible para los amantes de la naturaleza. Con casi 13 hectáreas, "
-"podrás observar flamencos, tortugas y otras especies autóctonas en su "
-"hábitat natural. Ideal para ecoturismo y fotografía de fauna."
 
 #: templates/landingpage/landing.html:452
 msgid "Pilar Beach (Cayo Guillermo)"
-msgstr "Playa Pilar (Cayo Guillermo)"
+msgstr ""
 
 #: templates/landingpage/landing.html:453
 msgid ""
@@ -487,74 +436,60 @@ msgid ""
 "its white sand, dunes, and crystal-clear waters. Perfect for relaxing and "
 "enjoying the almost pristine natural surroundings."
 msgstr ""
-"Considerada una de las playas más hermosas del mundo, destaca por su arena "
-"blanca, dunas y aguas cristalinas. Perfecta para relajarse y disfrutar de un "
-"entorno natural casi virgen."
 
 #: templates/landingpage/landing.html:459
 msgid "Diving and Snorkeling on the Cayo Coco Reefs"
-msgstr "Buceo y Snorkel en los arrecifes de Cayo Coco"
+msgstr ""
 
 #: templates/landingpage/landing.html:460
 msgid ""
 "Discover vibrant marine life in warm, shallow waters. Areas like La Jaula, "
 "Las Coloradas, and Casasa are ideal for diving and snorkeling."
 msgstr ""
-"Descubre una vibrante vida marina en aguas templadas y poco profundas. Zonas "
-"como La Jaula, Las Coloradas y Casasa son ideales para buceo y snorkel."
 
 #: templates/landingpage/landing.html:466
 msgid "Boat Adventures and Catamaran Tours"
-msgstr "Aventuras en botes y paseos en catamarán"
+msgstr ""
 
 #: templates/landingpage/landing.html:467
 msgid ""
 "Cruise the canals south of Cayo Coco and near Cayo Guillermo. You can drive "
 "boats or enjoy catamaran rides, and snorkel in less crowded areas."
 msgstr ""
-"Navega por los canales al sur de Cayo Coco y cerca de Cayo Guillermo. Puedes "
-"conducir lanchas o disfrutar de paseos en catamarán y practicar snorkel en "
-"zonas menos concurridas."
 
 #: templates/landingpage/landing.html:473
 msgid "Cayo Coco Dolphinarium"
-msgstr "Delfinario de Cayo Coco"
+msgstr ""
 
 #: templates/landingpage/landing.html:474
 msgid ""
 "Experience swimming and playing with dolphins. Ideal for families and those "
 "who want close contact with these marine mammals."
 msgstr ""
-"Vive la experiencia de nadar y jugar con delfines. Ideal para familias y "
-"quienes desean un contacto cercano con estos mamíferos marinos."
 
 #: templates/landingpage/landing.html:480
 msgid "Rocarena Climbing Center"
-msgstr "Centro de montañismo Rocarena"
+msgstr ""
 
 #: templates/landingpage/landing.html:481
 msgid ""
 "A modern climbing wall in Cayo Coco with levels for everyone. Perfect for "
 "adding a touch of adrenaline and sport to your stay."
 msgstr ""
-"Un moderno rocódromo en Cayo Coco con niveles para todos. Perfecto para "
-"añadir un toque de adrenalina y deporte a tu estancia."
 
 #: templates/landingpage/landing.html:487
 msgid "Laguna de Leche and El Guanaroca Natural Park"
-msgstr "Laguna de Leche y Parque Natural El Guanaroca"
+msgstr ""
 
 #: templates/landingpage/landing.html:488
 msgid ""
 "Laguna de Leche, the largest lagoon in Cuba, and Guanaroca Park are ideal "
 "for birdwatching and exploring unique ecosystems."
 msgstr ""
-"La Laguna de Leche, la más grande de Cuba, y el Parque El Guanaroca son "
-"ideales para la observación de aves y explorar ecosistemas únicos."
 
 #: templates/landingpage/landing.html:494
 msgid "Less crowded beaches and complementary activities"
-msgstr "Playas menos concurridas y actividades complementarias"
+msgstr ""
 
 #: templates/landingpage/landing.html:495
 msgid ""
@@ -562,17 +497,14 @@ msgid ""
 "Paso. You can organize horseback riding tours, shark-watching excursions, "
 "and water sports like kayaking, windsurfing, and water skiing."
 msgstr ""
-"Explora playas como Las Coloradas, Playa Larga, Playa Flamencos y El Paso. "
-"Puedes organizar paseos a caballo, excursiones para ver tiburones y "
-"practicar deportes náuticos como kayak, windsurf o esquí acuático."
 
 #: templates/landingpage/landing.html:508
 msgid "What Our Clients Say"
-msgstr "Qué dicen nuestros clientes"
+msgstr ""
 
 #: templates/landingpage/landing.html:525
 msgid "Where to visit"
-msgstr "Lugares a visitar"
+msgstr ""
 
 #: templates/landingpage/landing.html:536
 #: templates/landingpage/landing.html:553
@@ -589,11 +521,11 @@ msgstr "Lugares a visitar"
 #: templates/landingpage/landing.html:722
 #: templates/landingpage/landing.html:737
 msgid "Distance from Cayo Coco:"
-msgstr "Distancia desde Cayo Coco:"
+msgstr ""
 
 #: templates/landingpage/landing.html:555
 msgid "Santa María Key"
-msgstr "Cayo Santa María"
+msgstr ""
 
 #: templates/landingpage/landing.html:556
 msgid ""
@@ -604,63 +536,51 @@ msgstr ""
 
 #: templates/landingpage/landing.html:571
 msgid "Cayo Coco and Cayo Guillermo"
-msgstr "Cayo Coco y Cayo Guillermo"
+msgstr ""
 
 #: templates/landingpage/landing.html:572
 msgid ""
 "Destinations with white sand beaches and crystal-clear waters, perfect for "
 "snorkeling, diving, and birdwatching in a protected natural environment."
 msgstr ""
-"Destinos con playas de arena blanca y aguas cristalinas, perfectos para "
-"snorkel, buceo y observación de aves en un entorno natural protegido."
 
 #: templates/landingpage/landing.html:587
 msgid "Paradise Beach (Key Largo)"
-msgstr "Playa Paraíso (Cayo Largo)"
+msgstr ""
 
 #: templates/landingpage/landing.html:588
 msgid ""
 "Considered one of the most beautiful beaches in the world, it offers a "
 "tranquil setting with crystal-clear waters and fine sand, ideal for relaxing."
 msgstr ""
-"Considerada una de las playas más hermosas del mundo, ofrece un entorno "
-"tranquilo con aguas cristalinas y arena fina, ideal para desconectar."
 
 #: templates/landingpage/landing.html:602
 msgid "Ancón Beach"
-msgstr "Playa Ancón"
+msgstr ""
 
 #: templates/landingpage/landing.html:603
 msgid ""
 "Located near Trinidad, it combines beach and colonial culture, making it an "
 "excellent place for diving and exploring local history."
 msgstr ""
-"Ubicada cerca de Trinidad, combina playa y cultura colonial, es un excelente "
-"lugar para bucear y disfrutar de la historia local."
 
 #: templates/landingpage/landing.html:619
 msgid ""
 "A national park with unique karst formations, declared a World Heritage "
 "Site, ideal for hiking, climbing, and learning about tobacco culture."
 msgstr ""
-"Parque Nacional con formaciones kársticas únicas, declarado Patrimonio de la "
-"Humanidad, ideal para senderismo, escalada y conocer la cultura del tabaco."
 
 #: templates/landingpage/landing.html:635
 msgid ""
 "The first ville founded in Cuba, surrounded by mountains and rivers, famous "
 "for its biodiversity and cocoa production, ideal for ecotourism."
 msgstr ""
-"Primera villa fundada en Cuba, rodeada de montañas y ríos, famosa por su "
-"biodiversidad y producción de cacao, ideal para ecoturismo."
 
 #: templates/landingpage/landing.html:650
 msgid ""
 "The capital of Cuba, with a historic center declared a World Heritage Site, "
 "offers colonial architecture, emblematic squares, museums, and the Malecón."
 msgstr ""
-"Capital de Cuba con un casco histórico declarado Patrimonio de la Humanidad, "
-"ofrece arquitectura colonial, plazas emblemáticas, museos y el Malecón."
 
 #: templates/landingpage/landing.html:665
 msgid ""
@@ -668,9 +588,6 @@ msgid ""
 "Heritage Site, with access to Ancón Beach and excellent for exploring "
 "history and culture."
 msgstr ""
-"Ciudad colonial con calles empedradas y coloridas casas, Patrimonio de la "
-"Humanidad, con acceso a Playa Ancón y excelente para explorar historia y "
-"cultura."
 
 #: templates/landingpage/landing.html:680
 msgid ""
@@ -678,40 +595,30 @@ msgid ""
 "architecture, its bay, and attractions such as José Martí Park and the "
 "Palacio de Valle."
 msgstr ""
-"Conocida como la 'Perla del Sur', destaca por su arquitectura francesa, su "
-"bahía y atractivos como el Parque José Martí y el Palacio de Valle."
 
 #: templates/landingpage/landing.html:695
 msgid ""
 "The cradle of the Revolution, with historic sites like Morro Castle and a "
 "vibrant cultural life that reflects Cuban identity."
 msgstr ""
-"Cuna de la Revolución, con sitios históricos como el Castillo del Morro y "
-"una vibrante vida cultural que refleja la identidad cubana."
 
 #: templates/landingpage/landing.html:710
 msgid ""
 "Known for Che Guevara's mausoleum, it is a historic center that offers "
 "culture and revolutionary memory in a pleasant urban setting."
 msgstr ""
-"Conocida por el mausoleo del Che Guevara, es un centro histórico que ofrece "
-"cultura y memoria revolucionaria en un entorno urbano agradable."
 
 #: templates/landingpage/landing.html:725
 msgid ""
 "A city with a labyrinth of streets and squares, rich in architectural and "
 "cultural heritage, ideal for discovering authentic Cuba."
 msgstr ""
-"Ciudad con un laberinto de calles y plazas, rica en patrimonio "
-"arquitectónico y cultural, ideal para descubrir la Cuba auténtica."
 
 #: templates/landingpage/landing.html:740
 msgid ""
 "A major eastern city with parks and colonial architecture, known for its "
 "friendly people and vibrant local culture."
 msgstr ""
-"Importante ciudad oriental con parques y arquitectura colonial, conocida por "
-"su gente amable y su vibrante cultura local."
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
@@ -720,85 +627,3 @@ msgstr ""
 #: templates/login/login.html:76
 msgid "Sign in"
 msgstr ""
-
-#~ msgid "Pricing"
-#~ msgstr "Precios"
-
-#~ msgid "Cars"
-#~ msgstr "Autos"
-
-#~ msgid "What we offer"
-#~ msgstr "Qué ofrecemos"
-
-#~ msgid "Experienced drivers"
-#~ msgstr "Conductores experimentados"
-
-#~ msgid "Testimonial"
-#~ msgstr "Testimonios"
-
-#~ msgid "Happy Clients"
-#~ msgstr "Clientes Satisfechos"
-
-#~ msgid "Happy"
-#~ msgstr "Clientes"
-
-#~ msgid "Customers"
-#~ msgstr "Satisfechos"
-
-#~ msgid "Branches"
-#~ msgstr "Ramas"
-
-#~ msgid ""
-#~ "Este cayo ofrece playas vírgenes de arena blanca y aguas cristalinas, "
-#~ "conectado por un pedraplén a la isla principal, ideal para relajarse y "
-#~ "disfrutar de la naturaleza."
-#~ msgstr ""
-#~ "This key offers pristine white-sand beaches and crystal-clear waters, "
-#~ "connected by a causeway to the main island, ideal for relaxing and "
-#~ "enjoying nature."
-
-#~ msgid "book"
-#~ msgstr "reserva"
-
-#~ msgid "Information"
-#~ msgstr "Información"
-
-#~ msgid "Terms and Conditions"
-#~ msgstr "Condiciones y Términos"
-
-#~ msgid "Best Prices Granted"
-#~ msgstr "Mejores precios garantizados"
-
-#~ msgid "Privacy"
-#~ msgstr "Privacidad"
-
-#~ msgid "Cookies Policy"
-#~ msgstr "Política de cookies"
-
-#~ msgid "Payment Options"
-#~ msgstr "Opciones de pago"
-
-#~ msgid "Booking Tips"
-#~ msgstr "Tips para reservar"
-
-#~ msgid "How it works"
-#~ msgstr "Cómo funciona"
-
-#~ msgid "Contact us"
-#~ msgstr "Contáctenos"
-
-#~ msgid "Have a Question?"
-#~ msgstr "¿Tiene preguntas?"
-
-#~ msgid "Recent Blog"
-#~ msgstr "Blogs recientes"
-
-#, fuzzy
-#~| msgid "Cars"
-#~ msgid "Car"
-#~ msgstr "Carros"
-
-#, fuzzy
-#~| msgid "Car Details"
-#~ msgid "Car details"
-#~ msgstr "Detalles"
