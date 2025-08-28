@@ -63,7 +63,7 @@ msgstr "Servicios"
 
 #: templates/index.html:78 templates/landingpage/landing.html:393
 msgid "Gallery"
-msgstr ""
+msgstr "Galería"
 
 #: templates/index.html:80 templates/landingpage/landing.html:507
 msgid "Testimonials"
@@ -715,90 +715,8 @@ msgstr ""
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
-msgstr ""
+msgstr "Entra para comenzar tu sesión"
 
 #: templates/login/login.html:76
 msgid "Sign in"
-msgstr ""
-
-#~ msgid "Pricing"
-#~ msgstr "Precios"
-
-#~ msgid "Cars"
-#~ msgstr "Autos"
-
-#~ msgid "What we offer"
-#~ msgstr "Qué ofrecemos"
-
-#~ msgid "Experienced drivers"
-#~ msgstr "Conductores experimentados"
-
-#~ msgid "Testimonial"
-#~ msgstr "Testimonios"
-
-#~ msgid "Happy Clients"
-#~ msgstr "Clientes Satisfechos"
-
-#~ msgid "Happy"
-#~ msgstr "Clientes"
-
-#~ msgid "Customers"
-#~ msgstr "Satisfechos"
-
-#~ msgid "Branches"
-#~ msgstr "Ramas"
-
-#~ msgid ""
-#~ "Este cayo ofrece playas vírgenes de arena blanca y aguas cristalinas, "
-#~ "conectado por un pedraplén a la isla principal, ideal para relajarse y "
-#~ "disfrutar de la naturaleza."
-#~ msgstr ""
-#~ "This key offers pristine white-sand beaches and crystal-clear waters, "
-#~ "connected by a causeway to the main island, ideal for relaxing and "
-#~ "enjoying nature."
-
-#~ msgid "book"
-#~ msgstr "reserva"
-
-#~ msgid "Information"
-#~ msgstr "Información"
-
-#~ msgid "Terms and Conditions"
-#~ msgstr "Condiciones y Términos"
-
-#~ msgid "Best Prices Granted"
-#~ msgstr "Mejores precios garantizados"
-
-#~ msgid "Privacy"
-#~ msgstr "Privacidad"
-
-#~ msgid "Cookies Policy"
-#~ msgstr "Política de cookies"
-
-#~ msgid "Payment Options"
-#~ msgstr "Opciones de pago"
-
-#~ msgid "Booking Tips"
-#~ msgstr "Tips para reservar"
-
-#~ msgid "How it works"
-#~ msgstr "Cómo funciona"
-
-#~ msgid "Contact us"
-#~ msgstr "Contáctenos"
-
-#~ msgid "Have a Question?"
-#~ msgstr "¿Tiene preguntas?"
-
-#~ msgid "Recent Blog"
-#~ msgstr "Blogs recientes"
-
-#, fuzzy
-#~| msgid "Cars"
-#~ msgid "Car"
-#~ msgstr "Carros"
-
-#, fuzzy
-#~| msgid "Car Details"
-#~ msgid "Car details"
-#~ msgstr "Detalles"
+msgstr "Iniciar sesión"

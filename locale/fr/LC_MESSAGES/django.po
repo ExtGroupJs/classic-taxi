@@ -62,7 +62,7 @@ msgstr "Services"
 
 #: templates/index.html:78 templates/landingpage/landing.html:393
 msgid "Gallery"
-msgstr ""
+msgstr "Galerie"
 
 #: templates/index.html:80 templates/landingpage/landing.html:507
 msgid "Testimonials"
@@ -150,15 +150,13 @@ msgid "Easy steps to rent a classic car"
 msgstr "Étapes faciles pour louer une voiture classique"
 
 #: templates/landingpage/landing.html:47
-#, fuzzy
-#| msgid "Better Way to Rent: Cars + Professional Drivers Guaranteed"
 msgid "Better Way to Rent: Car + Professional Driver Guaranteed"
 msgstr ""
-"Meilleure façon de louer : voitures et chauffeurs professionnels garantis"
+"La meilleure façon de louer : voiture et chauffeur professionnel garantis"
 
 #: templates/landingpage/landing.html:53
 msgid "Choose Your Pickup Location"
-msgstr "Choisissez votre lieu de prise en charge"
+msgstr "Choisissez votre lieu de ramassage"
 
 #: templates/landingpage/landing.html:61
 msgid "Select the Best Deal"
@@ -173,10 +171,8 @@ msgid "Reserve Your Perfect Car"
 msgstr "Réservez votre voiture parfaite"
 
 #: templates/landingpage/landing.html:87
-#, fuzzy
-#| msgid "Featured Vehicles"
 msgid "Featured Classic"
-msgstr "Véhicules en vedette"
+msgstr "Classique en vedette"
 
 #: templates/landingpage/landing.html:88
 msgid "Ford 300 Custom 1955"
@@ -184,55 +180,47 @@ msgstr ""
 
 #: templates/landingpage/landing.html:113
 msgid "Main Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: templates/landingpage/landing.html:118
 msgid "Model:"
-msgstr ""
+msgstr "Modèle:"
 
 #: templates/landingpage/landing.html:124
-#, fuzzy
-#| msgid "Years"
 msgid "Year:"
-msgstr "Années"
+msgstr "Année:"
 
 #: templates/landingpage/landing.html:130
 msgid "Engine:"
-msgstr ""
+msgstr "Moteur:"
 
 #: templates/landingpage/landing.html:136
 msgid "Transmission:"
-msgstr ""
+msgstr "Transmission:"
 
 #: templates/landingpage/landing.html:142
 msgid "Color:"
-msgstr ""
+msgstr "Couleur:"
 
 #: templates/landingpage/landing.html:142
-#, fuzzy
-#| msgid "Classi"
 msgid "Classic green"
-msgstr "Classi"
+msgstr "Vert classique"
 
 #: templates/landingpage/landing.html:148
-#, fuzzy
-#| msgid "Seats"
 msgid "Seats:"
-msgstr "Sièges"
+msgstr "Sièges:"
 
 #: templates/landingpage/landing.html:154
 msgid "Air Conditioning:"
-msgstr ""
+msgstr "Climatisation:"
 
 #: templates/landingpage/landing.html:154
-#, fuzzy
-#| msgid "Years"
 msgid "Yes"
-msgstr "Années"
+msgstr "Oui"
 
 #: templates/landingpage/landing.html:160
 msgid "Doors:"
-msgstr ""
+msgstr "Portes:"
 
 #: templates/landingpage/landing.html:160
 msgid "4"
@@ -240,7 +228,7 @@ msgstr ""
 
 #: templates/landingpage/landing.html:165
 msgid "A Bit of History"
-msgstr ""
+msgstr "Un peu d'histoire"
 
 #: templates/landingpage/landing.html:166
 msgid ""
@@ -251,6 +239,7 @@ msgid ""
 "classic car enthusiasts for its timeless style and historical value. Riding "
 "in a Ford 300 Custom is like traveling back to the golden age of motoring."
 msgstr ""
+"La Ford 300 Custom 1955 est une véritable icône de l'industrie automobile américaine. Lancée au milieu des années 1950, elle représentait l'élégance et l'innovation de son époque, avec son moteur V8 robuste et son design distinctif. Ce modèle est devenu populaire pour sa fiabilité et son confort, et aujourd'hui, il est apprécié des amateurs de voitures anciennes pour son style intemporel et sa valeur historique. Rouler à bord d'une Ford 300 Custom, c'est comme voyager dans l'âge d'or de l'automobile."
 
 #: templates/landingpage/landing.html:167
 msgid ""
@@ -259,6 +248,7 @@ msgid ""
 "meticulously restored classic offers comfort, style, and a unique journey "
 "through time."
 msgstr ""
+"Découvrez l'élégance et la nostalgie des années 1950 avec notre Ford 300 Custom de 1955. Idéale pour les mariages, les visites de ville et les événements spéciaux, cette voiture classique méticuleusement restaurée offre confort, style et un voyage unique à travers le temps."
 
 #: templates/landingpage/landing.html:189
 msgid "About us"
@@ -382,38 +372,32 @@ msgstr ""
 "et votre confort à chaque voyage."
 
 #: templates/landingpage/landing.html:268
-#, fuzzy
-#| msgid "Drivers"
 msgid "Main Driver"
-msgstr "Chauffeurs"
+msgstr "Conducteur principal"
 
 #: templates/landingpage/landing.html:269
-#, fuzzy
-#| msgid "Meet Our Drivers"
 msgid "Meet Our Principal Driver"
-msgstr "Rencontrez nos chauffeurs"
+msgstr "Rencontrez notre principal chauffeur"
 
 #: templates/landingpage/landing.html:275
 msgid "Principal Driver"
-msgstr ""
+msgstr "Conducteur principal"
 
 #: templates/landingpage/landing.html:276
 msgid "Verified"
-msgstr ""
+msgstr "Vérifié"
 
 #: templates/landingpage/landing.html:282
 msgid "Professional Driver & Guide"
-msgstr ""
+msgstr "Chauffeur et guide professionnel"
 
 #: templates/landingpage/landing.html:284
-#, fuzzy
-#| msgid "Experienced"
 msgid "20+ Years Experience"
-msgstr "de l'expérience"
+msgstr "Plus de 20 ans d'expérience"
 
 #: templates/landingpage/landing.html:285
 msgid "Spanish & Basic English"
-msgstr ""
+msgstr "Espagnol & Anglais de base"
 
 #: templates/landingpage/landing.html:287
 msgid ""
@@ -422,52 +406,49 @@ msgid ""
 "deep knowledge of the region. He speaks Spanish and basic English, ensuring "
 "a comfortable and safe journey for all guests."
 msgstr ""
+"Fort de plus de 20 ans d'expérience au volant de voitures de collection à Cayo Coco et Cayo Guillermo, Juan Carlos est reconnu pour son professionnalisme, sa gentillesse et sa connaissance approfondie de la région. Il parle espagnol et possède un anglais de base, garantissant ainsi un voyage confortable et sûr à tous ses passagers."
 
 #: templates/landingpage/landing.html:292
 msgid "Specialty:"
-msgstr ""
+msgstr "Spécialité:"
 
 #: templates/landingpage/landing.html:292
 msgid "Classic car tours"
-msgstr ""
+msgstr "Circuits en voitures classiques"
 
 #: templates/landingpage/landing.html:298
 msgid "Rating:"
-msgstr ""
+msgstr "Notation:"
 
 #: templates/landingpage/landing.html:304
-#, fuzzy
-#| msgid "Contact"
 msgid "Contact:"
-msgstr "Contact"
+msgstr "Contact:"
 
 #: templates/landingpage/landing.html:308
 msgid ""
 "Juan Carlos is dedicated to making your trip memorable, sharing stories and "
 "tips to help you discover the best of Cuba in style."
 msgstr ""
+"Juan Carlos s'engage à rendre votre voyage inoubliable, en partageant ses anecdotes et ses conseils pour vous aider à découvrir le meilleur de Cuba avec style."
 
 #: templates/landingpage/landing.html:394
 msgid "Classic Cars Photo Gallery"
-msgstr ""
+msgstr "Galerie de photos de voitures classiques"
 
 #: templates/landingpage/landing.html:395
-#, fuzzy
-#| msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
 msgid ""
 "Explore our fleet of classic cars and memorable moments in Cayo Coco and "
 "Cayo Guillermo."
-msgstr "Location de voitures classiques à Cayo Coco et Cayo Guillermo"
+msgstr ""
+"Découvrez notre flotte de voitures classiques et vivez des moments inoubliables à Cayo Coco et Cayo Guillermo."
 
 #: templates/landingpage/landing.html:436
-msgid "Excursiones principales"
+msgid "Main excursions"
 msgstr "Principales excursions"
 
 #: templates/landingpage/landing.html:437
-#, fuzzy
-#| msgid "Classic Car Rentals in Cayo Coco and Cayo Guillermo"
 msgid "What to do in Cayo Coco and Cayo Guillermo"
-msgstr "Location de voitures classiques à Cayo Coco et Cayo Guillermo"
+msgstr "Que faire à Cayo Coco et Cayo Guillermo"
 
 #: templates/landingpage/landing.html:438
 msgid ""
@@ -745,105 +726,8 @@ msgstr ""
 
 #: templates/login/login.html:49
 msgid "Sign in to start your session"
-msgstr ""
+msgstr "Connectez-vous pour démarrer votre session"
 
 #: templates/login/login.html:76
 msgid "Sign in"
-msgstr ""
-
-#~ msgid "Pricing"
-#~ msgstr "Tarifs"
-
-#~ msgid "Cars"
-#~ msgstr "Voitures"
-
-#~ msgid "What we offer"
-#~ msgstr "Ce que nous offrons"
-
-#~ msgid "Experienced drivers"
-#~ msgstr "Chauffeurs expérimentés"
-
-#~ msgid "Testimonial"
-#~ msgstr "Témoignages"
-
-#~ msgid "Happy Clients"
-#~ msgstr "Clients satisfaits"
-
-#~ msgid "Total"
-#~ msgstr "Totale"
-
-#~ msgid "Happy"
-#~ msgstr "Des clients"
-
-#~ msgid "Customers"
-#~ msgstr "satisfaits"
-
-#~ msgid ""
-#~ "Cayo Coco y Cayo Guillermo son dos destinos caribeños en Cuba que ofrecen "
-#~ "una combinación perfecta de naturaleza, aventura y relajación. Aquí "
-#~ "tienes las excursiones y lugares más recomendados para disfrutar al "
-#~ "máximo tu visita:"
-#~ msgstr ""
-#~ "Cayo Coco et Cayo Guillermo sont deux destinations caribéennes à Cuba qui "
-#~ "offrent une combinaison parfaite de nature, d'aventure et de détente. "
-#~ "Voici les excursions et les lieux les plus recommandés pour profiter "
-#~ "pleinement de votre séjour:"
-
-#~ msgid ""
-#~ "Un imprescindible para los amantes de la naturaleza. Con casi 13 "
-#~ "hectáreas, podrás observar flamencos, tortugas y otras especies "
-#~ "autóctonas en su hábitat natural. Ideal para ecoturismo y fotografía de "
-#~ "fauna."
-#~ msgstr ""
-#~ "Un incontournable pour les amoureux de la nature. Sur près de 13 "
-#~ "hectares, vous pourrez observer des flamants roses, des tortues et "
-#~ "d'autres espèces indigènes dans leur habitat naturel. Idéal pour "
-#~ "l'écotourisme et la photographie animalière."
-
-#~ msgid ""
-#~ "Considerada una de las playas más hermosas del mundo, destaca por su "
-#~ "arena blanca, dunas y aguas cristalinas. Perfecta para relajarse y "
-#~ "disfrutar de un entorno natural casi virgen."
-#~ msgstr ""
-#~ "Considérée comme l'une des plus belles plages du monde, elle se distingue "
-#~ "par son sable blanc, ses dunes et ses eaux cristallines. Idéale pour se "
-#~ "détendre et profiter d'un environnement naturel quasiment préservé."
-
-#~ msgid "Buceo y Snorkel en los arrecifes de Cayo Coco"
-#~ msgstr "Plongée et snorkeling sur les récifs de Cayo Coco"
-
-#~ msgid "book"
-#~ msgstr "réserver"
-
-#~ msgid "Information"
-#~ msgstr "Informations"
-
-#~ msgid "Terms and Conditions"
-#~ msgstr "Conditions générales"
-
-#~ msgid "Best Prices Granted"
-#~ msgstr "Meilleurs prix garantis"
-
-#~ msgid "Privacy"
-#~ msgstr "Confidentialité"
-
-#~ msgid "Cookies Policy"
-#~ msgstr "Politique de cookies"
-
-#~ msgid "Payment Options"
-#~ msgstr "Options de paiement"
-
-#~ msgid "Booking Tips"
-#~ msgstr "Conseils de réservation"
-
-#~ msgid "How it works"
-#~ msgstr "Comment ça marche"
-
-#~ msgid "Contact us"
-#~ msgstr "Contactez-nous"
-
-#~ msgid "Have a Question?"
-#~ msgstr "Une question ?"
-
-#~ msgid "Recent Blog"
-#~ msgstr "Blog récent"
+msgstr "Se connecter"
