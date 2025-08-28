@@ -444,8 +444,8 @@ msgstr ""
 "Explora nuestra flota de autos clásicos y vive momentos memorables en Cayo Coco y Cayo Guillermo."
 
 #: templates/landingpage/landing.html:436
-msgid "Excursiones principales"
-msgstr ""
+msgid "Main excursions"
+msgstr "Excursiones principales"
 
 #: templates/landingpage/landing.html:437
 msgid "What to do in Cayo Coco and Cayo Guillermo"
